@@ -70,7 +70,7 @@
 
 
     <ul>
-        <li value="	https://vv.taozhi.online/14f8fcfe8d2a4e9585c9bc822cc6e7f7/36e368b0f3814e76baba29b4f4e06b3e-a1551e2578647377b65c5092a1da7f22-ld.mp4	"><span>	PS01-神奇的倒车雷达	</span><span>	小学科学课	</span><span>	小学	五年级	兴趣爱好	</span></li>
+<!--        <li value="	https://vv.taozhi.online/14f8fcfe8d2a4e9585c9bc822cc6e7f7/36e368b0f3814e76baba29b4f4e06b3e-a1551e2578647377b65c5092a1da7f22-ld.mp4	"><span>	PS01-神奇的倒车雷达	</span><span>	小学科学课	</span><span>	小学	五年级	兴趣爱好	</span></li>-->
 
 
     </ul>
@@ -98,7 +98,7 @@
         // traditional:"false",
         // cache :"false",
         // url: "test01.php",
-        // async: false,
+        async: false,
         // async:true,
         // url: "https://api.cloud.taozhi.online/album-management/client//content/allOrFree/resalb2020080404543p8agkxw?page=1&size=999&menuId=0&isQueryFree=false",
         url: "1.txt",
@@ -106,11 +106,13 @@
         success: function (data) {
             // console.log(data[1]);
 
-            console.log(typeof (data));
-            var obj = eval('{' + data + '}');
+            data2 = '['+data+']';
+            // console.log(typeof (data2));
+            // console.log(data2);
+            var obj = eval('{' + data2 + '}');
             console.log(obj);
-            console.log(typeof (obj));
-            console.log(obj.length);
+            // console.log(typeof (obj));
+            // console.log(obj.length);
             for (i = 0; i < obj.length; i++) {
                 title = (obj[i]['title']);
                 mp4 = (obj[i]['mp4']);
@@ -118,6 +120,7 @@
                 xdName = (obj[i]['xdName']);
                 gradeName = (obj[i]['gradeName']);
                 cname = (obj[i]['cname']);
+                // console.log(xdName,gradeName,cname,dtitle,title);
 
                     kcjs=`<div class="kcjs-name">
                             <span>${dtitle}</span>
@@ -127,7 +130,7 @@
 
 
                 html += `
-                <li value="${mp4}"><span>${title}</span><span>小学科学课</span><span>小学五年级兴趣爱好</span></li>
+                <li value="${mp4}"><span>${title}</span><span>${dtitle}</span><span>${xdName}${gradeName}${cname}</span></li>
                 `;
             }
             $(".kcxq ul").html(html);
