@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +12,10 @@
     <title>Title</title>
     <meta name="referrer" content="no-referrer"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ouyangxiaoxiao.github.io/html/data/js/play.js"></script>
+    <script src="https://ouyangxiaoxiao.github.io/html/data/js/home.js"></script>
+    <link rel="stylesheet" href="https://ouyangxiaoxiao.github.io/html/data/css/home.css">
+    <link rel="stylesheet" href="https://ouyangxiaoxiao.github.io/html/data/css/kcxq.css">
     <style>
         body {
             max-width: 640px;
@@ -66,7 +71,7 @@
 <body>
 <div id="box">
     <ul>
-        <li></li>
+        <li><img src="" alt=""><p></p></li>
     </ul>
 
 
@@ -81,31 +86,33 @@
         // traditional:"false",
         // cache :"false",
         // url: "test01.php",
-        // async: false,
+        async: false,
         // async:true,
         // url: "https://open.oss.taozhi.cn/production/assets/taozhi/app/json/xd.json",
+        // url: "https://api.cloud.taozhi.cn/common/dictionary/client/regimentation/getRegimentationBySectionOrGradeOrVolume?section=1003",
         url: "1.json",
         success: function (data) {
             console.log(data);
-            console.log(typeof (data));
-            data1 =data.data;
-            // console.log(obj);
+            // console.log(typeof (data));
+
+            data1=data.data;
+            // console.log(data1);
+            // console.log(data1.length);
+
 
 
             for (i = 0; i < data1.length; i++) {
-                console.log(data1[i]);
-                // console.log((obj[i])['gradeCode']);
+                // console.log(data1[i]);
+                // console.log((data1[i])['gradeCodes']);
                 // console.log((obj[i])['gradeId']);
-                title=((data1[i])['title']);
-                console.log((data1[i])['cover']);
-
+                title = ((data1[i])['title']);
+                cover= ('https://open.oss.taozhi.online/production/'+(data1[i])['cover']);
+                console.log(cover);
 
 
                 html += `
-
-                    <li><a href="${title}/index.html">${title}</a></li>
-
-            `;
+                        <li value="${title}"><img src="${cover}" alt="${title}"><p>${title}</p></li>
+                        `;
                 $("#box ul").html(html);
             }
 

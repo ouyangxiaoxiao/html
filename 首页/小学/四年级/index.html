@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +12,10 @@
     <title>Title</title>
     <meta name="referrer" content="no-referrer"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ouyangxiaoxiao.github.io/html/data/js/play.js"></script>
+    <script src="https://ouyangxiaoxiao.github.io/html/data/js/home.js"></script>
+    <link rel="stylesheet" href="https://ouyangxiaoxiao.github.io/html/data/css/home.css">
+    <link rel="stylesheet" href="https://ouyangxiaoxiao.github.io/html/data/css/kcxq.css">
     <style>
         body {
             max-width: 640px;
@@ -84,12 +89,14 @@
         // async: false,
         // async:true,
         // url: "https://open.oss.taozhi.cn/production/assets/taozhi/app/json/xd.json",
-        url: "https://api.cloud.taozhi.cn/common/dictionary/client/regimentation/getRegimentationBySectionOrGradeOrVolume?section=1003",
+        // url: "https://api.cloud.taozhi.cn/common/dictionary/client/regimentation/getRegimentationBySectionOrGradeOrVolume?section=1003",
+        url: "1.json",
         success: function (data) {
-            // console.log(data);
+            console.log(data);
+            console.log(typeof (data));
 
-            data1=data.data;
-            // console.log(data1);
+
+           data1=(data.data);
             // console.log(data1.length);
 
 

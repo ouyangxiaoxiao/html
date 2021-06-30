@@ -1,0 +1,1 @@
+{"xdName":"初中","gradeName":"八年级","cname":"数学","dtitle":"数学《题型微课》八年级下（人教版）","title":"利用“√(a² )”的性质化简","mp4":"https://vv.taozhi.online/db9555eb84f9468d93da7d57f7331796/ee7b3f4a06ad48ff8e91666a1393f8b1-b34adc647271225b57a2a9b93e3e4607-ld.mp4"},
