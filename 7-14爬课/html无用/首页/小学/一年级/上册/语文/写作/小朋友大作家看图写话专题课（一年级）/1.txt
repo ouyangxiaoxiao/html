@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"写作","etitle":"小朋友大作家看图写话专题课（一年级）","ftitle":"第1讲：神奇的雪人（上）","fmenuTitle":"默认","mp4":"https://v.taozhi.online/2352e6f45c1d4da0b136d36d153f638d/e6969ff2dc1d4012a9df0d024363215c-0846f04bb036c4fd958f6bb4815a1b49-ld.mp4"},

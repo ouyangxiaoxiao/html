@@ -1,0 +1,1 @@
+{"xdName":"初中","gradeName":"八年级","ceame":"上册","cname":"直播课","dname":"数学","etitle":"【期中复习冲刺直播课】初中数学（八下）","ftitle":"第1讲　二次根式选填冲刺","fmenuTitle":"默认目录","mp4":"https://v.taozhi.online/4bb4006256724ca196303425af24c5d9/7dc70a26a06f4b3d843cd94f33066419-2c0f5c9098de0f48b9828ce77431063f-ld.mp4"},

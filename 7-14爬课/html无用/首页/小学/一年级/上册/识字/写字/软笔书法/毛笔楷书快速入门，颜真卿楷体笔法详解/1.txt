@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"识字/写字","dname":"软笔书法","etitle":"毛笔楷书快速入门，颜真卿楷体笔法详解","ftitle":"1.颜体笔法精讲：核心用笔理论","fmenuTitle":"默认","mp4":"https://vv.taozhi.online/2338601cb6e84aecb7c1e0e5d1f9ccac/f5cd271935454f18ba7702fdd6202ea3-7061f4e5330bdc493bacde3276e070b2-ld.mp4"},

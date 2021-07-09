@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"二年级","ceame":"下册","cname":"语文","dname":"基础知识","etitle":"句型金解","ftitle":"并列关系","fmenuTitle":"默认","mp4":"https://v.taozhi.online/148e8022c8874d04983620a4c6f40f60/7e715c4035ec474985f01c3a43d892cb-274a97b7e3a378fae8e0a80088c5a9e9-ld.mp4"},

@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"二年级","ceame":"下册","cname":"语文","dname":"诗词国学","etitle":"看动漫学古诗（统编版二年级下）","ftitle":"《村居》（草长莺飞二月天）","fmenuTitle":"默认","mp4":"https://v.taozhi.online/8c39ab68671441cba52eee2f49b869e6/f915dfeaecf1418cb6674f39d369c993-c32e2cb30597e420c3a12cbfc81c40f4-ld.mp4"},

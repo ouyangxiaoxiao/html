@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"兴趣爱好","dname":"绘画","etitle":"儿童创意手工珍稀动物篇","ftitle":"儿童创意手工珍稀动物课-宣传片","fmenuTitle":"默认","mp4":"https://v.taozhi.online/02c75e0459df4d1d819f2f03ee1369ce/5c24534b445341a5964370683b75316f-4beb16b0843f41ccd08e6a6cb460d76b-ld.mp4"},

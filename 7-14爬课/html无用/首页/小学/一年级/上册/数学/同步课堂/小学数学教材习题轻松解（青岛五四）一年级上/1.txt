@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"数学","dname":"同步课堂","etitle":"小学数学教材习题轻松解（青岛五四）一年级上","ftitle":"教材习题_P17_12题","fmenuTitle":"默认目录","mp4":"https://v.taozhi.online/8cd0d0c26e4d488f976574eef0337c07/fe9672d7b70146a79a72647c92bb1ccb-87e06e9270e008ddcf373f89e8ad2a3b-ld.mp4"},

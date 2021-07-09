@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"阅读","etitle":"看图说话方法篇（动画版）","ftitle":"01丨冬天真好玩","fmenuTitle":"默认","mp4":"https://v.taozhi.online/2dde1eb5270e4d2181a914ea5dfaafe1/ad9ffb599879481f9aaa22d9b4b8c1f9-506aee18bb69a981c6317b67e223c689-ld.mp4"},

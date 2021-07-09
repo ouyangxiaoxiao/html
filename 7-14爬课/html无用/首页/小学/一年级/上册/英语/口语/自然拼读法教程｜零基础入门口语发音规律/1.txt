@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"英语","dname":"口语","etitle":"自然拼读法教程｜零基础入门口语发音规律","ftitle":"前言","fmenuTitle":"第一部分","mp4":"https://v.taozhi.online/6dcbc3ad42f84a13865cccc102b9bb2f/811b12c92bee4e9398c30c9e5b6a76cb-eb0b45a9e8e039983ea9f8393e37dafc-ld.mp4"},

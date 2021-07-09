@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"教师资源","dname":"语文","etitle":"兔小贝2-6岁必学汉字","ftitle":"兔小贝2-6岁必学汉字先导片","fmenuTitle":"2-6岁必学汉字","mp4":"https://v.taozhi.online/2402358b27244550a3fab9e074326683/0896899302ac4142b87e3ad149705eb0-c71733f4ddff0199a079a6f6d05b3c5b-ld.mp4"},

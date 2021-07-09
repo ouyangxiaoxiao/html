@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"数学","dname":"同步课堂","etitle":"小学数学课内教材同步学(人教版)一年级上","ftitle":"柚子老师个人简介","fmenuTitle":"默认","mp4":"https://vv.taozhi.online/7c979ce4d7554af7a21a990c58f4dfee/d27cf4160f55481fb4a16f18f2c60fa6-59809202c681ddc61faf10b86433f044-ld.mp4"},

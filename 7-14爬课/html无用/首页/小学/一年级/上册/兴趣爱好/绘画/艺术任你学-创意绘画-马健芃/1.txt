@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"兴趣爱好","dname":"绘画","etitle":"艺术任你学-创意绘画-马健芃","ftitle":"第1讲 基本形态思维发散训练","fmenuTitle":"默认","mp4":"https://v.taozhi.online/3f4dea4af96c48d2942c6a5861c27152/977a66f297ab417089d07650da6b563c-e483eb6a03a4bb712b99422351f158ff-ld.mp4"},

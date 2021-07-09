@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"识字/写字","dname":"软笔书法","etitle":"毛笔书法入门，赵孟頫《三门记》笔法和临摹技巧","ftitle":"一：赵体笔法精讲：笔法原理","fmenuTitle":"默认","mp4":"https://vv.taozhi.online/a865912a8b284921a7ee324d95700c98/c2c81217d01348fca17da28f6931a663-a65f968055146c01511f6e4a58738a9f-ld.mp4"},

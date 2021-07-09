@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"识字/写字","dname":"软笔书法","etitle":"艺术任你学-软笔书法-刘志威","ftitle":"第1讲 介绍材料、握笔、坐姿及《曹全碑》介绍","fmenuTitle":"默认","mp4":"https://v.taozhi.online/949d856c58a14a748714cf1aea7eea57/9cd98e41e733401898075776d6b1952c-07e1a2b1a5270edcb5a8e914036c32d2-ld.mp4"},

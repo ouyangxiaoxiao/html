@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"二年级","ceame":"下册","cname":"识字/写字","dname":"硬笔书法","etitle":"王洪涛硬笔书法课堂（统编版）二年级下","ftitle":"诗","fmenuTitle":"1 古诗二首","mp4":"https://vv.taozhi.online/61cd0e1b9f0a4372acc7fc58cb503de2/16e1e0c94aaf429aa850cbc663b2b65d-70595cd96032149a56220895a224dd8c-ld.mp4"},

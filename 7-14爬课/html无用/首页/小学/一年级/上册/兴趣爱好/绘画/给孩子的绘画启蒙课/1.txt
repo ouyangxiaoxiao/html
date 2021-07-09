@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"兴趣爱好","dname":"绘画","etitle":"给孩子的绘画启蒙课","ftitle":"1.选一套合适的画笔吧","fmenuTitle":"默认","mp4":"https://v.taozhi.online/aaaae51db010419ebd0bd9ebd4e1e71d/a3f396dada7349aaa85ceebef9569a47-8384e6f176f916837936e5e5df3f6149-ld.mp4"},

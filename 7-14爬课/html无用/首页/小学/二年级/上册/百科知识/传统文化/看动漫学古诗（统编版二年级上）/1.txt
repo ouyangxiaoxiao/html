@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"二年级","ceame":"上册","cname":"百科知识","dname":"传统文化","etitle":"看动漫学古诗（统编版二年级上）","ftitle":"《登鹳雀楼》（白日依山尽）","fmenuTitle":"默认目录","mp4":"https://v.taozhi.online/466563f73b1347128eb9649b1e58f5de/43854725f45946359f5b4e6601ad231c-7dfebbe66cb60392768262502acee088-ld.mp4"},

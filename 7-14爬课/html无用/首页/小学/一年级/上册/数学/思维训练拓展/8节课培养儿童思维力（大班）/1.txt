@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"数学","dname":"思维训练拓展","etitle":"8节课培养儿童思维力（大班）","ftitle":"第一讲 整齐的图形队列1","fmenuTitle":"默认","mp4":"https://v.taozhi.online/b36ff9eb72864257bef8e986e67c056b/3c46ac7886c344ecbf1c13e81716e6b4-9abbbc323414463ac5592176cd723462-ld.mp4"},

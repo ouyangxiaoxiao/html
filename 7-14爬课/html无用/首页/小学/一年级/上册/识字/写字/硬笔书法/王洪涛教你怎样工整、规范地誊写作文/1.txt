@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"识字/写字","dname":"硬笔书法","etitle":"王洪涛教你怎样工整、规范地誊写作文","ftitle":"《怎样工整、规范地誊写作文》第1讲微课视频","fmenuTitle":"默认","mp4":"https://v.taozhi.online/27e14d2b31a042438b06bb99c39a5a33/4c629199d433421998863eed2a3752b6-fd81c2cafb97def5e38ffb741e52990b-ld.mp4"},

@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"二年级","ceame":"上册","cname":"语文","dname":"写作","etitle":"看动漫学写话（统编版）一二年级通用","ftitle":"第一讲　写一句完整的话","fmenuTitle":"一年级","mp4":"https://v.taozhi.online/cfe60e2296d6446ea9a5d64a295e5022/822a44d1018443eb8cf19c1676ffaef5-8556c37f783d1fef2aa030e351646502-ld.mp4"},

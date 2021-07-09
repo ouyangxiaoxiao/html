@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"数学","dname":"同步课堂","etitle":"同步精选100人教版小学数学一年级上册","ftitle":"课程介绍","fmenuTitle":"默认","mp4":"https://v.taozhi.online/ce0df2a78da24715a9ab7ab021c3f9d8/14a6fcce630345729852c7aef24c5e7f-b642cbb91ba762952d1d832cc6b08634-ld.mp4"},

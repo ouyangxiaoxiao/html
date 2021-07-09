@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"兴趣爱好","dname":"读书","etitle":"北大教授的世界名著启蒙课","ftitle":"01《老人与海》用最简洁的文字，写出最有力的故事","fmenuTitle":"默认","mp4":"https://v.taozhi.online/18d8021d8f994f9bb29e16d90c26c121/968a0d75a7da4c52b1459e8c4088f630-dc9e60b932483d27988c15ab2aa7860d-ld.mp4"},

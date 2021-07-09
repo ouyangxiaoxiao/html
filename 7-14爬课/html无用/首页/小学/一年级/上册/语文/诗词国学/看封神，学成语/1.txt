@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"诗词国学","etitle":"看封神，学成语","ftitle":"1.《红颜祸水》","fmenuTitle":"默认","mp4":"https://vv.taozhi.online/b7257897a1274ed2bf97554d2c027aef/a4bcfcb7481742dd98897b302968c063-4824dd54985d800da7017adaea4985d2-ld.mp4"},

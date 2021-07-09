@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"下册","cname":"语文","dname":"基础知识","etitle":"修辞金解","ftitle":"比喻","fmenuTitle":"默认","mp4":"https://v.taozhi.online/033a02e0a85e41998ce9b37c3db796e4/cc137c19636647349f455f0891b18cee-263455ba803d32359005e7613d4b11b8-ld.mp4"},

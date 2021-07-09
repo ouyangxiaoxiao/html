@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"百科知识","dname":"历史","etitle":"3-12岁孩子的STEAM科学启蒙课：哈佛、北大专家带你玩转科学，培养孩子学习力","ftitle":"01.听话的钟摆","fmenuTitle":"默认目录","mp4":"https://v.taozhi.online/5831bf2942814836b66def060624868f/7f30514076a14914be8b58611cbdc606-45b56824d61436d23b5f899077546075-ld.mp4"},

@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--编码格式-->
+    <meta charset="UTF-8">
+    <!--禁止用户缩放 最大缩放倍数 最小缩放倍数-->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0 user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <!--设置外链跳转域-->
+    <meta name="referrer" content="no-referrer"/>
+    <title>Title</title>
+    <meta name="referrer" content="no-referrer"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ouyangxiaoxiao.github.io/html/data/js/play.js"></script>
+    <script src="https://ouyangxiaoxiao.github.io/html/data/js/home.js"></script>
+    <link rel="stylesheet" href="https://ouyangxiaoxiao.github.io/html/data/css/home.css">
+    <link rel="stylesheet" href="https://ouyangxiaoxiao.github.io/html/data/css/kcxq.css">
+    <style>
+        body {
+            max-width: 640px;
+            min-width: 320px;
+            margin: 0 auto;
+        }
+
+        div {
+            /*css3 盒子模型 */
+            box-sizing: border-box;
+        }
+
+        #box {
+            width: 100%;
+            /*margin: 0 auto;*/
+            float: right;
+            box-sizing: border-box;
+        }
+
+        #box ul {
+
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        #box ul li {
+            width: 46%;
+            float: left;
+            border: 1px black solid;
+            margin: 2%;
+            box-sizing: border-box;
+            padding: 0;
+            list-style: none;
+        }
+
+        #box ul li img {
+            width: 100%;
+        }
+
+        #box ul li p {
+            font-size: 14px;
+            padding: 0;
+            margin: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="box">
+    <ul>
+        <li></li>
+    </ul>
+
+
+</div>
+
+
+<script>
+    var html = "";
+
+    $.ajax({
+        type: "get",
+        // traditional:"false",
+        // cache :"false",
+        // url: "test01.php",
+        // async: false,
+        // async:true,
+        // url: "https://open.oss.taozhi.cn/production/assets/taozhi/app/json/xd.json",
+        // url: "https://api.cloud.taozhi.cn/common/dictionary/client/regimentation/getRegimentationBySectionOrGradeOrVolume?section=1003",
+        url: "1.json",
+        success: function (data) {
+            console.log(data);
+            console.log(typeof (data));
+
+
+           data1=(data.data);
+            // console.log(data1.length);
+
+
+
+            for (i = 0; i < data1.length-1; i++) {
+                // console.log(data1[i]);
+                // console.log((data1[i])['gradeCodes']);
+                // console.log((obj[i])['gradeId']);
+                kname = ((data1[i])['name']);
+                // console.log(kname);
+
+
+                html += `
+
+                    <li><a href="${kname}/index.html">${kname}</a></li>
+
+            `;
+                $("#box ul").html(html);
+            }
+
+
+        }
+
+
+    });
+
+
+</script>
+<script>
+    /*控制点击图片跳转*/
+    window.addEventListener('load', function () {
+        var box = document.getElementById('box');
+        var lis = box.getElementsByTagName('li');
+        // console.log(box);
+        // console.log(lis);
+
+        for (i = 0; i < lis.length; i++) {
+            lis[i].addEventListener('click', function () {
+                console.log('点击了');
+                console.log(this.getAttribute("value"));
+                location.href = this.getAttribute("value");
+
+            })
+        }
+    });
+</script>
+</body>
+</html>

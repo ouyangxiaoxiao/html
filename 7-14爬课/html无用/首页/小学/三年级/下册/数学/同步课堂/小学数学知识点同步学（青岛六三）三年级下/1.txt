@@ -1,0 +1,1 @@
+{"xdName":"三年级","gradeName":"三年级","ceame":"下册","dtitle":"数学","title":"小学数学知识点同步学（青岛六三）三年级下","kctitle":"两位数除以一位数（被除数的每一位数都能被整除）的口算方法","mp4":"https://v.taozhi.online/de722ebf5c6d478da99cdc45c07d6d85/5923040fe5eb4c40be1ef97eaf07c9af-0b4577bebc5678e31f7fc6b9ba3b6344-ld.mp4"},

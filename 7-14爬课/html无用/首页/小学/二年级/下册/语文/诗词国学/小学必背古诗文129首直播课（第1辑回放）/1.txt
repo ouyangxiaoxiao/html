@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"二年级","ceame":"下册","cname":"语文","dname":"诗词国学","etitle":"小学必背古诗文129首直播课（第1辑回放）","ftitle":"《静夜思》（床前明月光） 唐·李白","fmenuTitle":"小学必背古诗文129首直播课（第1辑回放）","mp4":"https://v.taozhi.online/d6a86966f1ce4e9580f8e6504253dfdb/0bb46a641e4048bb921491def814c1f6-203a02b6dd2795f7bedb8dfaacff3762-ld.mp4"},

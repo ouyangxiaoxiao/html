@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"二年级","ceame":"上册","cname":"数学","dname":"同步课堂","etitle":"小学数学教材习题轻松解（青岛五四）二年级上","ftitle":"教材习题_P23_7题","fmenuTitle":"默认目录","mp4":"https://v.taozhi.online/514f061df6bc457db9855987f95c60ae/d49c50c26bc443baa5143050d06f017e-ece48eb89c133a62f09143d8392db1b8-ld.mp4"},

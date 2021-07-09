@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"数学","dname":"同步课堂","etitle":"《小学教材全解》伴你学数学一年级（上册）","ftitle":"教材全解 一年级数学上 课程简介_涂熹恺","fmenuTitle":"默认","mp4":"https://v.taozhi.online/7be2e1b8fcfb459a9dbf5ecd58d65708/7bbf857d46014fab897816cd64e39a62-297272817b4d1b7457bd040ac8046adf-ld.mp4"},

@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"写作","etitle":"十二生肖图示修辞法","ftitle":"修辞课宣传片","fmenuTitle":"默认","mp4":"https://vv.taozhi.online/2292c7fe5cb14c8495d59a220ddfb3e7/935c84dfa1194dbf93a84a4619827232-77ac0da88b587db102c4b5e5fdda5b76-ld.mp4"},

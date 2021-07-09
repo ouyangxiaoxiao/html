@@ -1,0 +1,29 @@
+https://ouyangxiaoxiao.github.io/html/data/js/play.js
+https://ouyangxiaoxiao.github.io/html/小学/一年级/语文/汉语趣味启蒙/汉语趣味启蒙.html
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+---学科分类（如语文 数学 等）
+https://api.cloud.taozhi.cn/common/dictionary/client/regimentation/getRegimentationBySectionOrGradeOrVolume?section=1001
+
+---单年级所有课程，共4页
+https://api.cloud.taozhi.cn/album-management/client/album/sales/list?page=1&size=50&resourceType=5&orderBy=updatedAt&sectionId=1001&volumeId=&gradeId=1001&regimentationIds=10001&secondRegimentationIds=
+
+path = "html/"  + str(a['xdName']) + "/" + str(b['gradeName']) + "/" + str(c['name']) + "/" + str(d['title'])
+
+
+貌似年级 高中 分类有问题 后面优化
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"写作","etitle":"小学语文看图（说）写话（一）","ftitle":"第一课 抓住重点写段落","fmenuTitle":"默认","mp4":"https://v.taozhi.online/87d0efb3279e46aaa8540b1c498090a7/8b7e25133e2a45eabc5d36979760846e-6f98b60192890c49dd906d58303385db-ld.mp4"},
