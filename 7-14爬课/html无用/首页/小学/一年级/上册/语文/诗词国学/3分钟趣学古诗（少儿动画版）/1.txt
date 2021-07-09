@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"诗词国学","etitle":"3分钟趣学古诗（少儿动画版）","ftitle":"凭什么说他是神童","fmenuTitle":"默认","mp4":"https://vv.taozhi.online/cedeaec3d204430c99fd356ef1d27d9d/f963cc1033664d66a82f7fd0643fe06a-46a682ef15f91ec35461ef44233d0666-ld.mp4"},

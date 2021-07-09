@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"数学","dname":"思维训练拓展","etitle":"6节课解决生活中的数学难题（一年级）","ftitle":"第1讲：喝水中的奥妙","fmenuTitle":"默认","mp4":"https://v.taozhi.online/61ecf190325e43c4a7941c2e57deb4fa/89a86fab67304fe7a7a098245d76963e-d53c2be7d6ce4b8e66fc1c46451d1b34-ld.mp4"},

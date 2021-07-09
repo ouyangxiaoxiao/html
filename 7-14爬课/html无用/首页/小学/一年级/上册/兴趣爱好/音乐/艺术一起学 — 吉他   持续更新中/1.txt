@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"兴趣爱好","dname":"音乐","etitle":"艺术一起学 — 吉他   持续更新中","ftitle":"课程介绍（初级入门版）","fmenuTitle":"默认目录","mp4":"https://v.taozhi.online/0f86a26271424f98bd8b8010982ea64a/cce7aba0430649cc9ec1390d3f3e30b9-b00bb40bc8b6e202f233a5bc042d121b-ld.mp4"},

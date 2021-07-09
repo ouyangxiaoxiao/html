@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"二年级","ceame":"上册","cname":"数学","dname":"同步课堂","etitle":"小学数学知识点同步学（西师版）二年级上","ftitle":"乘法的初步认识","fmenuTitle":"默认目录","mp4":"https://v.taozhi.online/b37a9d17f01e4e55b74dec8f7af00b7a/128a921b0f8d43b58111ec2803d6759e-dc81ff21ca217d14b1229b577cace3c3-ld.mp4"},

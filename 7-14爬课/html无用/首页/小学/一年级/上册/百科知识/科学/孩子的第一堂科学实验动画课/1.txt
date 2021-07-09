@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"百科知识","dname":"科学","etitle":"孩子的第一堂科学实验动画课","ftitle":"1.不会摔碎的鸡蛋","fmenuTitle":"默认","mp4":"https://v.taozhi.online/2a34495019b2466c846ab63bbe3e7604/7d14daf51ae04f0f8d31e1b73d5ae551-a2fd8152d883d5b43a8c4b09bbe4b765-ld.mp4"},

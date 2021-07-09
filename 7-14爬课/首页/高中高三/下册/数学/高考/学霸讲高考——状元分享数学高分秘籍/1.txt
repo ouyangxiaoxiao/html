@@ -1,1 +1,0 @@
-{"xdName":"高中","gradeName":"高三","ceame":"下册","cname":"数学","dname":"高考","etitle":"学霸讲高考——状元分享数学高分秘籍","ftitle":"学霸讲高考（高考数学）","fmenuTitle":"默认","mp4":"https://v.taozhi.online/736d74ee810945a8a0f24997c383d67f/1ade5a03a7834ca89913f98c1b16cb28-c967b6488259f3148820b46954335cd5-ld.mp4"},

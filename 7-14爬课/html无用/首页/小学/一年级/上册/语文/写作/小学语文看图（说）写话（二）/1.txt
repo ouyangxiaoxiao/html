@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"写作","etitle":"小学语文看图（说）写话（二）","ftitle":"第一课 看图写话基本功","fmenuTitle":"默认","mp4":"https://v.taozhi.online/eea269f7ad9545388dcced8fbf5e45d9/12b01c58b82047da8cacb4eef486ddf8-dff7bfe4b8c9f3afb445bf0384de44a0-ld.mp4"},

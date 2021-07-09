@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"二年级","ceame":"下册","cname":"数学","dname":"同步课堂","etitle":"小学数学教材习题轻松解（青岛六三）二年级下","ftitle":"教材习题_P5_聪明小屋","fmenuTitle":"默认目录","mp4":"https://v.taozhi.online/f80ce035e3584b249ac9d659f7d55b8e/df8cb98b5fe54b4cbba89a9e86b7bc3f-2acdc1e8999e9df6c7819b5e31b74a80-ld.mp4"},

@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"兴趣爱好","dname":"益智","etitle":"15节魔方课，练就超强思维力","ftitle":"第一节 魔方到底是什么","fmenuTitle":"默认","mp4":"https://v.taozhi.online/20fc3be9f1c94eb78e8a67f3c9996649/d05bdc77564b4166997a0210dfd2c988-1666982cc86e34d4a7a4bca1eaa88e5d-ld.mp4"},

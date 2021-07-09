@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"二年级","ceame":"下册","cname":"直播课","dname":"语文","etitle":"田田读书会直播课（第二期回放）","ftitle":"田田读书会——《格林童话》","fmenuTitle":"默认","mp4":"https://v.taozhi.online/553d580b4e7a4d1487207de7e69ed294/1d7f143d3d0f49f7b3b84049efd6b616-34f2ca3eec0fe2eb383fc69a9ebfbb62-ld.mp4"},

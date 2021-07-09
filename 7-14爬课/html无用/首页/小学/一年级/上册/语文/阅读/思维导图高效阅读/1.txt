@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"阅读","etitle":"思维导图高效阅读","ftitle":"思维导图高效阅读宣传片","fmenuTitle":"默认","mp4":"https://v.taozhi.online/3676308cf2ce4261998ab5713861d88f/2c5180a854f94e468094202c2437ffef-8b079f85fd9416f7104b93f96ec4d86e-ld.mp4"},

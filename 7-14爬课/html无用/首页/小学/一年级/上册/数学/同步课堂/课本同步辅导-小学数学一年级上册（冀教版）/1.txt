@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"数学","dname":"同步课堂","etitle":"课本同步辅导-小学数学一年级上册（冀教版）","ftitle":"教师风采","fmenuTitle":"默认","mp4":"https://v.taozhi.online/b8a3f06f4e984321aaf61b78118a9d77/7378fa55887c4ff694ea63e4d891b38b-f437ef9bb29002064dd1f240cee7d407-ld.mp4"},

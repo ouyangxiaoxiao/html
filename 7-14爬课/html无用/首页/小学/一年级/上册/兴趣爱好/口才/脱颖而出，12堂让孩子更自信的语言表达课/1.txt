@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"兴趣爱好","dname":"口才","etitle":"脱颖而出，12堂让孩子更自信的语言表达课","ftitle":"01.如何咬字清晰，让说话表达更自信","fmenuTitle":"视频","mp4":"https://v.taozhi.online/0d3ecb5da24949a297a556fe8cc176af/1764c626d82b41fb8ce3d0d4d34517f1-d97ede8833e4b37a6731300af8bb3481-ld.mp4"},

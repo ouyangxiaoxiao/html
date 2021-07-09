@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"识字/写字","dname":"硬笔书法","etitle":"王洪涛规范字教学课程——古诗作品书写","ftitle":"古诗作品书写教程第1节","fmenuTitle":"默认","mp4":"https://vv.taozhi.online/1981b63f99104a599f5110d2ba242d58/f9d328054809457686532b2b000eddd0-caf009cae20598753b28f9bc0760e868-ld.mp4"},

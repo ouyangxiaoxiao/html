@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"诗词国学","etitle":"小学生必读古诗文（视频版整套）","ftitle":"第1讲 江南","fmenuTitle":"小学生必读古诗文系列一","mp4":"https://v.taozhi.online/46afad72fda84b4883fedbf2a7ee4844/63ffc1f112c941b1b27c05eecde0c3fc-d80053a5aa1a5bc9752ea1413218789d-ld.mp4"},

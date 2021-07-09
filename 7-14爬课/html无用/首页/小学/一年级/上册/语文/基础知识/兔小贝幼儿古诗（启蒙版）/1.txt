@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"基础知识","etitle":"兔小贝幼儿古诗（启蒙版）","ftitle":"兔小贝幼儿古诗（启蒙版）先导片","fmenuTitle":"幼儿古诗启蒙版","mp4":"https://v.taozhi.online/fba3a655316e48ed98bcea68b1bf74fc/be2267d47cf24ce7b2ec4165f02859eb-6147a2ebfb23d8e495428f16a49ce0c5-ld.mp4"},

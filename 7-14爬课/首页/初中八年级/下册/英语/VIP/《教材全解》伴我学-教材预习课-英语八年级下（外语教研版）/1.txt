@@ -1,1 +1,0 @@
-{"xdName":"初中","gradeName":"八年级","ceame":"下册","cname":"英语","dname":"VIP","etitle":"《教材全解》伴我学-教材预习课-英语八年级下（外语教研版）","ftitle":"Module 1 Unit 1","fmenuTitle":"默认目录","mp4":"https://v.taozhi.online/1bc2df34852048dc8a6f6d2867ddde19/2c801b74a974446694c60e6d9cc27ec9-b780cca25cd3ac9eed59aba09e50de71-ld.mp4"},

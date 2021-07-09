@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"识字/写字","dname":"硬笔书法","etitle":"72堂硬笔规范字书法课","ftitle":"第1课 突出主笔：孩子练字第一步，先要找到主心骨","fmenuTitle":"默认目录","mp4":"https://v.taozhi.online/04d17f1afbd84e6a903c9dc006674d24/17519c4864da4eb6857291dc4fb9e4c9-7799141823b60b4945c70ffc41af9e2d-ld.mp4"},

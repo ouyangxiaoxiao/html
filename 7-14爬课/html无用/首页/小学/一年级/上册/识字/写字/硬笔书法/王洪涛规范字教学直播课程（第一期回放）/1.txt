@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"识字/写字","dname":"硬笔书法","etitle":"王洪涛规范字教学直播课程（第一期回放）","ftitle":"砚小田书法课堂公益直播课第一节","fmenuTitle":"默认","mp4":"https://vv.taozhi.online/d4581cc1f7d343d4891ddc11b9e593ad/58df0107cedc4546969d842e9ee5a900-a84f08086e6c9132be3e5e8899a51b4d-ld.mp4"},

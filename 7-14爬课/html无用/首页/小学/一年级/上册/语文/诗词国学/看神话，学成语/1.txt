@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"诗词国学","etitle":"看神话，学成语","ftitle":"1.《开天辟地》","fmenuTitle":"默认","mp4":"https://vv.taozhi.online/a98c881e8a90415c90e2b6fcd25e273a/648eebbe2f374edc809eff6624be28d8-c14435fb46d3010e1e7e17af55d4d428-ld.mp4"},

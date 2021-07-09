@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"诗词国学","etitle":"轻松学古诗词 每日一句","ftitle":"1-蓦然回首，那人却在，灯火阑珊处。——辛弃疾《青玉案·元夕》","fmenuTitle":"默认","mp4":"https://v.taozhi.online/6fa61e9b960d46a98f6f5f0759f64858/2b79ea5910e24769802ed8ec872421b2-97cdd4ba3ae514701733c14d2200da95-ld.mp4"},

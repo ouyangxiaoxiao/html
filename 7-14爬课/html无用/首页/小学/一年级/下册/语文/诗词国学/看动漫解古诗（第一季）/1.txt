@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"下册","cname":"语文","dname":"诗词国学","etitle":"看动漫解古诗（第一季）","ftitle":"《江南》","fmenuTitle":"默认","mp4":"https://v.taozhi.online/00cc60c97a84483ba27605a44b5e799d/a1e472fcb48c4a489628ba7d9f4e6342-38b10b644971647bd623ac67945cf870-ld.mp4"},

@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"三年级","ceame":"下册","cname":"英语","dname":"国际音标","etitle":"让孩子标准说英语 · 30天国际音标训练营","ftitle":"国际音标训练营·先导片","fmenuTitle":"默认","mp4":"https://v.taozhi.online/6a0680ee1e2c4618b408e8f277bcf482/14e290fe5018460294f8db6404b6014c-3575472d1ab6a5edb8db257a6dd108f7-ld.mp4"},

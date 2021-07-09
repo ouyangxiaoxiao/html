@@ -1,1 +1,0 @@
-{"xdName":"小学","gradeName":"一年级","ceame":"上册","cname":"语文","dname":"诗词国学","etitle":"唐诗大动画","ftitle":"唐诗大动画宣传片","fmenuTitle":"十大诗人","mp4":"https://vv.taozhi.online/9cc4bc7af22a4d919c0c39a5061f97ca/9ddd223fd4fe44a39ffaa68f20f1ba4c-e3492a19ae9a80566e982a979f9f0c21-ld.mp4"},
