@@ -1,0 +1,1 @@
+{"xdName":"小学","gradeName":"六年级","ceame":"上册","cname":"直播课","dname":"语文","etitle":"怎样学好语文（思维篇）","ftitle":"怎样学好语文（思维篇）","fmenuTitle":"默认","mp4":"https://v.taozhi.online/641528f4ae5a473081a1117b7d85a2f7/a7611d06e6c94f53a62faebada2b6448-ca8b26bb3154ea17dd01be813f5f5a08-ld.mp4"},
