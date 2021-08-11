@@ -31,3 +31,5 @@ for i in name_list:
     # jilu = str(name)+','+'https://ouyangxiaoxiao.github.io/xiaofangshipin/'+'初级精讲'+'/'+str(nublist[n])+ str(name_list[n])
 
     n += 1
+
+
