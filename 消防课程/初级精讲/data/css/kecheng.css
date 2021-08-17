@@ -72,6 +72,7 @@ header {
 
 
 }
+
 .video h5 {
     /*display: none;*/
     position: absolute;
@@ -88,6 +89,7 @@ video {
     top: 0;
     /*z-index: 99;*/
 }
+
 /*上一课*/
 .btn {
     width: 100%;
@@ -130,7 +132,7 @@ video {
 
 /*课程介绍*/
 .kcjs {
-    display: none;/*隐藏价格大模块*/
+    display: none; /*隐藏价格大模块*/
     width: 100%;
     height: 90px;
     /*margin-left: 10px;*/
@@ -165,7 +167,7 @@ video {
 .kcjs-jg {
     /*padding: 0;*/
     /*margin: 0;*/
-    display: none;/*隐藏*/
+    display: none; /*隐藏*/
 
 }
 
@@ -201,10 +203,12 @@ video {
 #vip:hover {
     background-color: #70a401;
 }
-
+/*切换栏*/
 .tab {
-    height: 45px;
+    height: 30px;
     border-top: 1px #c0c0c0 solid;
+    padding-top: 5px;
+    margin: 0 10px;
 }
 
 .tab ul {
@@ -215,9 +219,10 @@ video {
 }
 
 .tab ul li {
-    height: 45px;
+    height: 30px;
     text-align: center;
-    line-height: 45px;
+    line-height: 30px;
+    /*margin:  10px 0;*/
 
 }
 
@@ -246,11 +251,26 @@ video {
     float: left;
 }
 
-.kcxq {
-    margin-bottom: 45px;
+/*切换*/
+.item {
+    display: none;
 }
 
-.kcxq ul {
+.current {
+    background-color: #70a401;
+}
+/*介绍*/
+.js img{
+    width: 100%;
+}
+.kcxq {
+    box-sizing: border-box;
+    margin-bottom: 45px;
+    display: block;
+}
+
+/*.kcxq ul {*/
+ul {
     padding: 0;
     /*margin: 0;*/
     list-style: none;
@@ -306,6 +326,56 @@ video {
     color: #c0c0c0;
     display: block;
     font-size: 10px;
+}
+/*评价详情*/
+.pj{
+    height: 45px;
+    padding: 5px;
+    margin-bottom: 250px;
+
+}
+
+.pj li {
+    margin: 5px auto;
+    border-bottom: 1px #dbdbdb dashed;
+}
+.pj img {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    border-radius: 22px;
+    vertical-align: hanging;
+}
+
+
+.pj div {
+    display: inline-block;
+    /*background-color: pink;*/
+}
+.pj h3 {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    color: #dbdbdb;
+    margin: 0;
+    padding: 0;
+    /*background-color: skyblue;*/
+
+}
+
+.pj li i {
+    display: inline-block;
+    float: right;
+    width: 45px;
+    height: 45px;
+    transform: scale(0.5);
+    background: url("../images/st-ico.png") no-repeat 0 -330px;
+}
+
+.pj p {
+    margin: 0;
+    padding: 0;
+    color: #a8a8a8;
 }
 
 
@@ -365,3 +435,4 @@ video {
     text-align: right;
 
 }
+
