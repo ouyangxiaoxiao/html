@@ -328,18 +328,22 @@ ul {
     font-size: 10px;
 }
 /*评价详情*/
-.pj{
+.pjxq{
     height: 45px;
     padding: 5px;
-    margin-bottom: 250px;
+    margin-bottom: 300px;
+
+    display: none;
+    /*background-color: pink;*/
+
 
 }
 
-.pj li {
+.pjxq li {
     margin: 5px auto;
     border-bottom: 1px #dbdbdb dashed;
 }
-.pj img {
+.pjxq img {
     width: 45px;
     height: 45px;
     display: inline-block;
@@ -348,11 +352,11 @@ ul {
 }
 
 
-.pj div {
+.pjxq div {
     display: inline-block;
     /*background-color: pink;*/
 }
-.pj h3 {
+.pjxq h3 {
     display: block;
     font-weight: 400;
     font-size: 16px;
@@ -363,7 +367,7 @@ ul {
 
 }
 
-.pj li i {
+.pjxq li i {
     display: inline-block;
     float: right;
     width: 45px;
@@ -372,7 +376,7 @@ ul {
     background: url("../images/st-ico.png") no-repeat 0 -330px;
 }
 
-.pj p {
+.pjxq p {
     margin: 0;
     padding: 0;
     color: #a8a8a8;
