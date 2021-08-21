@@ -29,13 +29,15 @@ for a in range(int(len(str(data.sheet_names())))):
             # print(i)
             rowdata = table.row_values(i)
             # print("第{}行:".format(i+1) + str(rowdata))
-            name = (rowdata[3])
+            # name = (rowdata[3])
             code = (rowdata[4])
             newname = rowdata[5]
             http0= rowdata[0]
             http1= rowdata[1]
-            url= 'https://ouyangxiaoxiao.github.io/xiaofangshipin/'+byname+'/'+code+'.mp4'
-            print(byname,http0,http1,name,code,newname)
+            url = rowdata[3]
+            # url= 'https://ouyangxiaoxiao.github.io/xiaofangshipin/'+byname+'/'+code+'.mp4'
+            # print(byname,http0,http1,name,code,newname)
+            print(byname,http0,http1,code,newname)
             # i 代表行数
             #写入相应数据
             sheet.write(i, 0, http0)
