@@ -318,17 +318,21 @@
     console.log('55555555555');
     // 1.获取元素
     var video2 = document.querySelector('.video');
-
+    var video2top =video2.offsetTop;
+    var btn = document.querySelector('.btn');
     document.addEventListener('scroll',function () {
         console.log('11');
         console.log(window.pageYOffset);
         console.log(video2.offsetTop);
+        console.log('btn'+btn.offsetTop);
 
-        if(window.pageYOffset>=50){
+        if(window.pageYOffset>=video2top){
             video2.style.position='fixed';
+            btn.style.marginTop = '270px';
         }
         else {
-            video2.style.position='relative';
+            video2.style.position='';
+            btn.style.marginTop = '';
         }
     })
 </script>
