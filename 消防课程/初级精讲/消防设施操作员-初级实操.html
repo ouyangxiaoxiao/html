@@ -318,20 +318,26 @@
     console.log('55555555555');
     // 1.获取元素
     var video2 = document.querySelector('.video');
-    var video2top =video2.offsetTop;
+    var video2top = video2.offsetTop;
     var btn = document.querySelector('.btn');
-    document.addEventListener('scroll',function () {
+    var btnTOP = btn.offsetTOP;
+
+    // console.log('5555'+video2top,btnTOP);
+
+
+    document.addEventListener('scroll', function () {
         console.log('11');
         console.log(window.pageYOffset);
-        console.log(video2.offsetTop);
-        console.log('btn'+btn.offsetTop);
+        console.log('video2top'+video2.offsetTop);
+        console.log('btnTOP'+btn.offsetTop);
 
-        if(window.pageYOffset>=video2top){
-            video2.style.position='fixed';
-            btn.style.marginTop = '270px';
-        }
-        else {
-            video2.style.position='';
+
+        if (window.pageYOffset >= video2top) {
+            video2.style.position = 'fixed';
+            btn.style.marginTop = '215px';
+            // btn.style.marginTop = btn.offsetTOP-video2.offsetTop + 'px';
+        } else {
+            video2.style.position = '';
             btn.style.marginTop = '';
         }
     })
