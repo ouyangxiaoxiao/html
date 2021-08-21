@@ -71,6 +71,7 @@ header {
     /*position: relative;*/
     position: sticky;
     box-shadow: 0 -1px #FFFFFF;
+    webkit-transform: translateZ(0);
     top: 0;
     z-index: 9;
 
