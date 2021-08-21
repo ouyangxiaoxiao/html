@@ -1,8 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 div {
     margin: 0;
     padding: 0;
 }
-
 
 body {
     max-width: 640px;
