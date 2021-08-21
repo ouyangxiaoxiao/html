@@ -70,8 +70,7 @@ header {
     /*height: 240px;*/
     /*position: relative;*/
     position: sticky;
-    box-shadow: 0 -1px #FFFFFF;
-    webkit-transform: translateZ(0);
+    position: -webkit-sticky;
     top: 0;
     z-index: 9;
 
@@ -208,6 +207,7 @@ video {
 #vip:hover {
     background-color: #70a401;
 }
+
 /*切换栏*/
 .tab {
     height: 30px;
@@ -264,10 +264,12 @@ video {
 .current {
     background-color: #70a401;
 }
+
 /*介绍*/
-.js img{
+.js img {
     width: 100%;
 }
+
 .kcxq {
     box-sizing: border-box;
     margin-bottom: 45px;
@@ -332,8 +334,9 @@ ul {
     display: block;
     font-size: 10px;
 }
+
 /*评价详情*/
-.pjxq{
+.pjxq {
     height: 45px;
     padding: 5px;
     margin-bottom: 330px;
@@ -348,6 +351,7 @@ ul {
     margin: 5px auto;
     border-bottom: 1px #dbdbdb dashed;
 }
+
 .pjxq img {
     width: 45px;
     height: 45px;
@@ -361,6 +365,7 @@ ul {
     display: inline-block;
     /*background-color: pink;*/
 }
+
 .pjxq h3 {
     display: block;
     font-weight: 400;
