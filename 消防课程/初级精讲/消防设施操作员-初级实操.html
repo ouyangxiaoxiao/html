@@ -42,7 +42,8 @@
     <!--    <video id="video" controls autoplay src="" poster="images/灭火器大(3).gif"></video>-->
     <!--    <video id="video" controls autoplay src="" poster="images/猫头鹰.gif"></video>-->
 </div>
-
+<!--撑起来-->
+<div class="cheng"></div>
 
 <!--上下节-->
 <div class="btn">
@@ -321,6 +322,12 @@
     var video2top = video2.offsetTop;
     var btn = document.querySelector('.btn');
     var btnTOP = btn.offsetTOP;
+    var top2 = btnTOP - video2top;
+    console.log('top2' + top2);
+
+    var  cheng = document.querySelector('.cheng');
+
+
 
     // console.log('5555'+video2top,btnTOP);
 
@@ -328,17 +335,18 @@
     document.addEventListener('scroll', function () {
         console.log('11');
         console.log(window.pageYOffset);
-        console.log('video2top'+video2.offsetTop);
-        console.log('btnTOP'+btn.offsetTop);
+        console.log('video2top' + video2.offsetTop);
+        console.log('btnTOP' + btn.offsetTop);
 
 
         if (window.pageYOffset >= video2top) {
             video2.style.position = 'fixed';
-            btn.style.marginTop = '215px';
-            // btn.style.marginTop = btn.offsetTOP-video2.offsetTop + 'px';
+            // btn.style.marginTop = '210px';
+            // btn.style.marginTop = 215 +'px';
+            cheng.style.height = 220+'px';
         } else {
             video2.style.position = '';
-            btn.style.marginTop = '';
+            cheng.style.height = 0;
         }
     })
 </script>

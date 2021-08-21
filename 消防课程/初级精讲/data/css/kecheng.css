@@ -93,7 +93,11 @@ video {
     /*top: 0;*/
     /*z-index: 99;*/
 }
-
+/*撑*/
+.cheng{
+    width: 100%;
+    background-color: black;
+}
 /*上一课*/
 .btn {
     width: 100%;
