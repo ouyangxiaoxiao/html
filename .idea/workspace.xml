@@ -23,20 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4066">
-              <caret line="241" column="13" lean-forward="true" selection-start-line="241" selection-start-column="13" selection-end-line="241" selection-end-column="13" />
+            <state relative-caret-position="249">
+              <caret line="328" column="9" lean-forward="true" selection-start-line="328" selection-start-column="9" selection-end-line="328" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+            <state relative-caret-position="171">
+              <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -58,8 +58,8 @@
         <option value="$PROJECT_DIR$/消防课程/初级精讲/四级(中级)精讲.html" />
         <option value="$PROJECT_DIR$/消防课程/初级精讲/四级(中级)消防设施检测维修保养.html" />
         <option value="$PROJECT_DIR$/消防课程/初级精讲/高级.html" />
-        <option value="$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html" />
         <option value="$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css" />
+        <option value="$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html" />
       </list>
     </option>
   </component>
@@ -188,12 +188,12 @@
       <workItem from="1629354923308" duration="10040000" />
       <workItem from="1629421482509" duration="2043000" />
       <workItem from="1629428151494" duration="12675000" />
-      <workItem from="1629534442816" duration="9490000" />
+      <workItem from="1629534442816" duration="14855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34248000" />
+    <option name="totallyTimeSpent" value="39613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -302,17 +302,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html">
+    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4066">
-          <caret line="241" column="13" lean-forward="true" selection-start-line="241" selection-start-column="13" selection-end-line="241" selection-end-column="13" />
+        <state relative-caret-position="171">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css">
+    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        <state relative-caret-position="249">
+          <caret line="328" column="9" lean-forward="true" selection-start-line="328" selection-start-column="9" selection-end-line="328" selection-end-column="9" />
         </state>
       </provider>
     </entry>

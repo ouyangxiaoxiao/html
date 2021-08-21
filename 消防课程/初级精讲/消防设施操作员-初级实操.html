@@ -315,7 +315,22 @@
 
 </script>
 <script>
-    console.log(video.currentSrc)
+    console.log('55555555555');
+    // 1.获取元素
+    var video2 = document.querySelector('.video');
+
+    document.addEventListener('scroll',function () {
+        console.log('11');
+        console.log(window.pageYOffset);
+        console.log(video2.offsetTop);
+
+        if(window.pageYOffset>=50){
+            video2.style.position='fixed';
+        }
+        else {
+            video2.style.position='relative';
+        }
+    })
 </script>
 
 

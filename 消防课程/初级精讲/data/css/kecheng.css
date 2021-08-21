@@ -69,8 +69,8 @@ header {
     margin: 0;
     /*height: 240px;*/
     /*position: relative;*/
-    position: sticky;
-    position: -webkit-sticky;
+    /*position: relative;*/
+    /*position: -webkit-sticky;*/
     top: 0;
     z-index: 9;
 
