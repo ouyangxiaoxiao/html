@@ -338,12 +338,13 @@
         console.log('video2top' + video2.offsetTop);
         console.log('btnTOP' + btn.offsetTop);
 
-
-        if (window.pageYOffset >= video2top) {
+        // document.body.scrollTop || document.documentElement.scrollTop;
+        // if (window.pageYOffset >= video2top) {
+        if (document.body.scrollTop || document.documentElement.scrollTop >= video2top) {
             video2.style.position = 'fixed';
             // btn.style.marginTop = '210px';
             // btn.style.marginTop = 215 +'px';
-            cheng.style.height = 215+'px';
+            cheng.style.height = 212+'px';
         } else {
             video2.style.position = '';
             cheng.style.height = 0;
