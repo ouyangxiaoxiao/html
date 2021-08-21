@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac6091a-4bf7-45a3-a38a-db4c0f532831" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/消防课程/初级精讲/五级(初级)精讲.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防课程/初级精讲/四级(中级)实操班.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防课程/初级精讲/四级(中级)消防设施检测维修保养.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防课程/初级精讲/四级(中级)精讲.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防课程/初级精讲/基础知识.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防课程/初级精讲/高级.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-导读.html" beforeDir="false" afterPath="$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-导读.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/读取excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/消防课程/读取excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css" beforeDir="false" afterPath="$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html" beforeDir="false" afterPath="$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,19 +24,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/消防课程/读取excel.py">
+        <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+            <state relative-caret-position="4066">
+              <caret line="241" column="13" lean-forward="true" selection-start-line="241" selection-start-column="13" selection-end-line="241" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/基础知识.html">
+        <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+            <state relative-caret-position="155">
+              <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -63,10 +58,12 @@
         <option value="$PROJECT_DIR$/消防课程/初级精讲/四级(中级)精讲.html" />
         <option value="$PROJECT_DIR$/消防课程/初级精讲/四级(中级)消防设施检测维修保养.html" />
         <option value="$PROJECT_DIR$/消防课程/初级精讲/高级.html" />
+        <option value="$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html" />
+        <option value="$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="17" />
     <option name="y" value="19" />
     <option name="width" value="1340" />
@@ -97,6 +94,21 @@
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="消防课程" type="462c0819:PsiDirectoryNode" />
               <item name="初级精讲" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="消防课程" type="462c0819:PsiDirectoryNode" />
+              <item name="初级精讲" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="消防课程" type="462c0819:PsiDirectoryNode" />
+              <item name="初级精讲" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -137,11 +149,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.基础知识.html">
-    <configuration name="四级(中级)消防设施检测维修保养.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防课程/初级精讲/四级(中级)消防设施检测维修保养.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.消防设施操作员-初级实操.html">
+    <configuration name="消防设施操作员-初级实操.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防课程/初级精讲/消防设施操作员-初级实操.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="四级(中级)精讲.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防课程/初级精讲/四级(中级)精讲.html" useBuiltInWebServerPort="true">
+    <configuration name="四级(中级)消防设施检测维修保养.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防课程/初级精讲/四级(中级)消防设施检测维修保养.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="四级(中级)实操班.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防课程/初级精讲/四级(中级)实操班.html" useBuiltInWebServerPort="true">
@@ -155,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.消防设施操作员-初级实操.html" />
         <item itemvalue="JavaScript Debug.基础知识.html" />
         <item itemvalue="JavaScript Debug.四级(中级)消防设施检测维修保养.html" />
         <item itemvalue="JavaScript Debug.四级(中级)实操班.html" />
         <item itemvalue="JavaScript Debug.高级.html" />
-        <item itemvalue="JavaScript Debug.四级(中级)精讲.html" />
       </list>
     </recent_temporary>
   </component>
@@ -176,15 +188,15 @@
       <workItem from="1629354923308" duration="10040000" />
       <workItem from="1629421482509" duration="2043000" />
       <workItem from="1629428151494" duration="12675000" />
-      <workItem from="1629534442816" duration="7311000" />
+      <workItem from="1629534442816" duration="9490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32069000" />
+    <option name="totallyTimeSpent" value="34248000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32411674" />
@@ -220,27 +232,6 @@
     <SUITE FILE_PATH="coverage/html$.coverage" NAME="综合 Coverage Results" MODIFIED="1629467469196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/消防课程" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/消防课程/综合.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-导读.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/五级(初级)实操.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -269,13 +260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消防课程/读取excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/四级(中级)实操班.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -292,8 +276,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/基础知识.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="57">
           <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防课程/读取excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-导读.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防课程/综合.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4066">
+          <caret line="241" column="13" lean-forward="true" selection-start-line="241" selection-start-column="13" selection-end-line="241" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
         </state>
       </provider>
     </entry>

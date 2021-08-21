@@ -68,7 +68,10 @@ header {
     width: 100%;
     margin: 0;
     /*height: 240px;*/
-    position: relative;
+    /*position: relative;*/
+    position: sticky;
+    top: 0;
+    z-index: 9;
 
 
 }
