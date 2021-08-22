@@ -50,7 +50,7 @@
     }
 </style>
 </head>
-<div class="wrap">
+
     <h1>在线书城</h1>
     <p>有没有一本书让你仿佛遇到春风十里</p>
     <ul id="nav">
@@ -87,21 +87,22 @@
         <p>好书有好事有好诗</p>
         <p>好书有好事有好诗</p>
     </div>
-</div>
+
 
 <script type="text/javascript">
-var tit = document.getElementById("nav");
+// var tit = document.getElementById("nav");
+var nav2 = document.getElementById("nav");
 //alert(tit);
 //占位符的位置
-var rect = tit.getBoundingClientRect();//获得页面中导航条相对于浏览器视窗的位置
+var rect = nav2.getBoundingClientRect();//获得页面中导航条相对于浏览器视窗的位置
 var inser = document.createElement("div");
-tit.parentNode.replaceChild(inser,tit);
+tit.parentNode.replaceChild(inser,nav2);
 inser.appendChild(tit);
 inser.style.height = rect.height + "px";
 console.log('5555555');
 console.log(rect.height);
 //获取距离页面顶端的距离
-var titleTop = tit.offsetTop;
+var titleTop = nav2.offsetTop;
 //滚动事件
 document.onscroll = function(){
     //获取当前滚动的距离
@@ -109,10 +110,10 @@ document.onscroll = function(){
     //如果滚动距离大于导航条据顶部的距离
     if(btop>titleTop){
         //为导航条设置fix
-        tit.className = "clearfix fix";
+        nav2.className = "clearfix fix";
     }else{
         //移除fixed
-        tit.className = "clearfix";
+        nav2.className = "clearfix";
     }
 }
 </script>

@@ -320,11 +320,13 @@
     // 1.获取元素
     var video2 = document.querySelector('.video');
     console.log('8888');
+
     height3 = video2.getBoundingClientRect().height;
     var  cheng = document.querySelector('.cheng');
 
 
     var video2top = video2.offsetTop;
+
     var btn = document.querySelector('.btn');
     var btnTOP = btn.offsetTOP;
     // var top2 = btnTOP - video2top;
@@ -341,13 +343,16 @@
     document.addEventListener('scroll', function () {
         // console.log('11');
         // console.log(window.pageYOffset);
-        // console.log('video2top' + video2.offsetTop);
-        // console.log('btnTOP' + btn.offsetTop);
+        console.log('video2top' + video2.offsetTop);
+        console.log('btnTOP' + btn.offsetTop);
+        console.log('height3' + height3);
+        console.log('height4' + Number(btn.offsetTop)-Number(video2.offsetTop));
 
         // document.body.scrollTop || document.documentElement.scrollTop;
         // if (window.pageYOffset >= video2top) {
         if (document.body.scrollTop || document.documentElement.scrollTop >= video2top) {
             cheng.style.height = height3+'px';
+            // cheng.style.height = 210+'px';
             video2.style.position = 'fixed';
             // btn.style.marginTop = '210px';
             // btn.style.marginTop = 215 +'px';
