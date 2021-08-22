@@ -352,7 +352,7 @@
         console.log(video2.scrollHeight);
         // document.body.scrollTop || document.documentElement.scrollTop;
         // if (window.pageYOffset >= video2top) {
-        if (document.body.scrollTop || document.documentElement.scrollTop >= video2top) {
+        if (document.body.scrollTop || document.documentElement.scrollTop > video2top) {
             cheng.style.height = height3+'px';
             // cheng.style.height = 210+'px';
             video2.style.position = 'fixed';
