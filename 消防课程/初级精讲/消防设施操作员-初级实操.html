@@ -350,10 +350,13 @@
         // console.log('height4' + Number(btn.offsetTop)-Number(video2.offsetTop));
 
         console.log(video2.scrollHeight);
+        cheng.style.height = height3+'px';
         // document.body.scrollTop || document.documentElement.scrollTop;
         // if (window.pageYOffset >= video2top) {
-        if (document.body.scrollTop || document.documentElement.scrollTop > video2top) {
-            cheng.style.height = height3+'px';
+        if (document.body.scrollTop || document.documentElement.scrollTop >= video2top) {
+        // if (document.documentElement.scrollTop > video2top) {
+        // if (document.body.scrollTop > video2top) {
+        //     cheng.style.height = height3+'px';
             // cheng.style.height = 210+'px';
             video2.style.position = 'fixed';
             // btn.style.marginTop = '210px';
