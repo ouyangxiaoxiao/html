@@ -319,6 +319,7 @@
     console.log('55555555555');
     // 1.获取元素
     var video2 = document.querySelector('.video');
+
     console.log('8888');
 
     height3 = video2.getBoundingClientRect().height;
@@ -346,8 +347,9 @@
         console.log('video2top' + video2.offsetTop);
         console.log('btnTOP' + btn.offsetTop);
         console.log('height3' + height3);
-        console.log('height4' + Number(btn.offsetTop)-Number(video2.offsetTop));
+        // console.log('height4' + Number(btn.offsetTop)-Number(video2.offsetTop));
 
+        console.log(video2.scrollHeight);
         // document.body.scrollTop || document.documentElement.scrollTop;
         // if (window.pageYOffset >= video2top) {
         if (document.body.scrollTop || document.documentElement.scrollTop >= video2top) {

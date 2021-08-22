@@ -1,7 +1,7 @@
-/**{*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
+*{
+    margin: 0;
+    padding: 0;
+}
 div {
     margin: 0;
     padding: 0;
@@ -100,7 +100,7 @@ video {
 /*撑*/
 .cheng{
     width: 100%;
-    /*background-color: black;*/
+    background-color: black;
 }
 /*上一课*/
 .btn {

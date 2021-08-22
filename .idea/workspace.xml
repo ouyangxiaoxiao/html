@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac6091a-4bf7-45a3-a38a-db4c0f532831" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css" beforeDir="false" afterPath="$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/无用.html" beforeDir="false" afterPath="$PROJECT_DIR$/消防课程/初级精讲/无用.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html" beforeDir="false" afterPath="$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="357" column="47" lean-forward="true" selection-start-line="357" selection-start-column="47" selection-end-line="357" selection-end-column="47" />
+            <state relative-caret-position="729">
+              <caret line="350" lean-forward="true" selection-start-line="350" selection-end-line="350" />
             </state>
           </provider>
         </entry>
@@ -42,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1425">
-              <caret selection-start-column="2" selection-end-line="3" selection-end-column="3" />
+            <state relative-caret-position="342">
+              <caret line="102" column="28" lean-forward="true" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -76,12 +73,12 @@
         <option value="$PROJECT_DIR$/消防课程/初级精讲/四级(中级)消防设施检测维修保养.html" />
         <option value="$PROJECT_DIR$/消防课程/初级精讲/高级.html" />
         <option value="$PROJECT_DIR$/消防课程/初级精讲/无用.html" />
-        <option value="$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css" />
         <option value="$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html" />
+        <option value="$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="17" />
     <option name="y" value="19" />
     <option name="width" value="1340" />
@@ -210,12 +207,12 @@
       <workItem from="1629421482509" duration="2043000" />
       <workItem from="1629428151494" duration="12675000" />
       <workItem from="1629534442816" duration="17652000" />
-      <workItem from="1629561585724" duration="31432000" />
+      <workItem from="1629561585724" duration="31684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73842000" />
+    <option name="totallyTimeSpent" value="74094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -325,17 +322,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css">
+    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425">
-          <caret selection-start-column="2" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="729">
+          <caret line="350" lean-forward="true" selection-start-line="350" selection-end-line="350" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html">
+    <entry file="file://$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="357" column="47" lean-forward="true" selection-start-line="357" selection-start-column="47" selection-end-line="357" selection-end-column="47" />
+        <state relative-caret-position="342">
+          <caret line="102" column="28" lean-forward="true" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
         </state>
       </provider>
     </entry>
