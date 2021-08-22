@@ -21,10 +21,16 @@ a {
 }
 
 header {
+    max-width: 640px;
+    min-width: 320px;
     width: 100%;
+    margin: 0 auto;
     height: 50px;
     background-color: #70a401;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 9;
 }
 
 .jtz {
@@ -74,8 +80,8 @@ header {
     /*height: 240px;*/
     /*position: relative;*/
     /*position: relative;*/
-    /*position: -webkit-sticky;*/
-    top: 0;
+    position:fixed;
+    top: 50px;
     z-index: 9;
 
 
@@ -97,13 +103,16 @@ video {
     /*top: 0;*/
     /*z-index: 99;*/
 }
-/*撑*/
-.cheng{
-    width: 100%;
-    /*background-color: black;*/
-}
+/*!*撑*!*/
+/*.cheng{*/
+/*    width: 100%;*/
+/*    height: 420px;*/
+
+/*    !*background-color: black;*!*/
+/*}*/
 /*上一课*/
 .btn {
+    /*margin-top: 225px;*/
     width: 100%;
     height: 35px;
     background-color: #f8f8f8;

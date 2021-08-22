@@ -316,57 +316,14 @@
 
 </script>
 <script>
-    console.log('55555555555');
-    // 1.获取元素
+    var btn1 = document.querySelector('.btn');
     var video2 = document.querySelector('.video');
+    console.log(video2.scrollHeight);
+    console.log(video2.offsetTop);
+    // btn1.style.marginTop = "225px";
+    mtp = video2.scrollHeight+video2.offsetTop;
+    btn1.style.marginTop = mtp +"px";
 
-    console.log('8888');
-
-    height3 = video2.getBoundingClientRect().height;
-    var  cheng = document.querySelector('.cheng');
-
-
-    var video2top = video2.offsetTop;
-
-    var btn = document.querySelector('.btn');
-    var btnTOP = btn.offsetTOP;
-    // var top2 = btnTOP - video2top;
-    // console.log('top2' + top2);
-
-
-
-
-
-
-    // console.log('5555'+video2top,btnTOP);
-
-
-    document.addEventListener('scroll', function () {
-        // console.log('11');
-        // console.log(window.pageYOffset);
-        console.log('video2top' + video2.offsetTop);
-        console.log('btnTOP' + btn.offsetTop);
-        console.log('height3' + height3);
-        // console.log('height4' + Number(btn.offsetTop)-Number(video2.offsetTop));
-
-        console.log(video2.scrollHeight);
-        cheng.style.height = height3+'px';
-        // document.body.scrollTop || document.documentElement.scrollTop;
-        // if (window.pageYOffset >= video2top) {
-        if (document.body.scrollTop || document.documentElement.scrollTop >= video2top) {
-        // if (document.documentElement.scrollTop > video2top) {
-        // if (document.body.scrollTop > video2top) {
-        //     cheng.style.height = height3+'px';
-            // cheng.style.height = 210+'px';
-            video2.style.position = 'fixed';
-            // btn.style.marginTop = '210px';
-            // btn.style.marginTop = 215 +'px';
-
-        } else {
-            video2.style.position = '';
-            cheng.style.height = 0;
-        }
-    })
 </script>
 
 
