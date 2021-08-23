@@ -20,57 +20,49 @@ a {
     color: black;
 }
 
+/*头部*/
 header {
     max-width: 640px;
     min-width: 320px;
     width: 100%;
     margin: 0 auto;
     height: 50px;
-    background-color: #70a401;
-    overflow: hidden;
+    background-color: rgb(112, 164, 1);
     position: fixed;
     top: 0;
     z-index: 9;
 }
 
-.jtz {
-    width: 37px;
+.i_top_return img {
+    float: left;
     height: 50px;
-    /*background-color: yellow;*/
-    /*background: url("http://sta.qinxue.com/mobile/images/tubiao_arr02.png") no-repeat;*/
-    background: url("../images/tubiao_arr02.png") no-repeat;
-    background-size: 37px 50px;
+    line-height: 50px;
+}
+
+.i_top_logo {
     float: left;
 }
 
-.log {
-    width: 72px;
+.i_top_logo img {
     height: 30px;
-    float: left;
-    background: url("../images/logo.png") no-repeat;
-    background-size: 72px 30px;
-    margin-top: 10px;
-
-
+    margin: 10px 10px;
 }
 
-.sou {
-    width: 24px;
-    height: 24px;
-    /*background: url("../images/search_arr01.png") no-repeat;*/
-    background-size: 24px;
+.i_top_more img {
     float: right;
-    margin: 10px 80px 0 0;
+    height: 30px;
+    margin: 10px 15px;
 }
 
-.more {
-    width: 24px;
-    height: 24px;
-    background: url("../images/more_arr01.png") no-repeat;
-    background-size: 24px;
+.i_top_search {
     float: right;
-    margin: 10px -80px 0 0;
+    margin: 10px;
 }
+
+.i_top_search img {
+    width: 30px;
+}
+
 
 /*播放器*/
 .video {
