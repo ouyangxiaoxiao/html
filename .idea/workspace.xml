@@ -3,71 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="dac6091a-4bf7-45a3-a38a-db4c0f532831" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/test-整理用.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/~$消防课-整理中编码版.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/修改文件名.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/1备份.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/css/home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/css/kecheng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/menu_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/menu_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/menu_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/menu_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/more_arr01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/next_section_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/on_section_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/play02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/poster.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/search_arr01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/section_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/st-ico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/images/tubiao_arr02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/js/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/js/kecheng.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/js/play.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/upload/Avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/upload/xgpz2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/upload/何龙.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/upload/刘.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/upload/张.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/upload/张2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/upload/张晓东.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/upload/苏正军.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/upload/荣.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/upload/陈涛.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/文档/记录" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/模板/单节课.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/模板/学科分类.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/模板/年级分类.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/模板/课程分类.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/模板/课程列表展示.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/data/模板/首页.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/images/5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/images/poster.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/images/关注消防珍爱生命-副本.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/images/关注消防珍爱生命.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/images/灭火器.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/images/灭火器大(3).gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/images/猫头鹰.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/video/1. 第一讲.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/五级(初级)精讲.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/四级(中级)实操班.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/四级(中级)消防设施检测维修保养.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/四级(中级)精讲.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/基础知识.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/无用.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-初级实操.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/消防设施操作员-导读.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/爬.py" beforeDir="false" afterPath="$PROJECT_DIR$/消防课程/爬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/初级精讲/高级.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/无用.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/消防课-整理中编码版.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/综合.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/读取excel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/随机字符.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防课程/随机字符.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/消防设施操作员/五级(初级)精讲.html" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/(初级)精讲课.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/消防设施操作员/初级实操.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/消防设施操作员/四级(中级)实操班.html" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/(中级)实操课.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/消防设施操作员/四级(中级)消防设施检测维修保养.html" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/(中级)维保课.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/消防设施操作员/四级(中级)精讲.html" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/(中级)精讲课.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/消防设施操作员/消防设施操作员-导读.html" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/(入门必看导读)导读.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/消防设施操作员/高级.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,17 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/消防设施操作员/初级精讲/消防设施操作员-初级实操.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,12 +74,6 @@
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="消防设施操作员" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="消防设施操作员" type="462c0819:PsiDirectoryNode" />
-              <item name="初级精讲" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -191,14 +117,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.消防设施操作员-初级实操.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.(中级)实操课.html">
     <configuration name="消防设施操作员-初级实操.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/初级精讲/消防设施操作员-初级实操.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="消防设施操作员-初级实操.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防课程/初级精讲/消防设施操作员-初级实操.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="五级(初级)精讲.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防课程/初级精讲/五级(初级)精讲.html" useBuiltInWebServerPort="true">
+    <configuration name="(中级)实操课.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/(中级)实操课.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="(初级)实操课.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/(初级)实操课.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="四级(中级)实操班.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防课程/初级精讲/四级(中级)实操班.html" useBuiltInWebServerPort="true">
@@ -208,28 +137,6 @@
       <method v="2" />
     </configuration>
     <configuration name="基础知识.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防课程/初级精讲/基础知识.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="综合" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="html" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/消防课程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/消防课程/综合.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="爬" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -256,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.(中级)实操课.html" />
+        <item itemvalue="JavaScript Debug.(初级)实操课.html" />
         <item itemvalue="JavaScript Debug.消防设施操作员-初级实操.html (1)" />
         <item itemvalue="Python.爬" />
         <item itemvalue="JavaScript Debug.消防设施操作员-初级实操.html" />
-        <item itemvalue="JavaScript Debug.五级(初级)精讲.html" />
-        <item itemvalue="Python.综合" />
       </list>
     </recent_temporary>
   </component>
@@ -279,12 +186,12 @@
       <workItem from="1629428151494" duration="12675000" />
       <workItem from="1629534442816" duration="17652000" />
       <workItem from="1629561585724" duration="77561000" />
-      <workItem from="1629672566628" duration="3746000" />
+      <workItem from="1629672566628" duration="15668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123717000" />
+    <option name="totallyTimeSpent" value="135639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -486,8 +393,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/消防设施操作员/初级精讲/消防设施操作员-初级实操.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="266">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防设施操作员/(中级)实操课.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防设施操作员/(初级)实操课.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
         </state>
       </provider>
     </entry>
