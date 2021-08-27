@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac6091a-4bf7-45a3-a38a-db4c0f532831" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/消防设施操作员/css/zhifu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防设施操作员/images/menu_arr02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防设施操作员/images/menu_arr03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防设施操作员/images/menu_arr04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防设施操作员/images/menu_arr05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防设施操作员/images/menu_arr06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防设施操作员/images/xuanzhong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防设施操作员/upload/二维码.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防设施操作员/下拉菜单测试.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/消防设施操作员/支付.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/消防设施操作员/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/消防设施操作员/首页.html" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/首页.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,26 +15,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/消防设施操作员/首页.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1919">
-              <caret line="101" column="6" selection-start-line="91" selection-start-column="4" selection-end-line="101" selection-end-column="6" />
+            <state relative-caret-position="137">
+              <caret line="93" column="17" lean-forward="true" selection-start-line="91" selection-start-column="4" selection-end-line="101" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/消防设施操作员/支付.html">
+        <entry file="file://$PROJECT_DIR$/消防设施操作员/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="78" column="2" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/消防设施操作员/css/zhifu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4636">
-              <caret line="244" column="15" selection-start-line="244" selection-start-column="15" selection-end-line="244" selection-end-column="15" />
+            <state relative-caret-position="194">
+              <caret line="186" column="14" lean-forward="true" selection-start-line="186" selection-start-column="14" selection-end-line="186" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -99,14 +78,14 @@
         <option value="$PROJECT_DIR$/消防设施操作员/导学班.html" />
         <option value="$PROJECT_DIR$/消防设施操作员/高级精讲班.html" />
         <option value="$PROJECT_DIR$/消防设施操作员/下拉菜单测试.html" />
-        <option value="$PROJECT_DIR$/消防设施操作员/css/index.css" />
         <option value="$PROJECT_DIR$/消防设施操作员/首页.html" />
         <option value="$PROJECT_DIR$/消防设施操作员/支付.html" />
         <option value="$PROJECT_DIR$/消防设施操作员/css/zhifu.css" />
+        <option value="$PROJECT_DIR$/消防设施操作员/css/index.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="17" />
     <option name="y" value="19" />
     <option name="width" value="1340" />
@@ -193,8 +172,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.首页.html">
     <configuration name="导学班.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/导学班.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="支付.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/支付.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="首页.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/首页.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="无用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防课程/初级精讲/无用.html" useBuiltInWebServerPort="true">
@@ -229,6 +214,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.首页.html" />
+        <item itemvalue="JavaScript Debug.支付.html" />
         <item itemvalue="JavaScript Debug.导学班.html" />
       </list>
     </recent_temporary>
@@ -250,15 +237,15 @@
       <workItem from="1629561585724" duration="77561000" />
       <workItem from="1629672566628" duration="26449000" />
       <workItem from="1629753173896" duration="72686000" />
-      <workItem from="1630086333684" duration="1148000" />
+      <workItem from="1630086333684" duration="1859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220254000" />
+    <option name="totallyTimeSpent" value="220965000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35176653" />
@@ -276,8 +263,8 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="调试" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50076807" side_tool="true" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="调试" order="13" sideWeight="0.49923196" weight="0.3298969" />
       <window_info anchor="bottom" id="Python Console" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -428,22 +415,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消防设施操作员/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="157" column="16" lean-forward="true" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/消防设施操作员/images/menu_arr01.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/消防设施操作员/首页.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1919">
-          <caret line="101" column="6" selection-start-line="91" selection-start-column="4" selection-end-line="101" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/消防设施操作员/css/zhifu.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -454,8 +427,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/消防设施操作员/支付.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="78" column="2" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="2" />
+        <state relative-caret-position="216">
+          <caret line="73" column="19" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防设施操作员/首页.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="93" column="17" lean-forward="true" selection-start-line="91" selection-start-column="4" selection-end-line="101" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防设施操作员/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="186" column="14" lean-forward="true" selection-start-line="186" selection-start-column="14" selection-end-line="186" selection-end-column="14" />
         </state>
       </provider>
     </entry>
