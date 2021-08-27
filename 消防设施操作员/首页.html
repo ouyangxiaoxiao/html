@@ -16,7 +16,7 @@
 <body>
 <!--头部-->
 <header class="i_top">
-    <a href="index.html" class="i_top_return"><img src="images/tubiao_arr02.png" alt=""></a>
+    <a href="javascript:history.go(-1)" class="i_top_return"><img src="images/tubiao_arr02.png" alt=""></a>
     <a href="首页.html" class="i_top_logo"><img src="images/logo.png" alt=""></a>
     <a href="#" class="i_top_more"><img src="images/more_arr01.png" alt=""></a>
 <!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
@@ -34,10 +34,12 @@
 <!--分类-->
 <div class="row menu">
     <div class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>导学班</span></div>
-    <div class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>初级教学班</span></div>
-    <div class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>中级教学班</span></div>
-    <div class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>实操班</span></div>
-    <div class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>高级精讲班员</span></div>
+    <div class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>初精讲班</span></div>
+    <div class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>初级实操班</span></div>
+    <div class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>中级精讲班</span></div>
+    <div class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>中级实操班</span></div>
+    <div class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>高级精讲班</span></div>
+    <div class="menu_li"></div>
     <div class="menu_li"><img src="#" alt=""> <span>更多课程,敬请期待</span></div>
 </div>
 <!--列表-->
@@ -81,19 +83,36 @@
 <!--    <div class="col-xs-6 i_list_01"><img src="upload/20210723.jpg" alt=""><span>消防设施操作</span></div>-->
 <!--</div>-->
 
+<!--弹窗-->
+<div class="tanchuang">
+    <img src="upload/二维码.png" alt="">
+    <p>长按保存添加客服</p>
+</div>
 
 <!--底部-->
 <footer>
     <div id="di">
         <ul>
-            <li>首页</li>
-            <li>课程</li>
+            <li><a href="首页.html">首页</a></li>
             <li>VIP</li>
-            <li>我的</li>
+            <li>代理</li>
+            <li class="kefu">客服</li>
         </ul>
     </div>
 </footer>
-
+<script>
+    var kefu =document.querySelector('.kefu');
+ var tanchang = document.querySelector('.tanchuang');
+ kefu.onclick = function () {
+     // tanchang.style.display = 'block';
+      if(tanchang.style.display=='block'){ // == 判断div.display是否为显示
+                    tanchang.style.display='none'; //= 赋值也可了解成改变
+                }
+                else{
+                    tanchang.style.display='block';
+                }
+ }
+</script>
 </body>
 </html>
 .
