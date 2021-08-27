@@ -186,6 +186,7 @@ header {
     margin-left: 50px;
     opacity:1;
     text-align: center;
+     pointer-events: auto;
 }
 .tanchuang p{
     margin-left: 50px;
