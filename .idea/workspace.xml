@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac6091a-4bf7-45a3-a38a-db4c0f532831" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/data/file/一年级/真题试卷/数学河北教育版一年级上册VIP专享资料/1.1　比高矮和长短1.1　比高矮和长短onijh5i0iic0.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -273,7 +274,7 @@
       <workItem from="1629561585724" duration="77561000" />
       <workItem from="1629672566628" duration="26449000" />
       <workItem from="1629753173896" duration="72686000" />
-      <workItem from="1630086333684" duration="8688000" />
+      <workItem from="1630086333684" duration="9232000" />
     </task>
     <task id="LOCAL-00001" summary="22">
       <created>1630119903202</created>
@@ -317,15 +318,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630121507409</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="pycharm">
+      <created>1630129860721</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630129860721</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227794000" />
+    <option name="totallyTimeSpent" value="228338000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35176653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -358,7 +365,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22" />
     <MESSAGE value="pychorm" />
-    <option name="LAST_COMMIT_MESSAGE" value="pychorm" />
+    <MESSAGE value="pycharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="pycharm" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/html$excel.coverage" NAME="读取excel Coverage Results" MODIFIED="1629541078278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/消防课程" />
