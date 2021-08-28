@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/消防设施操作员/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="284" selection-start-line="284" selection-end-line="284" />
+            <state relative-caret-position="118">
+              <caret line="282" column="12" lean-forward="true" selection-start-line="282" selection-start-column="12" selection-end-line="282" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -51,6 +51,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ouyangxiaoxiao &lt;284473823@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -119,7 +124,37 @@
             <path>
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="消防设施操作员" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="一年级" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="一年级" type="462c0819:PsiDirectoryNode" />
+              <item name="真题试卷" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="一年级" type="462c0819:PsiDirectoryNode" />
+              <item name="真题试卷" type="462c0819:PsiDirectoryNode" />
+              <item name="数学RJ一年级上册试卷下载" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,16 +181,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\编程\淘知学堂\html\消防设施操作员" />
+      <recent name="E:\编程\淘知学堂\html\消防课程" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\编程\淘知学堂\html\消防设施操作员\images" />
       <recent name="E:\编程\淘知学堂\html\消防设施操作员\upload" />
       <recent name="E:\编程\淘知学堂\html\消防设施操作员" />
       <recent name="E:\编程\淘知学堂\html\消防设施操作员\css" />
       <recent name="E:\编程\淘知学堂\html\消防课程\初级精讲" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\编程\淘知学堂\html\消防设施操作员" />
-      <recent name="E:\编程\淘知学堂\html\消防课程" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -239,18 +274,26 @@
       <workItem from="1629561585724" duration="77561000" />
       <workItem from="1629672566628" duration="26449000" />
       <workItem from="1629753173896" duration="72686000" />
-      <workItem from="1630086333684" duration="6263000" />
+      <workItem from="1630086333684" duration="6664000" />
     </task>
+    <task id="LOCAL-00001" summary="22">
+      <created>1630119903202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630119903202</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225369000" />
+    <option name="totallyTimeSpent" value="225770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35176653" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35176653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -265,7 +308,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50076807" side_tool="true" visible="true" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.50076807" side_tool="true" visible="true" weight="0.3298969" />
       <window_info anchor="bottom" id="调试" order="13" sideWeight="0.49923196" weight="0.3298969" />
       <window_info anchor="bottom" id="Python Console" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -277,6 +320,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="22" />
+    <option name="LAST_COMMIT_MESSAGE" value="22" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/html$excel.coverage" NAME="读取excel Coverage Results" MODIFIED="1629541078278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/消防课程" />
@@ -443,8 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/消防设施操作员/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="284" selection-start-line="284" selection-end-line="284" />
+        <state relative-caret-position="118">
+          <caret line="282" column="12" lean-forward="true" selection-start-line="282" selection-start-column="12" selection-end-line="282" selection-end-column="12" />
         </state>
       </provider>
     </entry>
