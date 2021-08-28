@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac6091a-4bf7-45a3-a38a-db4c0f532831" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/消防设施操作员/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/消防设施操作员/下拉菜单测试.html" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/下拉菜单测试.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/消防设施操作员/首页.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="93" column="17" lean-forward="true" selection-start-line="91" selection-start-column="4" selection-end-line="101" selection-end-column="6" />
+            <state relative-caret-position="157">
+              <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -24,8 +25,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/消防设施操作员/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="186" column="14" lean-forward="true" selection-start-line="186" selection-start-column="14" selection-end-line="186" selection-end-column="14" />
+            <state relative-caret-position="156">
+              <caret line="284" selection-start-line="284" selection-end-line="284" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/消防设施操作员/下拉菜单测试.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -77,11 +87,11 @@
         <option value="$PROJECT_DIR$/消防设施操作员/基础精讲班.html" />
         <option value="$PROJECT_DIR$/消防设施操作员/导学班.html" />
         <option value="$PROJECT_DIR$/消防设施操作员/高级精讲班.html" />
-        <option value="$PROJECT_DIR$/消防设施操作员/下拉菜单测试.html" />
         <option value="$PROJECT_DIR$/消防设施操作员/首页.html" />
         <option value="$PROJECT_DIR$/消防设施操作员/支付.html" />
         <option value="$PROJECT_DIR$/消防设施操作员/css/zhifu.css" />
         <option value="$PROJECT_DIR$/消防设施操作员/css/index.css" />
+        <option value="$PROJECT_DIR$/消防设施操作员/下拉菜单测试.html" />
       </list>
     </option>
   </component>
@@ -110,18 +120,6 @@
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="消防设施操作员" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="消防设施操作员" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="消防设施操作员" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.首页.html">
+  <component name="RunManager" selected="JavaScript Debug.下拉菜单测试.html">
     <configuration name="导学班.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/导学班.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -180,6 +178,9 @@
       <method v="2" />
     </configuration>
     <configuration name="首页.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/首页.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="下拉菜单测试.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/下拉菜单测试.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="无用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防课程/初级精讲/无用.html" useBuiltInWebServerPort="true">
@@ -214,6 +215,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.下拉菜单测试.html" />
         <item itemvalue="JavaScript Debug.首页.html" />
         <item itemvalue="JavaScript Debug.支付.html" />
         <item itemvalue="JavaScript Debug.导学班.html" />
@@ -237,12 +239,12 @@
       <workItem from="1629561585724" duration="77561000" />
       <workItem from="1629672566628" duration="26449000" />
       <workItem from="1629753173896" duration="72686000" />
-      <workItem from="1630086333684" duration="1859000" />
+      <workItem from="1630086333684" duration="6263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220965000" />
+    <option name="totallyTimeSpent" value="225369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -394,13 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消防设施操作员/下拉菜单测试.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/消防设施操作员/中级实操班.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -432,17 +427,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/消防设施操作员/下拉菜单测试.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/消防设施操作员/首页.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="93" column="17" lean-forward="true" selection-start-line="91" selection-start-column="4" selection-end-line="101" selection-end-column="6" />
+        <state relative-caret-position="157">
+          <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/消防设施操作员/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="186" column="14" lean-forward="true" selection-start-line="186" selection-start-column="14" selection-end-line="186" selection-end-column="14" />
+        <state relative-caret-position="156">
+          <caret line="284" selection-start-line="284" selection-end-line="284" />
         </state>
       </provider>
     </entry>
