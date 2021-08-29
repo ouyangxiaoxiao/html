@@ -5,7 +5,7 @@ import os
 import shutil
 from xlutils.copy import copy
 # 打开文件
-data = xlrd.open_workbook('E:\编程\python_2\视频\消防课-整理中编码版.xlsx')
+data = xlrd.open_workbook('消防课-整理中编码版.xlsx')
 
 # 查看工作表
 data.sheet_names()
@@ -26,10 +26,15 @@ for a in range(int(len(str(data.sheet_names())))):
             # print("第{}行:".format(i+1) + str(rowdata))
             name = (rowdata[3])
             code = (rowdata[4])
-            newname = rowdata[5]
+            url = rowdata[2]
             http0= rowdata[0]
             http1= rowdata[1]
-            print(byname,http0,http1,name,code,newname)
+            print(byname,http0,http1,name,code,url)
+            # 保存文本
+            f1 = open('test.txt', 'a')
+            f1.write(
+                '<li value="' + url + '"><span>' + name + '</span><span>消防设施操作员</span><span>' + byname + '</span></li>' + '\n')
+
             try:
 
                 # 设置旧文件名（就是路径+文件名）
@@ -42,6 +47,8 @@ for a in range(int(len(str(data.sheet_names())))):
                 # 修改文件名
                 os.rename(oldname, newname)  # 用os模块中的rename方法对文件改名
                 print(oldname, '======>', newname)
+
+
             except Exception as e:
                 print(e)
                 print('出错了1')
