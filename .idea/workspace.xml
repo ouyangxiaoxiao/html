@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac6091a-4bf7-45a3-a38a-db4c0f532831" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/消防设施操作员/30min告别消防小白.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/消防设施操作员/下拉菜单测试.html" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/下拉菜单测试.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/消防设施操作员/功能/test-整理用.txt" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/功能/test-整理用.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/消防设施操作员/功能/消防课-整理中编码版.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/功能/消防课-整理中编码版.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/消防设施操作员/功能/综合.py" beforeDir="false" afterPath="$PROJECT_DIR$/消防设施操作员/功能/综合.py" afterDir="false" />
     </list>
@@ -18,26 +19,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/消防设施操作员/首页.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1919">
-              <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/消防设施操作员/css/index.css">
+        <entry file="file://$PROJECT_DIR$/消防设施操作员/30min告别消防小白.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5358">
-              <caret line="282" column="12" selection-start-line="282" selection-start-column="12" selection-end-line="282" selection-end-column="12" />
+            <state relative-caret-position="191">
+              <caret line="94" column="68" selection-start-line="117" selection-start-column="71" selection-end-line="117" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/消防设施操作员/30min告别消防小白.html">
+        <entry file="file://$PROJECT_DIR$/消防设施操作员/基础精讲班.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="130" column="4" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
+            <state relative-caret-position="158">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -119,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,7 +143,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,11 +187,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.综合">
+  <component name="RunManager" selected="JavaScript Debug.基础精讲班.html">
     <configuration name="30min告别消防小白.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/30min告别消防小白.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="首页.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/首页.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="基础精讲班.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/基础精讲班.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="中级实操班.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/中级实操班.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="支付.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/支付.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="基础精讲班.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/基础精讲班.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="初级精讲班.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/初级精讲班.html" useBuiltInWebServerPort="true">
@@ -215,15 +228,6 @@
       <method v="2" />
     </configuration>
     <configuration name="下拉菜单测试.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/下拉菜单测试.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="中级实操班.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/中级实操班.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="支付.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/支付.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="基础精讲班.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/消防设施操作员/基础精讲班.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="综合" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -272,10 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.综合" />
+        <item itemvalue="JavaScript Debug.基础精讲班.html" />
         <item itemvalue="JavaScript Debug.30min告别消防小白.html" />
-        <item itemvalue="Python.读取excel" />
         <item itemvalue="JavaScript Debug.首页.html" />
+        <item itemvalue="Python.综合" />
+        <item itemvalue="Python.读取excel" />
       </list>
     </recent_temporary>
   </component>
@@ -298,6 +303,7 @@
       <workItem from="1629753173896" duration="72686000" />
       <workItem from="1630086333684" duration="21138000" />
       <workItem from="1630150473741" duration="1187000" />
+      <workItem from="1630218575061" duration="3951000" />
     </task>
     <task id="LOCAL-00001" summary="22">
       <created>1630119903202</created>
@@ -373,13 +379,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241431000" />
+    <option name="totallyTimeSpent" value="245382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34946236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3563748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -394,7 +400,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.15437788" side_tool="true" visible="true" weight="0.7938144" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.15437788" side_tool="true" visible="true" weight="0.26632303" />
       <window_info anchor="bottom" id="调试" order="13" sideWeight="0.49923196" weight="0.3298969" />
       <window_info anchor="bottom" id="Python Console" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -482,23 +488,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消防设施操作员/基础精讲班.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/消防设施操作员/初级精讲班.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/消防设施操作员/初级实操班.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
         </state>
       </provider>
@@ -541,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消防设施操作员/支付.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="73" column="19" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/消防设施操作员/功能/无用.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-477" />
@@ -582,20 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消防设施操作员/首页.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1919">
-          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/消防设施操作员/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5358">
-          <caret line="282" column="12" selection-start-line="282" selection-start-column="12" selection-end-line="282" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/消防设施操作员/功能/读取excel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -610,10 +581,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/消防设施操作员/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5358">
+          <caret line="282" column="12" selection-start-line="282" selection-start-column="12" selection-end-line="282" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防设施操作员/支付.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1030">
+          <caret line="73" column="19" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防设施操作员/初级实操班.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1140">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防设施操作员/首页.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/消防设施操作员/30min告别消防小白.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="130" column="4" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
+        <state relative-caret-position="191">
+          <caret line="94" column="68" selection-start-line="117" selection-start-column="71" selection-end-line="117" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消防设施操作员/基础精讲班.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
