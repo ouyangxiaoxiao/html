@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+        <script type="text/javascript">
+            loopy();
+
+            function loopy() {
+                var h5 = document.getElementsByName('h5');
+                var sWord = "";
+                while (sWord != "123") {//初始密码123
+                    sWord = prompt("输入正确密码才能登陆!")
+                }
+                // alert("AH…欢迎光临！")
+            }
+        </script>
+        <script >
+            loopy();
+            var h5 = document.getElementsByName('h5');
+            var btn = document.getElementsByName('button');
+
+            btn.onclick = function () {
+
+
+                h5.style.display = "none"
+            }
+            // btn.onclick(
+            //
+            // )
+        </script>
+
+    <style>
+        h5 {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h5>欢迎光临</h5>
+</div>
+<button>点击显示</button>
+</body>
+</html>
