@@ -27,14 +27,15 @@
     box-sizing: border-box;
     /*background-color:#c0c0c0;*/
     border: 1px black solid;
-    margin-top: 50px;
+    margin-top: 52px;
 }
 
 .dengluxianshi input {
+    box-sizing: border-box;
     display: block;
     height: 30px;
     margin: 100px auto 10px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     padding: 2px 30px;
 
@@ -43,23 +44,23 @@
 .dengluxianshi #denglu {
 
     display: block;
-    margin: 0 auto;
-    font-size: 15px;
-    padding: 0 15px;
+    margin: 40px auto 30px;
+    font-size: 20px;
+    padding: 0 30px;
 }
 .dengluxianshi .tuichu{
     /*display: block;*/
     display: none;
     margin: 10px auto;
-    font-size: 15px;
-    padding: 0 15px;
+    font-size: 20px;
+    padding: 0 30px;
 }
 
 #zhuceanniu{
     display: block;
     margin: 10px auto;
-    font-size: 15px;
-    padding: 0 15px;
+    font-size: 20px;
+    padding: 0 30px;
 }
 a {
     margin: 0 auto;
