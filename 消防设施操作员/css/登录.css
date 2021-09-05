@@ -84,6 +84,7 @@ a {
     display: block;
     width: 40%;
     margin: 50px auto 0;
+    pointer-events:auto; /*禁止none ，启用auto*/
 }
 
 .zhucexianshi p{
