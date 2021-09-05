@@ -1,0 +1,84 @@
+/*欢迎页面*/
+.huanyingxianshi{
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    /*background-color:#c0c0c0;*/
+    border: 1px black solid;
+    margin-top: 50px;
+}
+
+
+
+
+
+/*登录显示页面*/
+.dengluxianshi {
+    display: none;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    /*background-color:#c0c0c0;*/
+    border: 1px black solid;
+    margin-top: 50px;
+}
+
+input {
+    display: block;
+    height: 30px;
+    margin: 100px auto 10px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+#denglu {
+
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 0 15px;
+}
+#tuichu{
+    /*display: block;*/
+    display: none;
+    margin: 10px auto;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+#zhuceanniu{
+    display: block;
+    margin: 10px auto;
+    font-size: 15px;
+    padding: 0 15px;
+}
+a {
+    margin: 0 auto;
+}
+
+/*注册*/
+
+.zhucexianshi {
+    display: none;
+    width: 100%;
+    /*height: 420px;*/
+    box-sizing: border-box;
+    /*background-color:#c0c0c0;*/
+    border: 1px black solid;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    /*height: 1200px;*/
+}
+
+.zhucexianshi img{
+    display: block;
+    width: 50%;
+    margin: 50px auto 0;
+}
+
+.zhucexianshi p{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}

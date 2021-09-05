@@ -8,69 +8,130 @@
           content="width=device-width, initial-scale=1.0 user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <!--设置外链跳转域-->
     <meta name="referrer" content="no-referrer"/>
-    <title>Title</title>
+    <title>消防设施操作员-登录</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <style>
-
-    </style>
+    <script src="js/登录.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/登录.css">
 </head>
 <body>
-<input type="text" placeholder="请您输入您的手机号进行登录" id="input">
-<br>
-<button id="button">登录</button>
+<!--头部-->
+<header class="i_top">
+    <a href="javascript:history.go(-1)" class="i_top_return"><img src="images/tubiao_arr02.png" alt=""></a>
+    <a href="首页.html" class="i_top_logo"><img src="images/logo.png" alt=""></a>
+    <a href="#" class="i_top_more"><img src="images/more_arr01.png" alt=""></a>
+    <!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
+</header>
+<!--登录-->
+<div class="huanyingxianshi">
+    <a href="#">欢迎您！<span id="namexianshi">请先登录</span></a>
+</div>
+<!--欢迎显示-->
+<div class="dengluxianshi">
+    <input type="text" placeholder="请您输入您的手机号进行登录" id="input">
+    <button id="denglu">登录</button>
+    <button id="tuichu">退出</button>
+    <button id="zhuceanniu">注册</button>
+</div>
 
-<script>
+<!--注册页面-->
+<div class="zhucexianshi">
+    <img src="images/微信.jpg" alt="">
+    <p>点击保存扫描添加微信客服进行注册</p>
+    <p>服务电话：400-800-6583</p>
+</div>
 
-    /*获取json数据*/
-    $.fn.data = function () {
-        /*定义接收数据*/
-        var result;
-        $.ajax({
-            // url: "https://ouyangxiaoxiao.github.io/wangye/a.json",    //请求的url地址
-            url: "json/a.json",    //请求的url地址
-            dataType: "json",   //返回格式为json
-            type: "get",
-            async: false,
-            success: function (data) {
-                console.log(typeof (data));
-                // 返回数据
-                result = data;
-            }
-        });
-
-        return result
-
-    };
+<footer>
+    <div id="di">
+        <ul>
+            <li><a href="首页.html">首页</a></li>
+            <li>VIP</li>
+            <li>代理</li>
+            <li class="kefu">客服</li>
+        </ul>
+    </div>
+</footer>
 
 
-    /*函数外接收数据*/
-    var result = $().data();
+<!--<script>-->
+
+<!--    /*获取json数据*/-->
+<!--    $.fn.data = function () {-->
+<!--        /*定义接收数据*/-->
+<!--        var result;-->
+<!--        $.ajax({-->
+<!--            // url: "https://ouyangxiaoxiao.github.io/wangye/a.json",    //请求的url地址-->
+<!--            url: "json/a.json",    //请求的url地址-->
+<!--            dataType: "json",   //返回格式为json-->
+<!--            type: "get",-->
+<!--            async: false,-->
+<!--            success: function (data) {-->
+<!--                console.log(typeof (data));-->
+<!--                // 返回数据-->
+<!--                result = data;-->
+<!--            }-->
+<!--        });-->
+
+<!--        return result-->
+
+<!--    };-->
 
 
-    /*获取输入的手机号*/
-    input = document.getElementById("input");
-    console.log(input.value);
-    console.log(55555555);
-    /*默认填写*/
-    input.value =  localStorage.getItem('phone');
-    /*获取确认摁钮*/
-    button = document.getElementById("button");
-    button.onclick = function () {
-        /*判断是注册成功的*/
-        if(result.hasOwnProperty(input.value)){
-            // console.log(input.value);
-        // 存储这元素 是这个值
-        localStorage.setItem('phone', input.value);
-        /*打印本地这个值*/
-        console.log(localStorage.getItem('phone'));
-        alert('正确');
-        window.history.back();
+<!--    /*函数外接收数据*/-->
+<!--    var result = $().data();-->
 
-        }
-        else {
-            alert("您还没有注册")
-        }
-    }
-</script>
+
+<!--    /*获取输入的手机号*/-->
+<!--    input = document.getElementById("input");-->
+<!--    console.log(input.value);-->
+<!--    console.log(55555555);-->
+<!--    /*默认填写*/-->
+<!--    input.value = localStorage.getItem('phone');-->
+<!--    /*获取确认摁钮*/-->
+<!--    button = document.getElementById("denglu");-->
+<!--    button.onclick = function () {-->
+<!--        /*判断是注册成功的*/-->
+<!--        if (result.hasOwnProperty(input.value)) {-->
+<!--            // console.log(input.value);-->
+<!--            // 存储这元素 是这个值-->
+<!--            localStorage.setItem('phone', input.value);-->
+<!--            /*打印本地这个值*/-->
+<!--            console.log(localStorage.getItem('phone'));-->
+<!--            console.log('666666666');-->
+<!--            console.log(result);-->
+<!--            alert('正确');-->
+<!--            window.history.back();-->
+
+<!--        } else {-->
+<!--            alert("您还没有注册")-->
+<!--        }-->
+<!--    };-->
+
+
+
+<!--    window.addEventListener('load',function () {-->
+
+<!--        name1 = document.getElementById("name1");-->
+
+<!--        if (result.hasOwnProperty(input.value)) {-->
+<!--            // console.log(input.value);-->
+<!--            // 存储这元素 是这个值-->
+<!--            localStorage.setItem('phone', input.value);-->
+<!--            /*打印本地这个值*/-->
+<!--            console.log('666666666');-->
+<!--            console.log(result);-->
+<!--            /*把本地存储的手机号 查询联网 得到的结果 赋值给phone*/-->
+<!--            phone = (localStorage.getItem('phone'));-->
+<!--            // 得到名字-->
+<!--            nickname = (result[localStorage.getItem('phone')].nickname);-->
+<!--            name1.innerHTML = (phone+nickname);-->
+<!--            alert('正确');-->
+<!--            window.history.back();-->
+
+<!--        } else {-->
+<!--            alert("您还没有注册")-->
+<!--        }-->
+<!--    })-->
+<!--</script>-->
 </body>
 </html>
