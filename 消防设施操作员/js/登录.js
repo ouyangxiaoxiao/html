@@ -45,11 +45,12 @@ window.addEventListener('load', function () {
 
     /*函数外接收数据*/
     var result = $().data();
-    /*获取name1按钮*/
+    /*获取4个页面显示的状态*/
     namexianshi = document.getElementById("namexianshi");
     huanyingxianshi = document.querySelector(".huanyingxianshi");
     dengluxianshi = document.querySelector(".dengluxianshi");
     zhucexianshi = document.querySelector(".zhucexianshi");
+
     /*判断是否登录*/
     if (result.hasOwnProperty(localStorage.getItem('phone'))) {
         // console.log(input.value);
@@ -61,21 +62,32 @@ window.addEventListener('load', function () {
         /*把本地存储的手机号 查询联网 得到的结果 赋值给phone*/
         // phone = (localStorage.getItem('phone'));
         // 得到名字
+        huanyingxianshi.style.display = "block";
         nickname = (result[localStorage.getItem('phone')].nickname);
         phone = (result[localStorage.getItem('phone')].phone);
         // alert('正确');
         namexianshi.innerHTML = (nickname + phone);
 
-        // alert('正确');
-        window.history.back();
+
+        /*退出功能*/
+        tuichu = document.querySelector(".tuichu");
+        tuichu.onclick = function () {
+            localStorage.removeItem('phone');
+            alert("您确认退出吗？");
+            // 刷新页面;
+           location.reload();
+        };
+        // // 刷新页面;
+        // window.history.back();
+
 
     } else {
-        huanyingxianshi.style.display = 'none';
+        // huanyingxianshi.style.display = 'none';
         dengluxianshi.style.display = "block";
 
 
         /*获取确认摁钮*/
-        denglu = document.getElementById("denglu");
+        denglu = document.querySelector("#denglu");
 
 
         denglu.onclick = function () {
@@ -102,7 +114,7 @@ window.addEventListener('load', function () {
             } else {
                 // zhuceanniu = document.getElementById("zhuceanniu");
                 // zhuceanniu.onclick = function () {
-                    alert("您还没有注册");
+                alert("您还没有注册");
                 //     // dengluxianshi.style.display = "none";
                 // };
 
@@ -110,11 +122,14 @@ window.addEventListener('load', function () {
 
 
         };
+        /*注册功能*/
         zhuceanniu = document.getElementById("zhuceanniu");
-                zhuceanniu.onclick = function () {
-                    alert("马上注册");
-                    dengluxianshi.style.display = "none";
-                    zhucexianshi.style.display = "block";
-                };
+        zhuceanniu.onclick = function () {
+            // alert("马上注册");
+            dengluxianshi.style.display = "none";
+            zhucexianshi.style.display = "block";
+        };
+
+
     }
 });
