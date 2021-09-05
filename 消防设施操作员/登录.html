@@ -41,6 +41,8 @@
         return result
 
     };
+
+
     /*函数外接收数据*/
     var result = $().data();
 
@@ -53,7 +55,6 @@
     input.value =  localStorage.getItem('phone');
     /*获取确认摁钮*/
     button = document.getElementById("button");
-
     button.onclick = function () {
         /*判断是注册成功的*/
         if(result.hasOwnProperty(input.value)){
@@ -62,7 +63,9 @@
         localStorage.setItem('phone', input.value);
         /*打印本地这个值*/
         console.log(localStorage.getItem('phone'));
-        alert('正确')
+        alert('正确');
+        window.history.back();
+
         }
         else {
             alert("您还没有注册")

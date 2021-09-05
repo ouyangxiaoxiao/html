@@ -20,71 +20,75 @@
 
 <video src="" id="video" autoplay controls width="400px"></video>
 <br>
-<!--输入框-->
-<input type="text" id="pname" placeholder="请输入您的手机号">
-<!--确认按钮-->
-<button id="button">确认</button>`
+<!--&lt;!&ndash;输入框&ndash;&gt;-->
+<!--<input type="text" id="pname" placeholder="请输入您的手机号">-->
+<!--&lt;!&ndash;确认按钮&ndash;&gt;-->
+<!--<button id="button">确认</button>-->
+<!--`-->
 <script>
-    /*获取json数据*/
-    $.fn.data = function () {
-        /*定义接收数据*/
-        var result;
-        $.ajax({
-            // url: "https://ouyangxiaoxiao.github.io/wangye/a.json",    //请求的url地址
-            url: "json/a.json",    //请求的url地址
-            dataType: "json",   //返回格式为json
-            type: "get",
-            async: false,
-            success: function (data) {
-                console.log(typeof (data));
-                // 返回数据
-                result = data;
-            }
-        });
-
-        return result
-
-    };
-    /*函数外接收数据*/
-    var result = $().data();
-    /*接收登录信息*/
-    var nub = 13163122085;
+    // /*获取json数据*/
+    // $.fn.data = function () {
+    //     /*定义接收数据*/
+    //     var result;
+    //     $.ajax({
+    //         // url: "https://ouyangxiaoxiao.github.io/wangye/a.json",    //请求的url地址
+    //         url: "json/a.json",    //请求的url地址
+    //         dataType: "json",   //返回格式为json
+    //         type: "get",
+    //         async: false,
+    //         success: function (data) {
+    //             console.log(typeof (data));
+    //             // 返回数据
+    //             result = data;
+    //         }
+    //     });
+    //
+    //     return result
+    //
+    // };
+    // /*函数外接收数据*/
+    // var result = $().data();
+    // /*接收登录信息*/
+    // var nub = 13163122085;
     /*获取播放器标签*/
     var video = document.getElementById('video');
-    /*获取按钮*/
-    var btn = document.getElementById("button");
-    // 获取输入框信息
-    var nub2 = document.getElementById("pname");
 
-    btn.onclick = function () {
-
-        console.log(888888888);
-        console.log(nub2.value);
-        video.src = "https://ouyangxiaoxiao.github.io/zhongjiweibao/m93h3svbb4s7uie.mp4";
-
-    };
-
+    // /*获取按钮*/
+    // var btn = document.getElementById("button");
+    // // 获取输入框信息
+    // var nub2 = document.getElementById("pname");
+    //
+    // btn.onclick = function () {
+    //
+    //     console.log(888888888);
+    //     console.log(nub2.value);
+    //     video.src = "https://ouyangxiaoxiao.github.io/zhongjiweibao/m93h3svbb4s7uie.mp4";
+    //
+    // };
+    //
     /*读取本地用户名*/
-     phone=(localStorage.getItem('username'));
+    console.log(localStorage.getItem('phone'));
 
     /*判断是否包含手机号*/
-    if (result.hasOwnProperty(phone)) {
+    if (localStorage.getItem('phone')) {
         // console.log(result["13163122085"]);
-        video.src = "https://ouyangxiaoxiao.github.io/zhongjiweibao/m93h3svbb4s7uie.mp4";
-    }
-    else {
-           video.src = "https://ouyangxiaoxiao.github.io/30min/30min告别消防小白 前导.mp4";
+        video.src = "https://ouyangxiaoxiao.github.io/zhongjiweibao/m93h3svbb4s7uie.mp45";
+        console.log(video.canPlayType());
+
+
+    } else {
+        video.src = "https://ouyangxiaoxiao.github.io/30min/30min告别消防小白 前导.mp4";
 
     }
 
 </script>
 
-判断存储的值有没有
- 输入登录信息
-    判断是否在表格里面
-        有的话弹出成功
-        否则显示不正确
-有的话播放
-没有的话不播放
+<!--判断存储的值有没有-->
+<!-- 输入登录信息-->
+<!--    判断是否在表格里面-->
+<!--        有的话弹出成功-->
+<!--        否则显示不正确-->
+<!--有的话播放-->
+<!--没有的话不播放-->
 </body>
 </html>

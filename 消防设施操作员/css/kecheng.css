@@ -74,6 +74,7 @@ header {
     /*position: relative;*/
     /*position: relative;*/
     position:fixed;
+    /*position: relative;*/
     top: 50px;
     z-index: 9;
 
@@ -96,6 +97,44 @@ video {
     /*top: 0;*/
     /*z-index: 99;*/
 }
+/*登录遮罩层*/
+.zhezhaoceng{
+    display: none;
+    box-sizing: border-box;
+    top: 0;
+    width: 100%;
+    height: 99%;
+    /*background-color: rgba(0,0,0,.8);*/
+    /*background-color:#fff;*/
+    position: absolute;
+    z-index: 180;
+    border-bottom: 1px #70a400 solid;
+
+}
+.zhezhaoceng img{
+    margin-top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+.zhezhaoceng h1{
+    font-size: 16px;
+    left: 50%;
+    margin-top: 15%;
+    transform: translate(-50%);
+    position: absolute;
+    color: #fff;
+}
+.zhezhaoceng button{
+    font-size: 16px;
+    left: 50%;
+    margin-top: 25%;
+    transform: translate(-50%);
+    width: 15%;
+    position: absolute;
+}
+
 /*!*撑*!*/
 /*.cheng{*/
 /*    width: 100%;*/

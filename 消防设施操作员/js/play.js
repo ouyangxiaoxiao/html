@@ -134,9 +134,50 @@ window.addEventListener('load', function () {
             lis[index].style.backgroundColor = "#f8ffe9";
             lis[index].style.color = '#70a401';
         }
-    })
 
 
+    });
+
+
+    /*判断是否包含手机号*/
+    if (localStorage.getItem('phone')) {
+
+
+    } else {
+        // console.log(result["13163122085"]);
+        // console.log(555555555);
+        console.log(lis.length);
+        /*从第5个开始干掉mp4 连接*/
+        for (i = 5; i <= lis.length; i++) {
+            // console.log(lis[i]);
+            // console.log(lis[i].index);
+            lis[i].setAttribute("value", "登录");
+            // lis[i].value =  "登录";
+            // console.log(55555)
+
+        }
+    }
 });
 
 
+function myFunction() {
+    var zhezhaoceng = document.querySelector(".zhezhaoceng");
+    /*视频加载时候判断是否是钱5个*/
+    if (index >= 5) {
+        // 如果是超出5个，判断是否是会员
+        if (localStorage.getItem('phone')) {
+
+        } else {
+            /*不是会员就不让看*/
+            console.log(zhezhaoceng);
+            console.log(zhezhaoceng.style.display);
+            zhezhaoceng.style.display = "block";
+            video.poster = '';
+        }
+
+    } else {
+        zhezhaoceng.style.display = "none";
+    }
+
+
+}
