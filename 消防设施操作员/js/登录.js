@@ -46,7 +46,7 @@ window.addEventListener('load', function () {
     /*函数外接收数据*/
     var result = $().data();
     /*获取4个页面显示的状态*/
-    namexianshi = document.getElementById("namexianshi");
+    // namexianshi = document.getElementById("namexianshi");
     huanyingxianshi = document.querySelector(".huanyingxianshi");
     dengluxianshi = document.querySelector(".dengluxianshi");
     zhucexianshi = document.querySelector(".zhucexianshi");
@@ -61,21 +61,42 @@ window.addEventListener('load', function () {
         console.log(result);
         /*把本地存储的手机号 查询联网 得到的结果 赋值给phone*/
         // phone = (localStorage.getItem('phone'));
-        // 得到名字
         huanyingxianshi.style.display = "block";
-        nickname = (result[localStorage.getItem('phone')].nickname);
-        phone = (result[localStorage.getItem('phone')].phone);
-        // alert('正确');
-        namexianshi.innerHTML = (nickname + phone);
 
 
+        // 得到id
+
+        wangluonicheng = document.getElementById("wangluonicheng");
+        zhenshixingming = document.getElementById("zhenshixingming");
+        lianxifangshi = document.getElementById("lianxifangshi");
+        zhuceshijian = document.getElementById("zhuceshijian");
+        daoqishijian = document.getElementById("daoqishijian");
+        kechengliebiao = document.getElementById("kechengliebiao");
+        console.log(kechengliebiao.innerHTML);
+
+        // 得到数据
+        wangluonicheng.innerText = (result[localStorage.getItem('phone')].wangluonicheng);
+        zhenshixingming.innerText = (result[localStorage.getItem('phone')].zhenshixingming);
+        lianxifangshi.innerText = (result[localStorage.getItem('phone')].lianxifangshi);
+        zhuceshijian.innerText = (result[localStorage.getItem('phone')].zhuceshijian);
+        daoqishijian.innerText = (result[localStorage.getItem('phone')].daoqishijian);
+        // 获取课程列表
+        nub = (result[localStorage.getItem('phone')].kechengliebiao);
+        for (i = 0; i < nub.length; i++) {
+            console.log(555555);
+            kechengname = (nub[i].name);
+            kechengliebiao.innerHTML += `
+             <li><a href="${kechengname}.html">${kechengname}</a></li>
+            `
+        }
+        // kechengliebiao.innerHTML += html;
         /*退出功能*/
         tuichu = document.querySelector(".tuichu");
         tuichu.onclick = function () {
             localStorage.removeItem('phone');
             alert("您确认退出吗？");
             // 刷新页面;
-           location.reload();
+            location.reload();
         };
         // // 刷新页面;
         // window.history.back();

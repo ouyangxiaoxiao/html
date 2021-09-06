@@ -1,8 +1,10 @@
 {"13163122085":{
-  "nickname": "天津联通",
-  "name": "郑海华",
-  "phone": "13163122085",
-  "time": "2021-9-3"
+  "wangluonicheng": "天津联通",
+  "zhenshixingming": "郑海华",
+  "lianxifangshi": "13163122085",
+  "zhuceshijian": "2021-9-3",
+  "daoqishijian": "2021-10-3",
+  "kechengliebiao": [{"name":"初级实操班"},{"name":"中级实操班"}]
 },
 
 "18632653601": {
