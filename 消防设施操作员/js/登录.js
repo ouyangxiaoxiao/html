@@ -85,8 +85,9 @@ window.addEventListener('load', function () {
         for (i = 0; i < nub.length; i++) {
             console.log(555555);
             kechengname = (nub[i].name);
+            lujing = (nub[i].lujing);
             kechengliebiao.innerHTML += `
-             <li><a href="${kechengname}.html">${kechengname}</a></li>
+             <li><a href="${lujing}.html">${kechengname}</a></li>
             `
         }
         // kechengliebiao.innerHTML += html;

@@ -4,15 +4,20 @@
   "lianxifangshi": "13163122085",
   "zhuceshijian": "2021-9-3",
   "daoqishijian": "2021-10-3",
-  "kechengliebiao": [{"name":"初级实操班"},{"name":"中级实操班"}]
-},
+  "kechengliebiao": [
+    {"name":"初级实操班","lujing":"初级实操班"},
+    {"name":"中级实操班","lujing":"中级实操班"}
+  ]},
 
 "18632653601": {
-  "nickname": "大陆欧阳萧萧",
-  "name": "高先生",
-  "info": "12",
-  "time": "2021-9-3"
-}
+  "wangluonicheng": "高先生",
+  "zhenshixingming": "高国国",
+  "lianxifangshi": "18632653601",
+  "zhuceshijian": "2021-9-5",
+  "daoqishijian": "2021-10-5",
+  "kechengliebiao": [
+    {"name":"全站vip所有课程","lujing":"首页"}
+  ]}
 
 
 }
