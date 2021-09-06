@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 div {
     margin: 0;
     padding: 0;
@@ -73,7 +74,7 @@ header {
     /*height: 240px;*/
     /*position: relative;*/
     /*position: relative;*/
-    position:fixed;
+    position: fixed;
     /*position: relative;*/
     top: 50px;
     z-index: 9;
@@ -97,8 +98,9 @@ video {
     /*top: 0;*/
     /*z-index: 99;*/
 }
+
 /*登录遮罩层*/
-.zhezhaoceng{
+.zhezhaoceng {
     display: none;
     box-sizing: border-box;
     top: 0;
@@ -111,14 +113,15 @@ video {
     border-bottom: 1px #70a400 solid;
 
 }
-.zhezhaoceng img{
+
+.zhezhaoceng img {
     margin-top: 5%;
     left: 50%;
     transform: translate(-50%);
     position: absolute;
 }
 
-.zhezhaoceng h1{
+.zhezhaoceng h1 {
     font-size: 16px;
     left: 50%;
     margin-top: 15%;
@@ -126,7 +129,8 @@ video {
     position: absolute;
     color: #fff;
 }
-.zhezhaoceng button{
+
+.zhezhaoceng button {
     font-size: 16px;
     left: 50%;
     margin-top: 25%;
@@ -347,14 +351,38 @@ ul {
     color: #70a401;
 }
 
-.kcxq ul li::before {
-    content: "";
-    width: 29px;
-    height: 20px;
+/*.kcxq ul li::before {*/
+/*    content: "";*/
+/*    width: 29px;*/
+/*    height: 20px;*/
+/*    background: url("../images/play02.png") no-repeat;*/
+/*    background-size: 29px 20px;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*}*/
+
+
+.weibofang::before {
+    content: ' ';
     background: url("../images/play02.png") no-repeat;
-    background-size: 29px 20px;
+    /*background: url("../images/播放.gif") no-repeat;*/
+    background-size: 30px;
     position: absolute;
     right: 0;
+    top: 15px;
+    width: 29px;
+    height: 20px;
+}
+
+.bofang::after {
+    content: ' ';
+    background: url("../images/播放.gif") no-repeat;
+    background-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 29px;
+    height: 30px;
 }
 
 .kcxq ul li span {

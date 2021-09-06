@@ -6,22 +6,44 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        p{
+            display: block;
+            position: relative;
+        }
+        .weibo::after{
+            content: ' ';
+            background: url("images/play02.png") no-repeat;
+            background-size: 30px;
+            position: absolute;
+            right: 0;
+            width: 30px;
+            height: 30px;
+        }
+        .bofang::after{
+            content: ' ';
+            background: url("images/播放.gif") no-repeat;
+            background-size: 20px;
+            position: absolute;
+            right: 0;
+            width: 30px;
+            height: 30px;
+        }
+    </style>
 </head>
-<style>
-    div{
-        margin: 0 auto;
-        width: 400px;
-        height: 200px;
-        background-color: pink;
-    }
-    input{
-        display: block;
-        margin: 0 auto;
-    }
-</style>
 <body>
-<div>
-    <input type="text" placeholder="请输入手机号">
-</div>
+<p  index = "0">Hello,are you kain?</p>
+
+<script>
+    var p = document.querySelector("p");
+    console.log(p);
+    console.log( p.className);
+    p.className="bofang";
+    // $('p').addClass('green');
+</script>
+
+
 </body>
 </html>

@@ -20,6 +20,8 @@ window.addEventListener('load', function () {
     /*给每条li绑定点击事件*/
     for (i = 0; i < lis.length; i++) {
         lis[i].setAttribute('index', i);
+        /*添加自定义属性*/
+        lis[i].setAttribute('class', "weibofang");
         lis[i].onclick = function () {
             console.log('点击了');
             video.src = this.getAttribute("value");
@@ -30,18 +32,26 @@ window.addEventListener('load', function () {
             for (var i = 0; i < lis.length; i++) {
                 lis[i].style.backgroundColor = "";
                 lis[i].style.color = '';
+                lis[i].setAttribute('class', "weibofang");
+
             }
             /*留下当前li 设置选中样式*/
 
             this.style.backgroundColor = "#f8ffe9";
+            console.log(this.getAttribute("index"));
+            this.setAttribute('class', "bofang");
             this.style.color = '#70a401';
+
             /*获得当前这个li 的索引号给index*/
             index = Number(this.getAttribute('index'));
 
             // window.scroll(800, this.offsetTop);
 
 
-        }
+        };
+
+        lis[index].setAttribute('class', "bofang");
+
     }
 
 
@@ -56,10 +66,13 @@ window.addEventListener('load', function () {
             for (var i = 0; i < lis.length; i++) {
                 lis[i].style.backgroundColor = "";
                 lis[i].style.color = '';
+                lis[i].setAttribute('class', "weibofang");
             }
 
             lis[index].style.backgroundColor = "#f8ffe9";
             lis[index].style.color = '#70a401';
+            lis[index].setAttribute('class', "bofang");
+
 
         } else {
             index += 1;
@@ -68,10 +81,14 @@ window.addEventListener('load', function () {
             for (var i = 0; i < lis.length; i++) {
                 lis[i].style.backgroundColor = "";
                 lis[i].style.color = '';
+                lis[i].setAttribute('class', "weibofang");
+
             }
 
             lis[index].style.backgroundColor = "#f8ffe9";
             lis[index].style.color = '#70a401';
+            lis[index].setAttribute('class', "bofang");
+
         }
 
 
@@ -83,61 +100,77 @@ window.addEventListener('load', function () {
             index = lis.length - 1;
             video.src = lis[index].getAttribute("value");
             console.log(index);
+            /*先去掉*/
             for (var i = 0; i < lis.length; i++) {
                 lis[i].style.backgroundColor = "";
                 lis[i].style.color = '';
+                lis[i].setAttribute('class', "weibofang");
             }
 
             lis[index].style.backgroundColor = "#f8ffe9";
             lis[index].style.color = '#70a401';
+            lis[index].setAttribute('class', "bofang");
 
         } else {
             index -= 1;
             video.src = lis[index].getAttribute("value");
             console.log(index);
+            /*先去掉*/
             for (var i = 0; i < lis.length; i++) {
                 lis[i].style.backgroundColor = "";
                 lis[i].style.color = '';
+                lis[i].setAttribute('class', "weibofang");
             }
 
             lis[index].style.backgroundColor = "#f8ffe9";
             lis[index].style.color = '#70a401';
+            lis[index].setAttribute('class', "bofang");
         }
 
 
     });
     /*自动播放下一课*/
     video.addEventListener('ended', function () {
+        console.log("自动播放开始工作");
         if (index === lis.length - 1) {
             index += 1;
             index = 0;
             video.src = lis[index].getAttribute("value");
             console.log(index);
             /*1.先去掉所有元素的样式*/
-            for (var i = 0; i < lis.length; i++) {
-                lis[i].style.backgroundColor = "";
-                lis[i].style.color = '';
+            for (var k = 0; k < lis.length; k++) {
+                lis[index].style.backgroundColor = "red";
+                lis[k].style.color = 'red';
+                lis[k].setAttribute('class', "weibofang");
             }
 
             lis[index].style.backgroundColor = "#f8ffe9";
             lis[index].style.color = '#70a401';
+            lis[index].setAttribute('class', "bofang");
 
         } else {
             index += 1;
             video.src = lis[index].getAttribute("value");
             console.log(index);
+            lis[index].setAttribute('class', "bofang");
+
+            /*先去掉*/
             for (var i = 0; i < lis.length; i++) {
                 lis[i].style.backgroundColor = "";
                 lis[i].style.color = '';
+                lis[i].setAttribute('class', "weibofang");
             }
 
             lis[index].style.backgroundColor = "#f8ffe9";
             lis[index].style.color = '#70a401';
+            lis[index].setAttribute('class', "bofang");
         }
 
 
     });
 
+
+    /*判断是否登录*/
 
     /*判断是否包含手机号*/
     if (localStorage.getItem('phone')) {
