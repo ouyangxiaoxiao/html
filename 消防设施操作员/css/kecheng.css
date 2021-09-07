@@ -115,6 +115,7 @@ video {
 }
 
 .zhezhaoceng img {
+    width: 50px;
     margin-top: 5%;
     left: 50%;
     transform: translate(-50%);

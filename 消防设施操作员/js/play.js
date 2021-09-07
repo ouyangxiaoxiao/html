@@ -206,6 +206,7 @@ function myFunction() {
             console.log(zhezhaoceng.style.display);
             zhezhaoceng.style.display = "block";
             video.poster = '';
+            video.controls='';
         }
 
     } else {
