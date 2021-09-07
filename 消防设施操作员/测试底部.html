@@ -98,6 +98,10 @@
             padding: 0;
         }
 
+        .zhanweifu {
+            display: none;
+            background-color: black;
+        }
 
         /*底部*/
         footer {
@@ -156,13 +160,30 @@
 <!--播放器-->
 <div id="bofangqi">
     播放器
-<!--    <video src="" style="height: 50px"></video>-->
+    <!--    <video src="" style="height: 50px"></video>-->
 </div>
-
+<div class="zhanweifu">占位符</div>
 
 <!---->
 <div style="height: 1000px" class="ceshi">
-    测试
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+
+    <br>测试1
+    测试1
+    测试1
+    测试1
+    测试1
 </div>
 
 <footer>
@@ -174,21 +195,23 @@
     //   return this.ownerDocument.defaultView.getComputedStyle(this, null);
     //
     // });
-    var header = document.querySelector("header");
     var bofangqi = document.querySelector("#bofangqi");
-    ceshi = document.querySelector(".ceshi");
+    var zhanweifu = document.querySelector(".zhanweifu");
+    var ceshi = document.querySelector(".ceshi");
     window.addEventListener('scroll', function () {
-        console.log(bofangqi);
         console.log(bofangqi.scrollHeight);
         console.log(bofangqi.offsetTop);
         console.log(ceshi.scrollHeight);
         console.log(ceshi.offsetTop);
-        if (window.pageYOffset > 51) {
+        if (window.pageYOffset >= 50) {
             // bofangqi.style.backgroundColor = "black";
+
+            zhanweifu.style.height = 200+"px";
+            zhanweifu.style.display = "block";
             bofangqi.style.position = "fixed";
         } else {
             bofangqi.style.position = "static";
-            ceshi.style.marginTop = "250px";
+            zhanweifu.style.display = "";
         }
     })
 

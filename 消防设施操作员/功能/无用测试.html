@@ -73,12 +73,12 @@
 </div>
 
 <script type="text/javascript">
-var tit = document.getElementById("nav");
+var nav = document.getElementById("nav");
 //alert(tit);
 //占位符的位置
-var rect = tit.getBoundingClientRect();//获得页面中导航条相对于浏览器视窗的位置
+var rect = nav.getBoundingClientRect();//获得页面中导航条相对于浏览器视窗的位置
 var inser = document.createElement("div");
-tit.parentNode.replaceChild(inser,tit);
+tit.parentNode.replaceChild(inser,nav);
 inser.appendChild(tit);
 inser.style.height = rect.height + "px";
 
@@ -91,10 +91,10 @@ document.onscroll = function(){
     //如果滚动距离大于导航条据顶部的距离
     if(btop>titleTop){
         //为导航条设置fix
-        tit.className = "clearfix fix";
+        nav.className = "clearfix fix";
     }else{
         //移除fixed
-        tit.className = "clearfix";
+        nav.className = "clearfix";
     }
 }
 </script>
