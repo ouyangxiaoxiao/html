@@ -16,9 +16,93 @@
             padding: 0;
         }
 
+        div {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            max-width: 640px;
+            min-width: 320px;
+            margin: 0 auto;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            /*background-color:pink;*/
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        /*头部*/
+        header {
+            max-width: 640px;
+            min-width: 320px;
+            width: 100%;
+            margin: 0 auto;
+            height: 50px;
+            background-color: rgb(112, 164, 1);
+            /*position: fixed;*/
+            top: 0;
+            z-index: 9;
+        }
+
+        .i_top_return img {
+            float: left;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        .i_top_logo {
+            float: left;
+        }
+
+        .i_top_logo img {
+            height: 30px;
+            margin: 10px 10px 0;
+        }
+
+        .i_top_more img {
+            float: right;
+            height: 30px;
+            margin: 10px 15px 0;
+        }
+
+        .i_top_search {
+            float: right;
+            margin: 10px;
+        }
+
+        .i_top_search img {
+            width: 30px;
+        }
+
+
+        /*播放器*/
+        /*video {*/
+        /*    width: 200px;*/
+        /*}*/
+        #bofangqi {
+            height: 200px;
+            max-width: 640px;
+            min-width: 320px;
+            width: 100%;
+            /*position: fixed;*/
+            top: 0;
+            background-color: skyblue;
+        }
+
+        .ceshi {
+            background-color: pink;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        /*底部*/
         footer {
             position: fixed;
-            bottom: 500px;
+            bottom: 0;
             left: 50%;
             transform: translate(-50%);
             min-width: 320px;
@@ -55,14 +139,60 @@
             border: none;
             font-weight: 400;
         }
+
     </style>
 </head>
 <body>
+<!--顶栏-->
+<!--头部-->
+<header class="i_top">
+    <a href="javascript:history.go(-1);" class="i_top_return"><img src="images/tubiao_arr02.png" alt="">1</a>
+    <a href="首页.html" class="i_top_logo"><img src="images/logo.png" alt="">2</a>
+    <a href="#" class="i_top_more"><img src="images/more_arr01.png" alt="">3</a>
+    <!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
+</header>
+
+
+<!--播放器-->
+<div id="bofangqi">
+    播放器
+<!--    <video src="" style="height: 50px"></video>-->
+</div>
+
+
+<!---->
+<div style="height: 1000px" class="ceshi">
+    测试
+</div>
+
 <footer>
-    <a href="#"><span><img src="images/menu_01.png" alt=""></span><h4>首页</h4></a>
-    <a href="#"><span><img src="images/menu_02.png" alt=""></span><h4>课程</h4></a>
-    <a href="#"><span><img src="images/menu_03.png" alt=""></span><h4>VIP</h4></a>
-    <a href="#"><span><img src="images/menu_04.png" alt=""></span><h4>我的</h4></a>
 </footer>
+
+<script>
+    //   HTMLElement.prototype.defineGetter("currentStyle", function () {
+    //
+    //   return this.ownerDocument.defaultView.getComputedStyle(this, null);
+    //
+    // });
+    var header = document.querySelector("header");
+    var bofangqi = document.querySelector("#bofangqi");
+    ceshi = document.querySelector(".ceshi");
+    window.addEventListener('scroll', function () {
+        console.log(bofangqi);
+        console.log(bofangqi.scrollHeight);
+        console.log(bofangqi.offsetTop);
+        console.log(ceshi.scrollHeight);
+        console.log(ceshi.offsetTop);
+        if (window.pageYOffset > 51) {
+            // bofangqi.style.backgroundColor = "black";
+            bofangqi.style.position = "fixed";
+        } else {
+            bofangqi.style.position = "static";
+            ceshi.style.marginTop = "250px";
+        }
+    })
+
+
+</script>
 </body>
 </html>
