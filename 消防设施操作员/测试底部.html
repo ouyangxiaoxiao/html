@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--编码格式-->
+    <meta charset="UTF-8">
+    <!--禁止用户缩放 最大缩放倍数 最小缩放倍数-->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0 user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <!--设置外链跳转域-->
+    <meta name="referrer" content="no-referrer"/>
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%);
+            min-width: 320px;
+            max-width: 640px;
+            width: 100%;
+            height: 50px;
+            /*margin: 0 auto;*/
+            /*background-color: #70a400;*/
+
+        }
+
+        footer a {
+            display: block;
+            width: 25%;
+            height: 50px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            float: left;
+        }
+
+        footer span {
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+        }
+
+        footer img {
+            width: 100%;
+        }
+
+        footer h4 {
+            font-size: 16px;
+            border: none;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+<footer>
+    <a href="#"><span><img src="images/menu_01.png" alt=""></span><h4>首页</h4></a>
+    <a href="#"><span><img src="images/menu_02.png" alt=""></span><h4>课程</h4></a>
+    <a href="#"><span><img src="images/menu_03.png" alt=""></span><h4>VIP</h4></a>
+    <a href="#"><span><img src="images/menu_04.png" alt=""></span><h4>我的</h4></a>
+</footer>
+</body>
+</html>
