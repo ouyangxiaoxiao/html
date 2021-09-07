@@ -310,6 +310,9 @@ footer {
     height: 45px;
     /*margin: 0 auto;*/
     background-color: #ffffff;
+    border-top: 1px black solid;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
 
 }
 
