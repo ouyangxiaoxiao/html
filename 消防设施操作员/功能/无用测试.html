@@ -1,101 +1,221 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<style type="text/css">
-    body {
-        padding:0;
-        margin:0;
-    }
-    #nav {
-        width:100%;
-        height:60px;
-        background:#39f;
-        color:#fff;
-        line-height:60px;
-        text-align:center;
-        padding:0;
-        margin:0;
-        list-style:none;
-    }
-    #nav li {
-        float:left;
-        width:20%;
-        height:60px;
-    }
-    .fix {
-        position:fixed;
-        top:0;
-        left:0;
-    }
-</style>
-</head>
+    <!--编码格式-->
+    <meta charset="UTF-8">
+    <!--禁止用户缩放 最大缩放倍数 最小缩放倍数-->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0 user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <!--设置外链跳转域-->
+    <meta name="referrer" content="no-referrer"/>
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-<div class="wrap">
-    <h1>在线书城</h1>
-    <p>有没有一本书让你仿佛遇到春风十里</p>
-    <ul id="nav">
-        <li>加入购物车</li>
-        <li>加入收藏</li>
-        <li>立即购买</li>
-    </ul>
-    <div class="con">
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-        <p>好书有好事有好诗</p>
-    </div>
+        div {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            max-width: 640px;
+            min-width: 320px;
+            margin: 0 auto;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            /*background-color:pink;*/
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        /*头部*/
+        header {
+            max-width: 640px;
+            min-width: 320px;
+            width: 100%;
+            margin: 0 auto;
+            height: 50px;
+            background-color: rgb(112, 164, 1);
+            /*position: fixed;*/
+            top: 0;
+            z-index: 9;
+        }
+
+        .i_top_return img {
+            float: left;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        .i_top_logo {
+            float: left;
+        }
+
+        .i_top_logo img {
+            height: 30px;
+            margin: 10px 10px 0;
+        }
+
+        .i_top_more img {
+            float: right;
+            height: 30px;
+            margin: 10px 15px 0;
+        }
+
+        .i_top_search {
+            float: right;
+            margin: 10px;
+        }
+
+        .i_top_search img {
+            width: 30px;
+        }
+
+
+        /*播放器*/
+        /*video {*/
+        /*    width: 200px;*/
+        /*}*/
+        #bofangqi {
+            height: 200px;
+            max-width: 640px;
+            min-width: 320px;
+            width: 100%;
+            /*position: fixed;*/
+            top: 0;
+            background-color: skyblue;
+        }
+
+        .ceshi {
+            background-color: pink;
+            margin: 0;
+            padding: 0;
+        }
+
+        .zhanweifu {
+            display: none;
+            background-color: black;
+        }
+
+        /*底部*/
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%);
+            min-width: 320px;
+            max-width: 640px;
+            width: 100%;
+            height: 45px;
+            /*margin: 0 auto;*/
+            background-color: #70a400;
+
+        }
+
+        footer a {
+            display: block;
+            width: 25%;
+            height: 50px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            float: left;
+        }
+
+        footer span {
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+        }
+
+        footer img {
+            width: 100%;
+        }
+
+        footer h4 {
+            font-size: 16px;
+            border: none;
+            font-weight: 400;
+        }
+
+    </style>
+</head>
+<body>
+<!--顶栏-->
+<!--头部-->
+<header class="i_top">
+    <a href="javascript:history.go(-1);" class="i_top_return"><img src="images/tubiao_arr02.png" alt="">1</a>
+    <a href="首页.html" class="i_top_logo"><img src="images/logo.png" alt="">2</a>
+    <a href="#" class="i_top_more"><img src="images/more_arr01.png" alt="">3</a>
+    <!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
+</header>
+
+
+<!--播放器-->
+<div id="bofangqi">
+    播放器
+    <!--    <video src="" style="height: 50px"></video>-->
+</div>
+<div class="zhanweifu">占位符</div>
+
+<!---->
+<div style="height: 1000px" class="ceshi">
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+    测试1 <br>
+
+    <br>测试1
+    测试1
+    测试1
+    测试1
+    测试1
 </div>
 
-<script type="text/javascript">
-var nav = document.getElementById("nav");
-//alert(tit);
-//占位符的位置
-var rect = nav.getBoundingClientRect();//获得页面中导航条相对于浏览器视窗的位置
-var inser = document.createElement("div");
-tit.parentNode.replaceChild(inser,nav);
-inser.appendChild(tit);
-inser.style.height = rect.height + "px";
+<footer>
+</footer>
 
-//获取距离页面顶端的距离
-var titleTop = tit.offsetTop;
-//滚动事件
-document.onscroll = function(){
-    //获取当前滚动的距离
-    var btop = document.body.scrollTop||document.documentElement.scrollTop;
-    //如果滚动距离大于导航条据顶部的距离
-    if(btop>titleTop){
-        //为导航条设置fix
-        nav.className = "clearfix fix";
-    }else{
-        //移除fixed
-        nav.className = "clearfix";
-    }
-}
+<script>
+    //   HTMLElement.prototype.defineGetter("currentStyle", function () {
+    //
+    //   return this.ownerDocument.defaultView.getComputedStyle(this, null);
+    //
+    // });
+    var bofangqi = document.querySelector("#bofangqi");
+    var zhanweifu = document.querySelector(".zhanweifu");
+    var ceshi = document.querySelector(".ceshi");
+    window.addEventListener('scroll', function () {
+        console.log(bofangqi.scrollHeight);
+        console.log(bofangqi.offsetTop);
+        console.log(ceshi.scrollHeight);
+        console.log(ceshi.offsetTop);
+        if (window.pageYOffset >= 50) {
+            // bofangqi.style.backgroundColor = "black";
+
+            zhanweifu.style.height = 200+"px";
+            zhanweifu.style.display = "block";
+            bofangqi.style.position = "fixed";
+        } else {
+            bofangqi.style.position = "static";
+            zhanweifu.style.display = "";
+        }
+    })
+
+
 </script>
+</body>
 </html>

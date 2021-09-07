@@ -83,13 +83,19 @@
         /*    width: 200px;*/
         /*}*/
         #bofangqi {
-            height: 200px;
+            /*!*height: 200px;*!*/
+            /*max-width: 640px;*/
+            /*min-width: 320px;*/
+            /*width: 100%;*/
+            /*!*position: fixed;*!*/
+            /*top: 0;*/
+            /*background-color: skyblue;*/
+        }
+        video{
             max-width: 640px;
             min-width: 320px;
             width: 100%;
-            /*position: fixed;*/
             top: 0;
-            background-color: skyblue;
         }
 
         .ceshi {
@@ -159,7 +165,7 @@
 
 <!--播放器-->
 <div id="bofangqi">
-    播放器
+    <video src="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/9dtvqqbismlcxb4.mp4" controls autoplay style="width: 100%"></video>
     <!--    <video src="" style="height: 50px"></video>-->
 </div>
 <div class="zhanweifu">占位符</div>
@@ -195,22 +201,23 @@
     //   return this.ownerDocument.defaultView.getComputedStyle(this, null);
     //
     // });
-    var bofangqi = document.querySelector("#bofangqi");
+    // var bofangqi = document.querySelector("#bofangqi");
+    var shipin = document.querySelector("video");
     var zhanweifu = document.querySelector(".zhanweifu");
     var ceshi = document.querySelector(".ceshi");
     window.addEventListener('scroll', function () {
-        console.log(bofangqi.scrollHeight);
-        console.log(bofangqi.offsetTop);
+        console.log(shipin.scrollHeight);
+        console.log(shipin.offsetTop);
         console.log(ceshi.scrollHeight);
         console.log(ceshi.offsetTop);
         if (window.pageYOffset >= 50) {
             // bofangqi.style.backgroundColor = "black";
 
-            zhanweifu.style.height = 200+"px";
+            zhanweifu.style.height = 364+"px";
             zhanweifu.style.display = "block";
-            bofangqi.style.position = "fixed";
+            shipin.style.position = "fixed";
         } else {
-            bofangqi.style.position = "static";
+            shipin.style.position = "static";
             zhanweifu.style.display = "";
         }
     })
