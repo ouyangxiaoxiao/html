@@ -1,5 +1,5 @@
 /*播放器*/
-.video {
+.bofangqi {
     max-width: 640px;
     min-width: 320px;
     margin: 0 auto;
@@ -15,7 +15,7 @@
 
 }
 
-.video h5 {
+.bofangqi h5 {
     /*display: none;*/
     /*position: absolute;*/
     top: 350px;

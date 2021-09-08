@@ -204,6 +204,7 @@ function myFunction() {
             /*不是会员就不让看*/
             console.log(zhezhaoceng);
             console.log(zhezhaoceng.style.display);
+            video.pause();
             zhezhaoceng.style.display = "block";
 
         }
