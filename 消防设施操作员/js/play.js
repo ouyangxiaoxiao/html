@@ -184,7 +184,7 @@ window.addEventListener('load', function () {
         for (i = 5; i <= lis.length; i++) {
             // console.log(lis[i]);
             // console.log(lis[i].index);
-            lis[i].setAttribute("value", "登录");
+            lis[i].setAttribute("value", "https://baidu.gogo.mp4");
             // lis[i].value =  "登录";
             // console.log(55555)
 
@@ -195,6 +195,7 @@ window.addEventListener('load', function () {
 
 function myFunction() {
     var zhezhaoceng = document.querySelector(".zhezhaoceng");
+    var bofangqi = document.querySelector("video");
     /*视频加载时候判断是否是钱5个*/
     if (index >= 5) {
         // 如果是超出5个，判断是否是会员
@@ -206,15 +207,13 @@ function myFunction() {
             console.log(zhezhaoceng.style.display);
             zhezhaoceng.style.display = "block";
             // video.poster = '';
-            video.controls = '';
-            video.autoplay = '';
+            console.log(bofangqi.getAttribute("autoplay"))
         }
 
     } else {
         zhezhaoceng.style.display = "none";
         // video.poster = 'images/poster.gif';
-        video.controls = 'controls';
-         video.autoplay = 'autoplay';
+
     }
 
 
