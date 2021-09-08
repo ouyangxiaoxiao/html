@@ -11,6 +11,10 @@ window.addEventListener('load', function () {
     //获取下一曲按键
     var btn2 = document.querySelector('.btn-2');
 
+
+    var zhezhaoceng = document.querySelector(".zhezhaoceng");
+
+
     // 初始化index
     index = 0;
     // 默认播放第一条
@@ -174,7 +178,7 @@ window.addEventListener('load', function () {
 
     /*判断是否包含手机号*/
     if (localStorage.getItem('phone')) {
-
+        zhezhaoceng.style.display = "none";
 
     } else {
         // console.log(result["13163122085"]);
@@ -184,7 +188,8 @@ window.addEventListener('load', function () {
         for (i = 5; i <= lis.length; i++) {
             // console.log(lis[i]);
             // console.log(lis[i].index);
-            lis[i].setAttribute("value", "https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/9tbcw83e4nhwlmgf.mp4");
+            lis[i].setAttribute("value", "登录");
+            zhezhaoceng.style.display = "block";
             // lis[i].value =  "登录";
             // console.log(55555)
 
@@ -204,16 +209,14 @@ function myFunction() {
             /*不是会员就不让看*/
             console.log(zhezhaoceng);
             console.log(zhezhaoceng.style.display);
-            // video.pause();
-            // video.style.display = "none";
             zhezhaoceng.style.display = "block";
+            video.poster = "";
 
         }
 
     } else {
-        // video.style.display = "block";
         zhezhaoceng.style.display = "none";
-
+        video.poster = "images/poster.gif";
     }
 
 

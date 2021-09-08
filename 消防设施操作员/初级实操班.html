@@ -16,9 +16,11 @@
     <script src="js/public.js"></script>
     <link href="css/public.css" rel="stylesheet">
     <link href="css/kecheng.css" rel="stylesheet">
+
 </head>
 
 <body>
+<!--顶栏-->
 <!--头部-->
 <header class="i_top">
     <a href="javascript:history.go(-1);" class="i_top_return"><img src="images/tubiao_arr02.png" alt=""></a>
@@ -29,10 +31,9 @@
 
 
 <!--播放器-->
-<div class="bofangqi">
+<div class="video">
     <video autoplay controls id="video" poster="images/poster.gif"
-           src="" onloadstart="myFunction()" ></video>
-    <!--           src="" onloadstart="myFunction()"></video>-->
+               src="" onloadstart="myFunction()"></video>
     <!--遮罩层-->
     <div class="zhezhaoceng">
         <!--图标-锁-->
@@ -251,20 +252,20 @@
     <a href="VIP.html"><span><img src="images/menu_03.png" alt=""></span><h4>VIP</h4></a>
     <a href="登录.html"><span><img src="images/menu_04.png" alt=""></span><h4>我的</h4></a>
 </footer>
-<div style="height: 45px"></div>
+
 <!--控制播放器高度-->
 <script>
     var btn1 = document.querySelector('.btn');
-    var video2 = document.querySelector('video');
-    var zhezhaoceng = document.querySelector(".zhezhaoceng");
+    var video2 = document.querySelector('.video');
     console.log(video2.scrollHeight);
     console.log(video2.offsetTop);
     // btn1.style.marginTop = "225px";
     mtp = video2.scrollHeight + video2.offsetTop;
     btn1.style.marginTop = mtp + "px";
-    zhezhaoceng.style.height = video2.scrollHeight+"px";
 
 </script>
 
+
+.
 </body>
 </html>
