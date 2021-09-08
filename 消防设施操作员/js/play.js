@@ -205,13 +205,13 @@ function myFunction() {
             console.log(zhezhaoceng);
             console.log(zhezhaoceng.style.display);
             // video.pause();
-            video.style.display = "none";
+            // video.style.display = "none";
             zhezhaoceng.style.display = "block";
 
         }
 
     } else {
-        video.style.display = "block";
+        // video.style.display = "block";
         zhezhaoceng.style.display = "none";
 
     }
