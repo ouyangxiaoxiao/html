@@ -184,7 +184,7 @@ window.addEventListener('load', function () {
         for (i = 5; i <= lis.length; i++) {
             // console.log(lis[i]);
             // console.log(lis[i].index);
-            lis[i].setAttribute("value", "登录");
+            lis[i].setAttribute("value", "https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/9tbcw83e4nhwlmgf.mp4");
             // lis[i].value =  "登录";
             // console.log(55555)
 
