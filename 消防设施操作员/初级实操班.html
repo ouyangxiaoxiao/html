@@ -256,11 +256,13 @@
 <script>
     var btn1 = document.querySelector('.btn');
     var video2 = document.querySelector('video');
+    var zhezhaoceng = document.querySelector(".zhezhaoceng");
     console.log(video2.scrollHeight);
     console.log(video2.offsetTop);
     // btn1.style.marginTop = "225px";
     mtp = video2.scrollHeight + video2.offsetTop;
     btn1.style.marginTop = mtp + "px";
+    zhezhaoceng.style.height = video2.scrollHeight+"px";
 
 </script>
 

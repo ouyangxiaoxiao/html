@@ -205,7 +205,7 @@ function myFunction() {
             console.log(zhezhaoceng);
             console.log(zhezhaoceng.style.display);
             // video.pause();
-            // video.style.display = "none";
+            video.style.display = "none";
             zhezhaoceng.style.display = "block";
 
         }

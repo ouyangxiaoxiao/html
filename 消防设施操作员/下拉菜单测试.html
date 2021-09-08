@@ -5,64 +5,110 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>消防设施操作员-登录</title>
-    <link rel="stylesheet" href="css/public.css">
-    <link rel="stylesheet" href="css/登录.css">
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/登录.js"></script>
+    <title>Document</title>
+    <style>
+        .bofangqi {
+            max-width: 640px;
+            min-width: 320px;
+            width: 100%;
+            background-color: black;
+            position: fixed;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 0;
+        }
+
+        video {
+            position: fixed;
+            top: 0;
+            max-width: 640px;
+            min-width: 320px;
+            width: 100%;
+            z-index: 50;
+        }
+
+        /*登录遮罩层*/
+        .zhezhaoceng {
+            /*display: none;*/
+            /*box-sizing: border-box;*/
+            top: 0;
+            /*width: 100%;*/
+            /*height: 99%;*/
+            width: 100%;
+            height: 100%;
+            /*background-color: rgba(0,0,0,.8);*/
+            /*background-color: black;*/
+            position: absolute;
+            z-index: 180;
+            /*border-bottom: 1px #70a400 solid;*/
+
+        }
+
+        .zhezhaoceng img {
+            width: 50px;
+            margin-top: 5%;
+            left: 50%;
+            transform: translate(-50%);
+            position: absolute;
+        }
+
+        .zhezhaoceng h1 {
+            font-size: 16px;
+            left: 50%;
+            margin-top: 15%;
+            transform: translate(-50%);
+            position: absolute;
+            color: #fff;
+        }
+
+        .zhezhaoceng button {
+            display: inline;
+            font-size: 16px;
+            left: 50%;
+            margin-top: 25%;
+            transform: translate(-50%);
+            position: absolute;
+        }
+
+    </style>
 </head>
 <body>
-<!--头部-->
-<header class="i_top">
-    <a href="javascript:history.go(-1);" class="i_top_return"><img src="images/tubiao_arr02.png" alt=""></a>
-    <a href="首页.html" class="i_top_logo"><img src="images/logo.png" alt=""></a>
-    <!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
-    <a href="#" class="i_top_more"><img src="images/more_arr01.png" alt=""></a>
-</header>
-<!--欢迎显示-->
-<div class="huanyingxianshi">
-    <img class="touxiang" src="http://imgu.qinxue.com/member/2044/u2043074-middle.gif" alt="">
-    <div>
-        <a href="#">网络昵称：<span id="wangluonicheng">大陆欧阳萧萧</span></a>
-        <a href="#">真实姓名：<span id="zhenshixingming">李刚</span></a>
-        <a href="#">联系方式：<span id="lianxifangshi">13163122085</span></a>
-        <a href="#">注册时间：<span id="zhuceshijian">2021-9-5</span></a>
-        <a href="#">到期时间：<span id="daoqishijian">2021-10-5</span></a>
-        <button class="tuichu">退出</button>
-        <ul id="kechengliebiao">
-<!--            <li><a href="中级实操班.html">中级实操班</a></li>-->
-        </ul>
+<div class="bofangqi">
+    <video controls autoplay
+           src="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/4lo5wu2xg4i7aqw.mp4"></video>
+    <!--遮罩层-->
+    <div class="zhezhaoceng">
+        <!--图标-锁-->
+        <img src="images/suo.png" alt="">
+        <!--        <img src="images/Lock.png" alt="" width="50px">-->
+        <br>
+        <h1>您需要登录才能继续观看</h1>
+        <button><a href="登录.html">去登录</a></button>
     </div>
-</div>
-
-<!--登录-->
-<div class="dengluxianshi">
-    <input type="text" placeholder="请输入您的手机号进行登录" id="input">
-    <button id="denglu">登录</button>
-    <button class="tuichu">退出</button>
-    <button id="zhuceanniu">注册</button>
-</div>
-
-
-<!--注册页面-->
-<div class="zhucexianshi">
-    <img src="images/微信.jpg" alt="">
-    <p>点击保存扫描添加微信客服进行注册</p>
-    <p>服务电话：400-800-6583</p>
-    <button><a href="javascript:location.reload();">返回登录</a></button>
 
 </div>
+<div class="cheng" style="height: 188px"></div>
+<div style="height: 1800px" class="zhu">12344</div>
+<script>
+    var bofangqi = document.querySelector(".bofangqi");
+    var video = document.querySelector("video");
+    var cheng=document.querySelector(".cheng");
+    var zhu=document.querySelector(".zhu");
+
+    bofangqi.style.height = video.scrollHeight +"px";
+    // cheng.style.height = video.scrollHeight +"px";
+    // video.style.display = "none";
+
+    console.log(bofangqi.scrollHeight);
+    console.log(bofangqi.scrollTop);
+    console.log(video.scrollHeight);
+    console.log(video.scrollTop);
+    console.log(cheng.scrollHeight);
+    console.log(cheng.scrollTop);
+    console.log(zhu.scrollHeight);
+    console.log(zhu.scrollTop);
 
 
-
-
-<!--底部-->
-<footer>
-    <a href="首页.html"><span><img src="images/menu_01.png" alt=""></span><h4>首页</h4></a>
-    <a href="#" id="kechengtanchuang"><span><img src="images/menu_02.png" alt=""></span><h4>课程</h4></a>
-    <a href="VIP.html"><span><img src="images/menu_03.png" alt=""></span><h4>VIP</h4></a>
-    <a href="登录.html"><span><img src="images/menu_04.png" alt=""></span><h4>我的</h4></a>
-</footer>
-<div style="height: 45px"></div>
+</script>
 </body>
 </html>
