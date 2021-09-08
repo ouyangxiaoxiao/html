@@ -4,46 +4,46 @@
     min-width: 320px;
     margin: 0 auto;
     width: 100%;
+    /*height: 240px;*/
+    /*position: relative;*/
+    /*position: relative;*/
     position: fixed;
     top: 50px;
-    z-index: 5;
+    z-index: 9;
     background-color: black;
 
 
 }
 
-/*.bofangqi h5 {*/
-/*    !*display: none;*!*/
-/*    !*position: absolute;*!*/
-/*    top: 350px;*/
-/*    left: 40px;*/
-/*    z-index: 999;*/
-/*    !*color: #fff;*!*/
-/*}*/
+.bofangqi h5 {
+    /*display: none;*/
+    /*position: absolute;*/
+    top: 350px;
+    left: 40px;
+    z-index: 999;
+    /*color: #fff;*/
+}
 
 video {
-    margin: 0;
-    padding: 0;
-    max-width: 640px;
-    min-width: 320px;
     width: 100%;
-    position: fixed;
-    top: 50px;
-    z-index: 25;
+    margin: 0;
+    /*position: sticky;*/
+    /*top: 0;*/
+    /*z-index: 99;*/
 }
 
 /*登录遮罩层*/
 .zhezhaoceng {
     display: none;
     /*box-sizing: border-box;*/
-    top: 50px;
-    max-width: 640px;
-    min-width: 320px;
-    width: 100%;
-    /*height: 360px;*/
+    top: 0;
+    /*width: 100%;*/
+    /*height: 99%;*/
+     width: 100%;
+    height: 99%;
     /*background-color: rgba(0,0,0,.8);*/
     background-color: black;
-    position: fixed;
+    position: absolute;
     z-index: 180;
     border-bottom: 1px #70a400 solid;
 
