@@ -1,24 +1,3 @@
-//
-// button.onclick = function () {
-//     /*判断是注册成功的*/
-//     if (result.hasOwnProperty(input.value)) {
-//         // console.log(input.value);
-//         // 存储这元素 是这个值
-//         localStorage.setItem('phone', input.value);
-//         /*打印本地这个值*/
-//         console.log(localStorage.getItem('phone'));
-//         console.log('666666666');
-//         console.log(result);
-//         alert('正确');
-//         window.history.back();
-//
-//     } else {
-//         alert("您还没有注册")
-//     }
-// };
-//
-
-
 window.addEventListener('load', function () {
 
     /*获取json数据*/

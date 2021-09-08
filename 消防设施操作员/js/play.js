@@ -205,12 +205,14 @@ function myFunction() {
             console.log(zhezhaoceng);
             console.log(zhezhaoceng.style.display);
             zhezhaoceng.style.display = "block";
-            video.poster = '';
-            video.controls='';
+            // video.poster = '';
+            video.controls = '';
         }
 
     } else {
         zhezhaoceng.style.display = "none";
+        // video.poster = 'images/poster.gif';
+        video.controls = 'controls';
     }
 
 

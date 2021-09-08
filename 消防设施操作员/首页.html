@@ -1,25 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <!--编码格式-->
     <meta charset="UTF-8">
-    <!--禁止用户缩放 最大缩放倍数 最小缩放倍数-->
     <meta name="viewport"
-          content="width=device-width, initial-scale=1.0 user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <!--设置外链跳转域-->
-    <meta name="referrer" content="no-referrer"/>
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>消防设施操作员-首页</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/index.css">
-
+    <script src="js/public.js"></script>
 </head>
 <body>
 <!--头部-->
 <header class="i_top">
-    <a href="javascript:history.go(-1)" class="i_top_return"><img src="images/tubiao_arr02.png" alt=""></a>
+    <a href="javascript:history.go(-1);" class="i_top_return"><img src="images/tubiao_arr02.png" alt=""></a>
     <a href="首页.html" class="i_top_logo"><img src="images/logo.png" alt=""></a>
+    <!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
     <a href="#" class="i_top_more"><img src="images/more_arr01.png" alt=""></a>
-<!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
 </header>
 <!--轮播-->
 <div class="main_visual">
@@ -31,6 +28,7 @@
 
     </ul>
 </div>
+
 <!--分类-->
 <div class="row menu">
     <div class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>导学班</span></div>
@@ -83,33 +81,15 @@
 <!--    <div class="col-xs-6 i_list_01"><img src="upload/20210723.jpg" alt=""><span>消防设施操作</span></div>-->
 <!--</div>-->
 
-<!--弹窗-->
-<div class="tanchuang">
-    <img src="upload/二维码.png" alt="">
-    <p>长按保存添加客服</p>
-</div>
+
 
 <!--底部-->
-<!--底部-->
 <footer>
-    <a href="#"><span><img src="images/menu_01.png" alt=""></span><h4>首页</h4></a>
-    <a href="#"><span><img src="images/menu_02.png" alt=""></span><h4>课程</h4></a>
-    <a href="#"><span><img src="images/menu_03.png" alt=""></span><h4>VIP</h4></a>
+    <a href="首页.html"><span><img src="images/menu_01.png" alt=""></span><h4>首页</h4></a>
+    <a href="#" id="kechengtanchuang"><span><img src="images/menu_02.png" alt=""></span><h4>课程</h4></a>
+    <a href="VIP.html"><span><img src="images/menu_03.png" alt=""></span><h4>VIP</h4></a>
     <a href="登录.html"><span><img src="images/menu_04.png" alt=""></span><h4>我的</h4></a>
 </footer>
-<script>
-    var kefu =document.querySelector('.kefu');
- var tanchang = document.querySelector('.tanchuang');
- kefu.onclick = function () {
-     // tanchang.style.display = 'block';
-      if(tanchang.style.display=='block'){ // == 判断div.display是否为显示
-                    tanchang.style.display='none'; //= 赋值也可了解成改变
-                }
-                else{
-                    tanchang.style.display='block';
-                }
- }
-</script>
+
 </body>
 </html>
-.
