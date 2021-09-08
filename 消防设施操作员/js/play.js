@@ -211,8 +211,9 @@ function myFunction() {
         }
 
     } else {
-        zhezhaoceng.style.display = "none";
         video.style.display = "block";
+        zhezhaoceng.style.display = "none";
+
     }
 
 
