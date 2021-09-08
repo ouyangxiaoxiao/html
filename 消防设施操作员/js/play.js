@@ -207,12 +207,14 @@ function myFunction() {
             zhezhaoceng.style.display = "block";
             // video.poster = '';
             video.controls = '';
+            video.autoplay = '';
         }
 
     } else {
         zhezhaoceng.style.display = "none";
         // video.poster = 'images/poster.gif';
         video.controls = 'controls';
+         video.autoplay = 'autoplay';
     }
 
 
