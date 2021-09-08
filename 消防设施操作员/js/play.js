@@ -188,8 +188,9 @@ window.addEventListener('load', function () {
         for (i = 5; i <= lis.length; i++) {
             // console.log(lis[i]);
             // console.log(lis[i].index);
-            lis[i].setAttribute("value", "登录");
             zhezhaoceng.style.display = "block";
+            lis[i].setAttribute("value", "登录");
+
             // lis[i].value =  "登录";
             // console.log(55555)
 
