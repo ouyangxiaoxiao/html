@@ -34,7 +34,7 @@ video {
 
 /*登录遮罩层*/
 .zhezhaoceng {
-    display: none;
+    display: block;
     /*box-sizing: border-box;*/
     top: 0;
     width: 100%;
