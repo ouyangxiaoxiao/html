@@ -195,7 +195,7 @@ window.addEventListener('load', function () {
 
 function myFunction() {
     var zhezhaoceng = document.querySelector(".zhezhaoceng");
-    /*视频加载时候判断是否是钱5个*/
+    /*视频加载时候判断是否是前5个*/
     if (index >= 5) {
         // 如果是超出5个，判断是否是会员
         if (localStorage.getItem('phone')) {
