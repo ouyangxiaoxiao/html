@@ -62,7 +62,7 @@
 }
 
 .dengluxianshi input {
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     display: block;
     height: 30px;
     margin: 100px auto 10px;
