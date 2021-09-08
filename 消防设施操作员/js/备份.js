@@ -11,10 +11,6 @@ window.addEventListener('load', function () {
     //获取下一曲按键
     var btn2 = document.querySelector('.btn-2');
 
-
-    var zhezhaoceng = document.querySelector(".zhezhaoceng");
-
-
     // 初始化index
     index = 0;
     // 默认播放第一条
@@ -178,7 +174,7 @@ window.addEventListener('load', function () {
 
     /*判断是否包含手机号*/
     if (localStorage.getItem('phone')) {
-        zhezhaoceng.style.display = "none";
+
 
     } else {
         // console.log(result["13163122085"]);
@@ -189,7 +185,6 @@ window.addEventListener('load', function () {
             // console.log(lis[i]);
             // console.log(lis[i].index);
             lis[i].setAttribute("value", "登录");
-            zhezhaoceng.style.display = "block";
             // lis[i].value =  "登录";
             // console.log(55555)
 
@@ -197,25 +192,25 @@ window.addEventListener('load', function () {
     }
 });
 
-//
-// function myFunction() {
-//     var zhezhaoceng = document.querySelector(".zhezhaoceng");
-//     /*视频加载时候判断是否是钱5个*/
-//     if (index >= 5) {
-//         // 如果是超出5个，判断是否是会员
-//         if (localStorage.getItem('phone')) {
-//
-//         } else {
-//             /*不是会员就不让看*/
-//             console.log(zhezhaoceng);
-//             console.log(zhezhaoceng.style.display);
-//             zhezhaoceng.style.display = "block";
-//
-//         }
-//
-//     } else {
-//         zhezhaoceng.style.display = "none";
-//     }
-//
-//
-// }
+
+function myFunction() {
+    var zhezhaoceng = document.querySelector(".zhezhaoceng");
+    /*视频加载时候判断是否是钱5个*/
+    if (index >= 5) {
+        // 如果是超出5个，判断是否是会员
+        if (localStorage.getItem('phone')) {
+
+        } else {
+            /*不是会员就不让看*/
+            console.log(zhezhaoceng);
+            console.log(zhezhaoceng.style.display);
+            zhezhaoceng.style.display = "block";
+
+        }
+
+    } else {
+        zhezhaoceng.style.display = "none";
+    }
+
+
+}
