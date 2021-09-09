@@ -173,6 +173,7 @@ window.addEventListener('load', function () {
     /*判断是否登录*/
 
     /*判断是否包含手机号*/
+
     if (localStorage.getItem('phone')) {
 
 
@@ -184,8 +185,8 @@ window.addEventListener('load', function () {
         for (i = 5; i <= lis.length; i++) {
             // console.log(lis[i]);
             // console.log(lis[i].index);
-            lis[i].setAttribute("value", "https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/qcaqjfwdljyo574.mp4");
-            // lis[i].value =  "登录";
+            // lis[i].setAttribute("value", "https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/qcaqjfwdljyo574.mp4");
+            lis[i].value =  "登录";
             // console.log(55555)
 
         }
