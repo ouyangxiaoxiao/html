@@ -11,10 +11,11 @@
     <title>测试播放器</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
-            *{
-                margin: 0;
-                padding: 0;
-            }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         .bofangqi {
             max-width: 640px;
             min-width: 320px;
@@ -60,7 +61,7 @@
 </head>
 <body>
 <div class="bofangqi">
-    <video src="" autoplay controls ></video>
+    <video src="" autoplay controls></video>
 </div>
 <!--<div class="zhezhaoceng">123</div>-->
 <div class="cheng">123</div>
@@ -155,8 +156,15 @@
 
         /*点击播放*/
         list[i].onclick = function () {
-            video.setAttribute("src", this.getAttribute("value"));
-            video.setAttribute("index", this.getAttribute("index"));
+            if (this.getAttribute("index") < 5) {
+                video.setAttribute("src", this.getAttribute("value"));
+                video.setAttribute("index", this.getAttribute("index"));
+                video.play();
+            } else if (i > 5) {
+                video.pause();
+                alert("大于5了")
+            }
+
         };
 
     }
@@ -200,11 +208,11 @@
         video.setAttribute("index", list[nub].getAttribute("index"));
 
     };
-    video.onemptied = function () {
-        alert("出错");
-        video.pause();
-        zhezhaoceng.style.display = "block"
-    }
+    // video.onemptied = function () {
+    //     alert("出错");
+    //     video.pause();
+    //     zhezhaoceng.style.display = "block"
+    // }
 
 </script>
 
@@ -215,7 +223,7 @@
     zhezhaoceng = document.querySelector(".zhezhaoceng");
     console.log(video.scrollHeight);
     console.log(video.scrollTop);
-    cheng.style.height = video.scrollHeight + 50+"px";
+    cheng.style.height = video.scrollHeight + 50 + "px";
     zhezhaoceng.style.height = video.scrollHeight + "px";
     bofangqi.style.height = video.scrollHeight + "px";
 </script>
