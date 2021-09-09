@@ -162,7 +162,10 @@
                 video.play();
             } else if (i > 5) {
                 video.pause();
-                alert("大于5了")
+                alert("大于5了");
+                panduan();
+
+
             }
 
         };
@@ -214,6 +217,21 @@
     //     zhezhaoceng.style.display = "block"
     // }
 
+
+    function panduan() {
+
+
+        if (localStorage.getItem('phone')) {
+            alert('注册了');
+
+        } else {
+            alert("没注册");
+
+            }
+
+
+
+    }
 </script>
 
 <script>
