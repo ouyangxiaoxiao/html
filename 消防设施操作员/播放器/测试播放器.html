@@ -19,7 +19,7 @@
             max-width: 640px;
             min-width: 320px;
             width: 100%;
-            height: 600px;
+            /*height: 600px;*/
             background-color: blue;
             position: fixed;
             /*top: 0;*/
@@ -47,6 +47,8 @@
         }
 
         .zhezhaoceng {
+
+            display: none;
             /*top: 0;*/
             position: fixed;
             width: 400px;
@@ -60,7 +62,7 @@
 <div class="bofangqi">
     <video src="" autoplay controls ></video>
 </div>
-<div class="zhezhaoceng">123</div>
+<!--<div class="zhezhaoceng">123</div>-->
 <div class="cheng">123</div>
 <button id="btn1">上一曲</button>
 <button id="btn2">下一曲</button>
@@ -213,7 +215,7 @@
     zhezhaoceng = document.querySelector(".zhezhaoceng");
     console.log(video.scrollHeight);
     console.log(video.scrollTop);
-    cheng.style.height = video.scrollHeight + "px";
+    cheng.style.height = video.scrollHeight + 50+"px";
     zhezhaoceng.style.height = video.scrollHeight + "px";
     bofangqi.style.height = video.scrollHeight + "px";
 </script>
