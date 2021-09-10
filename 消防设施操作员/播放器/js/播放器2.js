@@ -126,8 +126,7 @@ window.addEventListener("load", function () {
             /*点击播放*/
             list[i].onclick = function () {
                 for (var i = 0; i < list.length; i++) {
-                    // 给播放器赋值当前点击这个连接的
-                    video.setAttribute("src", this.getAttribute("value"));
+
                     /*给播放器当前这个index*/
                     video.setAttribute("index", this.getAttribute("index"));
                     /*1.先去掉所有元素的样式*/
@@ -137,6 +136,8 @@ window.addEventListener("load", function () {
                     zhezhaoceng.style.display = "none";
                 }
                 if (this.getAttribute("index") < 5) {
+                    // 给播放器赋值当前点击这个连接的
+                    video.setAttribute("src", this.getAttribute("value"));
                     /*留下当前li 设置选中样式*/
                     this.style.backgroundColor = "#f8ffe9";
                     console.log(this.getAttribute("index"));
