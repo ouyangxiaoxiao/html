@@ -171,15 +171,18 @@ window.addEventListener("load", function () {
         list[0].setAttribute('class', "bofang");
         list[0].style.color = '#70a401';
         /*顺序播放*/
+        console.log(video.getAttribute("index"));
         video.addEventListener("ended", function () {
+            console.log("播放完毕");
+            console.log(video.getAttribute("index"));
+            nub = parseInt(video.getAttribute("index"));
             if (nub == list.length - 1) {
                 nub = 0;
             } else {
                 nub += 1;
             }
-
             if (nub < 5) {
-                alert("自动播放执行小于5的");
+                console.log(nub);
                 video.setAttribute("src", list[nub].getAttribute("value"));
                 video.setAttribute("index", list[nub].getAttribute("index"));
 
@@ -195,22 +198,9 @@ window.addEventListener("load", function () {
                 list[nub].setAttribute('class', "bofang");
                 list[nub].style.color = '#70a401';
                 video.style.display = "block";
-                video.play();
                 zhezhaoceng.style.display = "none";
-            } else {
-                alert("自动播放执行大于5 的的");
-                for (var k = 0; k < list.length; k++) {
-                    /*1.先去掉所有元素的样式*/
-                    list[k].style.backgroundColor = "";
-                    list[k].style.color = '';
-                    list[k].setAttribute('class', "weibofang");
-                    zhezhaoceng.style.display = "none";
-                }
-
-                /*留下当前li 设置选中样式*/
-                list[nub].style.backgroundColor = "#f8ffe9";
-                list[nub].setAttribute('class', "bofang");
-                list[nub].style.color = '#70a401';
+                video.play();
+            }else {
                 video.style.display = "none";
                 zhezhaoceng.style.display = "block";
             }
