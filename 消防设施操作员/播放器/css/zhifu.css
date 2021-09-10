@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*background-color:pink;*/
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*头部*/
+header {
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    background-color: rgb(112, 164, 1);
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
+.i_top_return img {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+.i_top_logo {
+    float: left;
+}
+
+.i_top_logo img {
+    height: 30px;
+    margin: 10px 10px;
+}
+
+.i_top_more img {
+    float: right;
+    height: 30px;
+    margin: 10px 15px;
+}
+
+.i_top_search {
+    float: right;
+    margin: 10px;
+}
+
+.i_top_search img {
+    width: 30px;
+}
+
+
+/*配色*/
+.peise {
+    margin-top: 50px;
+    height: 50px;
+    background-color: rgb(255, 244, 224);
+}
+
+/*vip_tab*/
+.vip_tab {
+    /*margin-top: 50px;*/
+    height: 150px;
+    /*padding: 0 15px;*/
+    /*background-color: pink;*/
+
+}
+
+.vip_tab .left, .right {
+    box-sizing: border-box;
+    width: 48%;
+    height: 150px;
+    background-color: rgb(250, 255, 240);
+    float: left;
+    margin: 1%;
+    border: 1px rgb(112, 164, 0) solid;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.vip_tab .left img {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.vip_tab .left:hover img {
+    display: block;
+}
+
+.vip_tab .right img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.vip_tab dt {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px auto 10px;
+}
+
+.vip_tab dd:nth-child(2) {
+    color: #ff6600;
+    margin: 5px auto;
+}
+
+.vip_tab dd:nth-child(3) {
+    color: #999999;
+    margin: 5px auto;
+}
+
+/*.vip_tab .right{*/
+/*    width: 48%;*/
+/*    height: 131px;*/
+/*    background-color: green;*/
+/*    float: left;*/
+/*    margin: 5px;*/
+/*    border: 1px black solid;*/
+/*}*/
+
+
+/*大学信息*/
+.college_information {
+    width: 100%;
+    height: 40px;
+    margin: 0 1%;
+    font-size: 14px;
+    font-weight: 700;
+
+    /*margin-top: 200px;*/
+    /*background-color: pink;*/
+}
+
+.college_information span {
+    color: rgb(112, 164, 0);
+}
+
+/*列表*/
+.list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.list_title {
+    width: 100%;
+    display: flex;
+    height: 30px;
+    margin: 0 1% ;
+    line-height: 30px;
+
+
+}
+
+.list_title span {
+    /*padding: 5px;*/
+    height: 30px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+
+}
+
+.list_title i {
+    flex: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 15px;
+    border-bottom: 1px #e4e4e4 solid;
+}
+
+/*图片*/
+.list ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+
+}
+
+.list ul li {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 48%;
+    min-width: 48%;
+    max-width: 48%;
+    list-style: none;
+    height: 50px;
+    margin: 5px 1%;
+    background-color: #f8f8f8;
+    border: 1px #eeeeee solid;
+    border-radius: 5px;
+}
+
+.xuanzhong{
+    background-color: rgb(250, 255, 240);
+    border: 1px rgb(112, 164, 0) solid;
+}
+
+.list ul li img {
+    /*line-height: 60px;*/
+    width: 40px;
+    vertical-align: middle;
+    padding: 5px 5px 5px 5px;
+}
+.list ul li h5{
+    display: inline-block;
+    font-weight: 400;
+}
+
+
+
+/*确认*/
+
+.but-vip{
+    padding: 10px;
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #70a400;
+    border: none;
+    border-radius: 8px;
+}
+/*!*底部*!*/
+/*#di {*/
+/*    width: 100%;*/
+/*    !*height: 45px;*!*/
+/*    bottom: 0;*/
+/*    max-width: 640px;*/
+/*    min-width: 320px;*/
+/*    position: fixed;*/
+/*    background-color: #fff;*/
+/*}*/
+
+/*#di ul {*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    line-height: 35px;*/
+/*    position: relative;*/
+
+
+/*}*/
+
+/*#di li {*/
+/*    width: 100%;*/
+/*    !*height: 55px;*!*/
+/*    padding-bottom: 0;*/
+/*}*/
+
+/*#di li:nth-child(1) {*/
+/*    width: 25%;*/
+/*    float: left;*/
+/*    left: 0;*/
+
+/*}*/
+
+/*#di li:nth-child(2) {*/
+/*    width: 25%;*/
+/*    float: left;*/
+/*    left: 0;*/
+/*    text-align: center;*/
+
+/*}*/
+
+/*#di li:nth-child(3) {*/
+/*    width: 25%;*/
+/*    float: left;*/
+/*    left: 0;*/
+/*    text-align: center;*/
+
+/*}*/
+
+/*#di li:nth-child(4) {*/
+/*    width: 25%;*/
+/*    float: left;*/
+/*    left: 0;*/
+/*    text-align: right;*/
+
+/*}*/
+

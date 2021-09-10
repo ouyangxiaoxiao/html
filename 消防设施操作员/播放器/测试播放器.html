@@ -9,259 +9,247 @@
     <!--设置外链跳转域-->
     <meta name="referrer" content="no-referrer"/>
     <title>测试播放器</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        .bofangqi {
-            max-width: 640px;
-            min-width: 320px;
-            width: 100%;
-            /*height: 600px;*/
-            background-color: blue;
-            position: fixed;
-            /*top: 0;*/
-            z-index: 10;
-        }
-
-        video {
-            width: 100%;
-            max-width: 640px;
-            min-width: 320px;
-            /*width: 400px;*/
-            /*height: 300px;*/
-            background-color: pink;
-            /*position: fixed;*/
-            /*top: 0;*/
-            /*z-index: 10;*/
-        }
-
-        .cheng {
-            margin: 0;
-            padding: 0;
-            width: 400px;
-            height: 3000px;
-            background-color: red;
-        }
-
-        .zhezhaoceng {
-
-            display: none;
-            /*top: 0;*/
-            position: fixed;
-            width: 400px;
-            height: 3000px;
-            background-color: skyblue;
-            z-index: 15;
-        }
-    </style>
+    <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/播放器play.js"></script>
+<!--    <script src="js/play.js"></script>-->
+    <link rel="stylesheet" href="css/播放器.css">
+    <link rel="stylesheet" href="css/public.css">
 </head>
+<!--头部-->
+<header class="i_top">
+    <a href="javascript:history.go(-1);" class="i_top_return"><img src="images/tubiao_arr02.png" alt=""></a>
+    <a href="首页.html" class="i_top_logo"><img src="images/logo.png" alt=""></a>
+<!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
+    <a href="#" class="i_top_more"><img src="images/more_arr01.png" alt=""></a>
+</header>
+
 <body>
 <div class="bofangqi">
-    <video src="" controls poster="../images/poster.gif"></video>
-    <!--    <video src="" autoplay controls></video>-->
+    <img src="images/黑色播放器背景.jpg" alt="">
+    <img src="images/黑色播放器背景.jpg" alt="" id="beijing">
+    <video id="video" src="" autoplay controls poster="../images/poster.gif"></video>
 </div>
-<!--<div class="zhezhaoceng">123</div>-->
-<div class="cheng">123</div>
-<button id="btn1">上一曲</button>
-<button id="btn2">下一曲</button>
-<ul>
-    <!--        <li value="	https://vv.taozhi.online/14f8fcfe8d2a4e9585c9bc822cc6e7f7/36e368b0f3814e76baba29b4f4e06b3e-a1551e2578647377b65c5092a1da7f22-ld.mp4	"><span>	PS01-神奇的倒车雷达	</span><span>	小学科学课	</span><span>	小学	五年级	兴趣爱好	</span></li>-->
-    <!--        <li value="	https://ouyangxiaoxiao.github.io/xiaofangshipin/	初级精讲	/	消防设施巡检二	.mp4	"><span>	8. 培训模块一：项目1消防设施巡检-防火门、防火卷帘巡查	</span><span>	消防设施操作员	</span><span>	初级精讲	</span></li>-->
 
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/qcaqjfwdljyo574.mp4"><span>1. 培训模块一：项目1消防设施巡检-火灾报警控制器识别</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="h2ttps://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/v2mjcj0hi0r2771.mp4"><span>2. 培训模块一：项目1消防设施巡检-火灾报警控制器工作状态判断</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/p378m1n2akir39n.mp4"><span>3. 培训模块一：项目1消防设施巡检-火灾报警控制器电源工作状态判断</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/2csluxfcl47zok6.mp4"><span>4. 培训模块一：项目1消防设施巡检-火灾报警控制器自检</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/2g6oj2qfxs8msd6.mp4"><span>5. 培训模块一：项目1消防设施巡检-灭火器的有效性检查</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/9c90383zo89thmx.mp4"><span>6. 培训模块一：项目1消防设施巡检-消防自救呼吸器检查</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/b0cty6aj1p7etpg.mp4"><span>7. 培训模块一：项目1消防设施巡检-消防水池、高位消防水箱检查</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/c41bw9huu0twss1.mp4"><span>8. 培训模块一：项目1消防设施巡检-防火门、防火卷帘巡查</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/vlj4o4e9vhyfrfq.mp4"><span>9. 培训模块一：项目1消防设施巡检-消防供水管道阀门检查</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/fcau8x2ol9b53kc.mp4"><span>10. 培训模块一：项目2报警信息处置-报警信号判断</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/lve2db518kd1sqz.mp4"><span>11. 培训模块一：项目2报警信息处置-报警信息查询</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/jc3wv2cspaxxm6d.mp4"><span>12. 培训模块一：项目2报警信息处置-报警信息核实、处理、报告</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/378oojlrfta1ab1.mp4"><span>13. 培训模块二：项目1火灾自动报警系统操作-火灾报警控制器工作状态切换</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/lgxicacys6wudfc.mp4"><span>14. 培训模块二：项目1火灾自动报警系统操作-火灾探测器测试</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/2kb9fnmr9zj3zih.mp4"><span>15. 培训模块二：项目1火灾自动报警系统操作-手动火灾报警按钮测试</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/eif8nux7c9xv2zq.mp4"><span>16. 培训模块二：项目1火灾自动报警系统操作-火灾报警控制器消音与复位</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/dcwkvyznp5s2j1j.mp4"><span>17. 培训模块二：项目1火灾自动报警系统操作-火灾警报装置启动</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/culku50y4s7v5wy.mp4"><span>18. 培训模块二：项目2其他消防设施操作-室外消火栓操作</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/6junmqf6zu6qm5r.mp4"><span>19. 培训模块二：项目2其他消防设施操作-室内消火栓操作</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/4kd6akn9vysupsn.mp4"><span>20. 培训模块二：项目2其他消防设施操作-轻便消防水龙操作</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/u0xpd12ehurj8gp.mp4"><span>21. 培训模块二：项目2其他消防设施操作-消防水泵组操作</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/ggehm85ed78am8r.mp4"><span>22. 培训模块二：项目2其他消防设施操作-灭火器的选择与操作</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/661c69aftebpsg0.mp4"><span>23. 培训模块二：项目2其他消防设施操作-消防自救呼吸器操作</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/9dtvqqbismlcxb4.mp4"><span>24. 培训模块三：项目1火灾自动报警系统保养-区域型火灾报警控制器保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/nn9rycy8dy5usjd.mp4"><span>25. 培训模块三：项目1火灾自动报警系统保养-区域型火灾报警控制器打印纸更换</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/azi8beof72oupzi.mp4"><span>26. 培训模块三：项目1火灾自动报警系统保养-常见火灾触发器件与火灾警报装置保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/n0594vreqblxuyc.mp4"><span>27. 培训模块三：项目1火灾自动报警系统保养-区域型火灾报警控制器熔断器更换</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/eekiert0wuidzyc.mp4"><span>28. 培训模块三：项目2其他消防设施保养-消防应急灯具保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/9tbcw8e4nhwlmgf.mp4"><span>29. 培训模块三：项目2其他消防设施保养-防火门保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/d9qy14juv9p1wuq.mp4"><span>30. 培训模块三：项目2其他消防设施保养-防火卷帘保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/6aw8hhdh4bx5saa.mp4"><span>31. 培训模块三：项目2其他消防设施保养-消火栓系统保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/n418brx7w9bzrnh.mp4"><span>32. 培训模块三：项目2其他消防设施保养-消防水泵接合器保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/jq52oro96ft7llp.mp4"><span>33. 培训模块三：项目2其他消防设施保养-消防水池、高位消防水箱保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-    <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/4lo5wu2xg4i7aqw.mp4"><span>34. 培训模块三：项目2其他消防设施保养-灭火器保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
-    </li>
-</ul>
+
+<!--上下节-->
+<div class="btn">
+    <p class="btn-1" id="btn1">
+        <img src="images/on_section_01.png" alt="">
+        上 一 课&nbsp;&nbsp;&nbsp;</p>
+    <p class="btn-2" id="btn2">&nbsp;&nbsp;&nbsp;下 一 课
+        <img src="images/next_section_01.png" alt="">
+    </p>
+</div>
+<!--课程名称-->
+<div class="kcjs">
+    <div class="kcjs-name">
+        <!--        <span></span>-->
+        <!--        <span>小学</span>-->
+        <!--        <span>语文</span>-->
+        <!--        <span>五年级</span>-->
+
+    </div>
+
+    <div class="kcjs-jg">
+        <a href="#" id="dm"> 原 价 ¥ 130</a>
+        <a href="#" id="vip"> 拼 课 价 ¥ 29</a>
+    </div>
+</div>
+
+
+<div class="tab">
+    <ul>
+        <li id="js">介绍</li>
+        <li class="current" id="ml">目录</li>
+        <li id="sc">素材</li>
+        <li id="pj">评价</li>
+        <li id="bj">笔记</li>
+    </ul>
+
+</div>
+<div class="js item">
+    <img alt="" src="upload/xgpz2.jpg">
+</div>
+
+<!--课程详情-->
+<div class="kcxq item " id="kcxq">
+
+
+    <ul>
+        <!--        <li value="	https://vv.taozhi.online/14f8fcfe8d2a4e9585c9bc822cc6e7f7/36e368b0f3814e76baba29b4f4e06b3e-a1551e2578647377b65c5092a1da7f22-ld.mp4	"><span>	PS01-神奇的倒车雷达	</span><span>	小学科学课	</span><span>	小学	五年级	兴趣爱好	</span></li>-->
+        <!--        <li value="	https://ouyangxiaoxiao.github.io/xiaofangshipin/	初级精讲	/	消防设施巡检二	.mp4	"><span>	8. 培训模块一：项目1消防设施巡检-防火门、防火卷帘巡查	</span><span>	消防设施操作员	</span><span>	初级精讲	</span></li>-->
+
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/qcaqjfwdljyo574.mp4"><span>1. 培训模块一：项目1消防设施巡检-火灾报警控制器识别</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/v2mjcj0hi0r2771.mp4"><span>2. 培训模块一：项目1消防设施巡检-火灾报警控制器工作状态判断</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/p378m1n2akir39n.mp4"><span>3. 培训模块一：项目1消防设施巡检-火灾报警控制器电源工作状态判断</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/2csluxfcl47zok6.mp4"><span>4. 培训模块一：项目1消防设施巡检-火灾报警控制器自检</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/2g6oj2qfxs8msd6.mp4"><span>5. 培训模块一：项目1消防设施巡检-灭火器的有效性检查</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/9c90383zo89thmx.mp4"><span>6. 培训模块一：项目1消防设施巡检-消防自救呼吸器检查</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/b0cty6aj1p7etpg.mp4"><span>7. 培训模块一：项目1消防设施巡检-消防水池、高位消防水箱检查</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/c41bw9huu0twss1.mp4"><span>8. 培训模块一：项目1消防设施巡检-防火门、防火卷帘巡查</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/vlj4o4e9vhyfrfq.mp4"><span>9. 培训模块一：项目1消防设施巡检-消防供水管道阀门检查</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/fcau8x2ol9b53kc.mp4"><span>10. 培训模块一：项目2报警信息处置-报警信号判断</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/lve2db518kd1sqz.mp4"><span>11. 培训模块一：项目2报警信息处置-报警信息查询</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/jc3wv2cspaxxm6d.mp4"><span>12. 培训模块一：项目2报警信息处置-报警信息核实、处理、报告</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/378oojlrfta1ab1.mp4"><span>13. 培训模块二：项目1火灾自动报警系统操作-火灾报警控制器工作状态切换</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/lgxicacys6wudfc.mp4"><span>14. 培训模块二：项目1火灾自动报警系统操作-火灾探测器测试</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/2kb9fnmr9zj3zih.mp4"><span>15. 培训模块二：项目1火灾自动报警系统操作-手动火灾报警按钮测试</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/eif8nux7c9xv2zq.mp4"><span>16. 培训模块二：项目1火灾自动报警系统操作-火灾报警控制器消音与复位</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/dcwkvyznp5s2j1j.mp4"><span>17. 培训模块二：项目1火灾自动报警系统操作-火灾警报装置启动</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/culku50y4s7v5wy.mp4"><span>18. 培训模块二：项目2其他消防设施操作-室外消火栓操作</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/6junmqf6zu6qm5r.mp4"><span>19. 培训模块二：项目2其他消防设施操作-室内消火栓操作</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/4kd6akn9vysupsn.mp4"><span>20. 培训模块二：项目2其他消防设施操作-轻便消防水龙操作</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/u0xpd12ehurj8gp.mp4"><span>21. 培训模块二：项目2其他消防设施操作-消防水泵组操作</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/ggehm85ed78am8r.mp4"><span>22. 培训模块二：项目2其他消防设施操作-灭火器的选择与操作</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/661c69aftebpsg0.mp4"><span>23. 培训模块二：项目2其他消防设施操作-消防自救呼吸器操作</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/9dtvqqbismlcxb4.mp4"><span>24. 培训模块三：项目1火灾自动报警系统保养-区域型火灾报警控制器保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/nn9rycy8dy5usjd.mp4"><span>25. 培训模块三：项目1火灾自动报警系统保养-区域型火灾报警控制器打印纸更换</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/azi8beof72oupzi.mp4"><span>26. 培训模块三：项目1火灾自动报警系统保养-常见火灾触发器件与火灾警报装置保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/n0594vreqblxuyc.mp4"><span>27. 培训模块三：项目1火灾自动报警系统保养-区域型火灾报警控制器熔断器更换</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/eekiert0wuidzyc.mp4"><span>28. 培训模块三：项目2其他消防设施保养-消防应急灯具保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/9tbcw8e4nhwlmgf.mp4"><span>29. 培训模块三：项目2其他消防设施保养-防火门保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/d9qy14juv9p1wuq.mp4"><span>30. 培训模块三：项目2其他消防设施保养-防火卷帘保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/6aw8hhdh4bx5saa.mp4"><span>31. 培训模块三：项目2其他消防设施保养-消火栓系统保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/n418brx7w9bzrnh.mp4"><span>32. 培训模块三：项目2其他消防设施保养-消防水泵接合器保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/jq52oro96ft7llp.mp4"><span>33. 培训模块三：项目2其他消防设施保养-消防水池、高位消防水箱保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/4lo5wu2xg4i7aqw.mp4"><span>34. 培训模块三：项目2其他消防设施保养-灭火器保养</span><span>消防设施操作员</span><span>五级(初级)实操</span>
+        </li>
+    </ul>
+</div>
+
+
+<div class="sc item">
+    素材详情
+</div>
+<div class="pjxq item">
+    <ul>
+        <li>
+            <img alt="" src="upload/张.jpg">
+            <div>
+                <h3>张**
+                    <span>2021-01-26 20:05:27</span>
+                </h3>
+                <p>达为老师讲的很好，是我看到最好的关于消防设施操作员的课程</p>
+
+            </div>
+            <i>89</i>
+        </li>
+        <li>
+            <img alt="" src="upload/荣.jpg">
+            <div>
+                <h3>荣**
+                    <span>2021-01-21 13:09:28</span>
+                </h3>
+                <p>考初级的报道啦</p>
+
+            </div>
+            <i>76</i>
+        </li>
+        <li>
+            <img alt="" src="upload/陈涛.jpg">
+            <div>
+                <h3>陈*
+                    <span>2021-02-05 09:28:11</span>
+                </h3>
+                <p>视频讲解的很细致，方便记忆，支持达为老师</p>
+
+            </div>
+            <i>68</i>
+        </li>
+        <li>
+            <img alt="" src="upload/何龙.jpg">
+            <div>
+                <h3>何*
+                    <span>2021-03-09 10:28:48</span>
+                </h3>
+                <p>good！升工资就等它了</p>
+
+            </div>
+            <i>58</i>
+        </li>
+        <li>
+            <img alt="" src="upload/张2.jpg">
+            <div>
+                <h3>张**
+                    <span>2021-03-13 11:38:58</span>
+                </h3>
+                <p>不错 不错</p>
+
+            </div>
+            <i>52</i>
+        </li>
+        <li>
+            <img alt="" src="upload/刘.jpg">
+            <div>
+                <h3>刘**
+                    <span>2021-04-19 20:45:09</span>
+                </h3>
+                <p>感谢达为老师，我的证下来了</p>
+
+            </div>
+            <i>43</i>
+        </li>
+    </ul>
+</div>
+<div class="笔记 item">
+    笔记详情
+</div>
+
+
+<!--底部-->
+<footer>
+    <a href="首页.html"><span><img src="images/menu_01.png" alt=""></span><h4>首页</h4></a>
+    <a href="#" id="kechengtanchuang"><span><img src="images/menu_02.png" alt=""></span><h4>课程</h4></a>
+    <a href="VIP.html"><span><img src="images/menu_03.png" alt=""></span><h4>VIP</h4></a>
+    <a href="登录.html"><span><img src="images/menu_04.png" alt=""></span><h4>我的</h4></a>
+</footer>
+
+<!--&lt;!&ndash;控制播放器高度&ndash;&gt;-->
+<!--<script>-->
+<!--    var btn1 = document.querySelector('.btn');-->
+<!--    var video2 = document.querySelector('.bofangqi');-->
+<!--    console.log(video2.scrollHeight);-->
+<!--    console.log(video2.offsetTop);-->
+<!--    // btn1.style.marginTop = "225px";-->
+<!--    mtp = video2.scrollHeight + video2.offsetTop;-->
+<!--    btn1.style.marginTop = mtp + "px";-->
+
+<!--</script>-->
+
+
+.
 </body>
-<script>
-    var list = document.querySelectorAll("li");
-    console.log(list.length);
-    var video = document.querySelector("video");
-    var btn1 = document.querySelector("#btn1");
-    var btn2 = document.querySelector("#btn2");
-
-    nub = video.getAttribute("index");
-
-    /*绑定点击事件，顺便添加 index*/
-    for (i = 0; i < list.length; i++) {
-        list[i].setAttribute("index", i);
-
-        /*点击播放*/
-        list[i].onclick = function () {
-            /*判断播放的index是否大于5*/
-            if (this.getAttribute("index") < 5) {
-                // 给播放器赋值当前点击这个连接的
-                video.setAttribute("src", this.getAttribute("value"));
-                /*给播放器当前这个index*/
-                video.setAttribute("index", this.getAttribute("index"));
-                /*播放器播放*/
-                video.play();
-            } else if (i > 5) {
-                // 暂停播放器
-                video.pause();
-                // alert("大于5了");
-                // 调用是否注册会员
-                if (localStorage.getItem('phone')) {
-                    // alert('注册了');
-                    // 给播放器赋值当前点击这个连接的
-                    video.setAttribute("src", this.getAttribute("value"));
-                    /*给播放器当前这个index*/
-                    video.setAttribute("index", this.getAttribute("index"));
-                    /*播放器播放*/
-                    video.play();
-
-                } else {
-                    alert("没注册");
-
-                }
-
-
-            }
-
-        };
-
-    }
-    // /*默认播放*/
-    video.setAttribute("src", list[0].getAttribute("value"));
-    video.setAttribute("index", list[0].getAttribute("index"));
-    video.play()
-
-    /*顺序播放*/
-    video.addEventListener("ended", function () {
-        if (nub == list.length - 1) {
-            nub = 0;
-        } else {
-            console.log("播放完毕了");
-            nub += 1;
-        }
-        video.setAttribute("src", list[nub].getAttribute("value"));
-        video.setAttribute("index", list[nub].getAttribute("index"));
-
-    });
-
-    /*上一曲下一曲*/
-    btn1.onclick = function () {
-        // alert("点击了上一曲");
-        if (video.getAttribute("index") == 0) {
-            nub = list.length - 1;
-        } else {
-            nub -= 1;
-        }
-        // console.log(nub);
-        video.setAttribute("src", list[nub].getAttribute("value"));
-        video.setAttribute("index", list[nub].getAttribute("index"));
-    };
-
-    btn2.onclick = function () {
-        if (video.getAttribute("index") == list.length - 1) {
-            nub = 0;
-        } else {
-            nub += 1;
-        }
-        video.setAttribute("src", list[nub].getAttribute("value"));
-        video.setAttribute("index", list[nub].getAttribute("index"));
-
-    };
-    // video.onemptied = function () {
-    //     alert("出错");
-    //     video.pause();
-    //     zhezhaoceng.style.display = "block"
-    // }
-
-
-    function panduan() {
-
-
-        if (localStorage.getItem('phone')) {
-            alert('注册了');
-
-        } else {
-            alert("没注册");
-
-        }
-
-
-    }
-</script>
-
-<script>
-    video = document.querySelector("video");
-    bofangqi = document.querySelector(".bofangqi");
-    cheng = document.querySelector(".cheng");
-    zhezhaoceng = document.querySelector(".zhezhaoceng");
-    console.log(video.scrollHeight);
-    console.log(video.scrollTop);
-    cheng.style.height = video.scrollHeight + 50 + "px";
-    zhezhaoceng.style.height = video.scrollHeight + "px";
-    bofangqi.style.height = video.scrollHeight + "px";
-</script>
 </html>

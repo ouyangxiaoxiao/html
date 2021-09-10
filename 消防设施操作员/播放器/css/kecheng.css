@@ -1,0 +1,406 @@
+/*播放器*/
+.bofangqi {
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    width: 100%;
+    /*height: 240px;*/
+    /*position: relative;*/
+    /*position: relative;*/
+    position: fixed;
+    top: 50px;
+    z-index: 9;
+    /*background-color: black;*/
+
+
+}
+
+.bofangqi h5 {
+    /*display: none;*/
+    /*position: absolute;*/
+    top: 350px;
+    left: 40px;
+    z-index: 999;
+    /*color: #fff;*/
+}
+
+video {
+    width: 100%;
+    margin: 0;
+    /*position: sticky;*/
+    /*top: 0;*/
+    /*z-index: 99;*/
+}
+
+/*登录遮罩层*/
+.zhezhaoceng {
+    display: none;
+    box-sizing: border-box;
+    top: 0;
+    /*width: 100%;*/
+    /*height: 99%;*/
+     width: 100%;
+    height: 99%;
+    /*background-color: rgba(0,0,0,.8);*/
+    background-color: black;
+    position: absolute;
+    z-index: 180;
+    /*border-bottom: 1px #70a400 solid;*/
+
+}
+
+.zhezhaoceng img {
+    width: 50px;
+    margin-top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+.zhezhaoceng h1 {
+    font-size: 16px;
+    left: 50%;
+    margin-top: 15%;
+    transform: translate(-50%);
+    position: absolute;
+    color: #fff;
+}
+
+.zhezhaoceng button {
+    font-size: 16px;
+    left: 50%;
+    margin-top: 25%;
+    transform: translate(-50%);
+    width: 15%;
+    position: absolute;
+}
+
+/*!*撑*!*/
+/*.cheng{*/
+/*    width: 100%;*/
+/*    height: 420px;*/
+
+/*    !*background-color: black;*!*/
+/*}*/
+/*上一课*/
+.btn {
+    /*margin-top: 225px;*/
+    width: 100%;
+    height: 35px;
+    background-color: #f8f8f8;
+    /*margin-left: 10px;*/
+    overflow: hidden;
+    /*margin-right: 10px;*/
+    line-height: 35px;
+
+}
+
+.btn-1 {
+    width: 120px;
+    height: 35px;
+    background-color: #e4e4e4;
+    float: left;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 0;
+    text-align: right;
+}
+
+.btn img {
+    width: 12px;
+    height: 12px;
+}
+
+
+.btn-2 {
+    width: 120px;
+    height: 35px;
+    background-color: #e4e4e4;
+    float: right;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 0;
+
+}
+
+/*课程介绍*/
+.kcjs {
+    display: none; /*隐藏价格大模块*/
+    width: 100%;
+    height: 90px;
+    /*margin-left: 10px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*overflow: hidden;*/
+
+}
+
+.kcjs-name {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.kcjs-name span {
+    /*padding-top: 150px;*/
+    font-size: 15px;
+    color: #999999;
+    padding: 0;
+}
+
+.kcjs-name span:nth-child(1) {
+    /*padding-top: 150px;*/
+    height: 32px;
+    font-size: 18px;
+    color: #333333;
+    display: block;
+    /*line-height: 1.8;*/
+}
+
+
+.kcjs-jg {
+    /*padding: 0;*/
+    /*margin: 0;*/
+    display: none; /*隐藏*/
+
+}
+
+.kcjs-jg #dm {
+
+    height: 30px;
+    width: 40%;
+    border: 1px #999999 solid;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 10px;
+
+}
+
+.kcjs-jg #dm:hover {
+    background-color: #70a401;
+}
+
+#vip {
+    height: 30px;
+    width: 50%;
+    border: 1px #999999 solid;
+    text-align: center;
+    line-height: 30px;
+    /*padding: 0 25px;*/
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+}
+
+#vip:hover {
+    background-color: #70a401;
+}
+
+/*切换栏*/
+.tab {
+    height: 30px;
+    border-top: 1px #c0c0c0 solid;
+    padding-top: 5px;
+    margin: 0 10px;
+}
+
+.tab ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.tab ul li {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    /*margin:  10px 0;*/
+
+}
+
+.tab ul li:nth-child(1) {
+    width: 20%;
+    float: left;
+}
+
+.tab ul li:nth-child(2) {
+    width: 20%;
+    float: left;
+}
+
+.tab ul li:nth-child(3) {
+    width: 20%;
+    float: left;
+}
+
+.tab ul li:nth-child(4) {
+    width: 20%;
+    float: left;
+}
+
+.tab ul li:nth-child(5) {
+    width: 20%;
+    float: left;
+}
+
+/*切换*/
+.item {
+    display: none;
+}
+
+.current {
+    background-color: #70a401;
+}
+
+/*介绍*/
+.js img {
+    width: 100%;
+}
+
+.kcxq {
+    box-sizing: border-box;
+    /*margin-bottom: 45px;*/
+    display: block;
+}
+
+/*.kcxq ul {*/
+ul {
+    padding: 0;
+    /*margin: 0;*/
+    list-style: none;
+    overflow: hidden;
+    margin: 2px;
+}
+
+.kcxq ul li {
+    width: 100%;
+    border-top: 1px #c0c0c0 dashed;
+    padding-top: 10px;
+    position: relative;
+
+
+}
+
+.kcxq ul li:hover {
+    color: #70a401;
+}
+
+/*.kcxq ul li::before {*/
+/*    content: "";*/
+/*    width: 29px;*/
+/*    height: 20px;*/
+/*    background: url("../images/play02.png") no-repeat;*/
+/*    background-size: 29px 20px;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*}*/
+
+
+.weibofang::before {
+    content: ' ';
+    background: url("../images/play02.png") no-repeat;
+    /*background: url("../images/播放.gif") no-repeat;*/
+    background-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 29px;
+    height: 20px;
+}
+
+.bofang::after {
+    content: ' ';
+    background: url("../images/播放.gif") no-repeat;
+    background-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 29px;
+    height: 30px;
+}
+
+.kcxq ul li span {
+    margin-top: 5px;
+}
+
+
+.kcxq ul li span:nth-child(1) {
+    font-size: 14px;
+    width: 90%;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+
+.kcxq ul li span:nth-child(2) {
+    color: #c0c0c0;
+    display: block;
+    font-size: 10px;
+}
+
+.kcxq ul li span:nth-child(3) {
+    color: #c0c0c0;
+    display: block;
+    font-size: 10px;
+}
+
+/*评价详情*/
+.pjxq {
+    height: 45px;
+    padding: 5px;
+    margin-bottom: 330px;
+
+    display: none;
+    /*background-color: pink;*/
+
+
+}
+
+.pjxq li {
+    margin: 5px auto;
+    border-bottom: 1px #dbdbdb dashed;
+}
+
+.pjxq img {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    border-radius: 22px;
+    vertical-align: hanging;
+}
+
+
+.pjxq div {
+    display: inline-block;
+    /*background-color: pink;*/
+}
+
+.pjxq h3 {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    color: #dbdbdb;
+    margin: 0;
+    padding: 0;
+    /*background-color: skyblue;*/
+
+}
+
+.pjxq li i {
+    display: inline-block;
+    float: right;
+    width: 45px;
+    height: 45px;
+    transform: scale(0.5);
+    background: url("../images/st-ico.png") no-repeat 0 -330px;
+}
+
+.pjxq p {
+    margin: 0;
+    padding: 0;
+    color: #a8a8a8;
+}
