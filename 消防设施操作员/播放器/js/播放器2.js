@@ -136,7 +136,7 @@ window.addEventListener("load", function () {
                 if (this.getAttribute("index") < 5) {
                     /*给播放器当前这个index*/
                     video.setAttribute("index", this.getAttribute("index"));
-                    
+
                     // 给播放器赋值当前点击这个连接的
                     video.setAttribute("src", this.getAttribute("value"));
                     /*留下当前li 设置选中样式*/
