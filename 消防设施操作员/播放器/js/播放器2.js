@@ -117,7 +117,7 @@ window.addEventListener("load", function () {
 
         };
     } else {
-        alert("没登录");
+        // alert("没登录");
         /*绑定点击事件，顺便添加 index*/
         for (i = 0; i < list.length; i++) {
             list[i].setAttribute("index", i);
@@ -165,7 +165,7 @@ window.addEventListener("load", function () {
 
         }
         // /*默认播放*/
-        alert("准备自动播放");
+        // alert("准备自动播放");
         video.setAttribute("src", list[0].getAttribute("value"));
         video.setAttribute("index", list[0].getAttribute("index"));
         video.play();
