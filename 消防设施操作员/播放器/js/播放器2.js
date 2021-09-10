@@ -147,6 +147,9 @@ window.addEventListener("load", function () {
                     video.style.display = "block";
                     video.play();
                 } else {
+                    /*给播放器当前这个index*/
+                    video.setAttribute("index", this.getAttribute("index"));
+
                     video.style.display = "none";
 
                     zhezhaoceng.style.display = "block";
@@ -200,7 +203,7 @@ window.addEventListener("load", function () {
                 video.style.display = "block";
                 zhezhaoceng.style.display = "none";
                 video.play();
-            }else {
+            } else {
                 video.style.display = "none";
                 video.setAttribute("index", list[nub].getAttribute("index"));
 
@@ -224,6 +227,96 @@ window.addEventListener("load", function () {
 
 
     }
+    /*上一曲下一曲*/
+    btn1.onclick = function () {
+        nub = parseInt(video.getAttribute("index"));
+        // alert("点击了上一曲");
+        if (video.getAttribute("index") == 0) {
+            nub = list.length - 1;
+        } else {
+            nub -= 1;
+        }
+        if (nub < 5) {
+            // console.log(nub);
+            video.setAttribute("src", list[nub].getAttribute("value"));
+            video.setAttribute("index", list[nub].getAttribute("index"));
+            for (var i = 0; i < list.length; i++) {
+                /*1.先去掉所有元素的样式*/
+                list[i].style.backgroundColor = "";
+                list[i].style.color = '';
+                list[i].setAttribute('class', "weibofang");
+            }
 
-})
-;
+            /*留下当前li 设置选中样式*/
+            list[nub].style.backgroundColor = "#f8ffe9";
+            list[nub].setAttribute('class', "bofang");
+            list[nub].style.color = '#70a401';
+            video.style.display="block";
+            zhezhaoceng.style.display = "none";
+        } else {
+            // console.log(nub);
+            video.setAttribute("index", list[nub].getAttribute("index"));
+
+            for (var i = 0; i < list.length; i++) {
+                /*1.先去掉所有元素的样式*/
+                list[i].style.backgroundColor = "";
+                list[i].style.color = '';
+                list[i].setAttribute('class', "weibofang");
+            }
+
+            /*留下当前li 设置选中样式*/
+            video.style.display="none";
+            zhezhaoceng.style.display = "block";
+            list[nub].style.backgroundColor = "#f8ffe9";
+            list[nub].setAttribute('class', "bofang");
+            list[nub].style.color = '#70a401';
+        }
+    };
+
+    btn2.onclick = function () {
+         nub = parseInt(video.getAttribute("index"));
+
+        if (video.getAttribute("index") == list.length - 1) {
+            nub = 0;
+        } else {
+            nub += 1;
+        }
+        if (nub < 5) {
+            // console.log(nub);
+            video.setAttribute("src", list[nub].getAttribute("value"));
+            video.setAttribute("index", list[nub].getAttribute("index"));
+            for (var i = 0; i < list.length; i++) {
+                /*1.先去掉所有元素的样式*/
+                list[i].style.backgroundColor = "";
+                list[i].style.color = '';
+                list[i].setAttribute('class', "weibofang");
+            }
+
+            /*留下当前li 设置选中样式*/
+            list[nub].style.backgroundColor = "#f8ffe9";
+            list[nub].setAttribute('class', "bofang");
+            list[nub].style.color = '#70a401';
+            video.style.display="block";
+            zhezhaoceng.style.display = "none";
+        } else {
+            // console.log(nub);
+            video.setAttribute("index", list[nub].getAttribute("index"));
+
+            for (var i = 0; i < list.length; i++) {
+                /*1.先去掉所有元素的样式*/
+                list[i].style.backgroundColor = "";
+                list[i].style.color = '';
+                list[i].setAttribute('class', "weibofang");
+            }
+
+            /*留下当前li 设置选中样式*/
+            video.style.display="none";
+            zhezhaoceng.style.display = "block";
+            list[nub].style.backgroundColor = "#f8ffe9";
+            list[nub].setAttribute('class', "bofang");
+            list[nub].style.color = '#70a401';
+        }
+
+    };
+
+});
