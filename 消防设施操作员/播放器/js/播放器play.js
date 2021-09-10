@@ -16,8 +16,22 @@ window.addEventListener("load", function () {
 
         /*点击播放*/
         list[i].onclick = function () {
+
+
+            /*1.先去掉所有元素的样式*/
+            for (var i = 0; i < list.length; i++) {
+                list[i].style.backgroundColor = "";
+                list[i].style.color = '';
+                list[i].setAttribute('class', "weibofang");
+
+            }
+            /*留下当前li 设置选中样式*/
             /*去掉遮罩层*/
-                    zhezhaoceng.style.display = "none";
+            zhezhaoceng.style.display = "none";
+            this.style.backgroundColor = "#f8ffe9";
+            console.log(this.getAttribute("index"));
+            this.setAttribute('class', "bofang");
+            this.style.color = '#70a401';
 
             /*判断播放的index是否大于5*/
             if (this.getAttribute("index") < 5) {
@@ -46,6 +60,8 @@ window.addEventListener("load", function () {
                     video.setAttribute("index", this.getAttribute("index"));
                     /*播放器播放*/
                     video.play();
+                    /*去掉遮罩层*/
+                    zhezhaoceng.style.display = "none";
 
 
                 } else {
