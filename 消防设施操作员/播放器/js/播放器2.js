@@ -208,6 +208,7 @@ window.addEventListener("load", function () {
                 video.play();
             } else {
                 video.style.display = "none";
+                video.pause();
                 video.setAttribute("index", list[nub].getAttribute("index"));
 
                 for (var i = 0; i < list.length; i++) {
@@ -222,6 +223,7 @@ window.addEventListener("load", function () {
                 list[nub].style.color = '#70a401';
                 video.style.display = "none";
                 zhezhaoceng.style.display = "block";
+                video.pause();
 
             }
 
@@ -259,7 +261,7 @@ window.addEventListener("load", function () {
         } else {
             // console.log(nub);
             video.setAttribute("index", list[nub].getAttribute("index"));
-
+            video.pause();
             for (var i = 0; i < list.length; i++) {
                 /*1.先去掉所有元素的样式*/
                 list[i].style.backgroundColor = "";
@@ -268,6 +270,7 @@ window.addEventListener("load", function () {
             }
 
             /*留下当前li 设置选中样式*/
+            video.pause();
             video.style.display="none";
             zhezhaoceng.style.display = "block";
             list[nub].style.backgroundColor = "#f8ffe9";
@@ -304,7 +307,7 @@ window.addEventListener("load", function () {
         } else {
             // console.log(nub);
             video.setAttribute("index", list[nub].getAttribute("index"));
-
+            video.pause();
             for (var i = 0; i < list.length; i++) {
                 /*1.先去掉所有元素的样式*/
                 list[i].style.backgroundColor = "";
@@ -318,6 +321,7 @@ window.addEventListener("load", function () {
             list[nub].style.backgroundColor = "#f8ffe9";
             list[nub].setAttribute('class', "bofang");
             list[nub].style.color = '#70a401';
+            video.pause();
         }
 
     };
