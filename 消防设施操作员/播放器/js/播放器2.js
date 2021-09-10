@@ -168,9 +168,9 @@ window.addEventListener("load", function () {
         // alert("准备自动播放");
         video.setAttribute("src", list[0].getAttribute("value"));
         video.setAttribute("index", list[0].getAttribute("index"));
-       video.volume = 0;
-        video.play();
-        video.volume = 0.5;
+       // video.volume = 0;
+       //  video.play();
+       //  video.volume = 0.5;
 
         /*留下当前li 设置选中样式*/
         list[0].style.backgroundColor = "#f8ffe9";
