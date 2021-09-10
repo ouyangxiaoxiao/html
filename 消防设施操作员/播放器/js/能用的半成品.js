@@ -144,10 +144,10 @@ window.addEventListener("load", function () {
                     console.log(this.getAttribute("index"));
                     this.setAttribute('class', "bofang");
                     this.style.color = '#70a401';
-                    video.style.display = "block";
+                    video.style.display= "block";
                     video.play();
-                } else {
-                    video.style.display = "none";
+                }else {
+                    video.style.display= "none";
 
                     zhezhaoceng.style.display = "block";
                     video.pause();
@@ -161,61 +161,6 @@ window.addEventListener("load", function () {
             };
 
         }
-        // /*默认播放*/
-        video.setAttribute("src", list[0].getAttribute("value"));
-        video.setAttribute("index", list[0].getAttribute("index"));
-        video.play();
-        /*留下当前li 设置选中样式*/
-        list[0].style.backgroundColor = "#f8ffe9";
-        list[0].setAttribute('class', "bofang");
-        list[0].style.color = '#70a401';
-        /*顺序播放*/
-        video.addEventListener("ended", function () {
-            if (nub == list.length - 1) {
-                nub = 0;
-            } else {
-                nub += 1;
-            }
-
-            if (nub < 5) {
-                alert("自动播放执行小于5的");
-                video.setAttribute("src", list[nub].getAttribute("value"));
-                video.setAttribute("index", list[nub].getAttribute("index"));
-
-                for (var i = 0; i < list.length; i++) {
-                    /*1.先去掉所有元素的样式*/
-                    list[i].style.backgroundColor = "";
-                    list[i].style.color = '';
-                    list[i].setAttribute('class', "weibofang");
-                }
-
-                /*留下当前li 设置选中样式*/
-                list[nub].style.backgroundColor = "#f8ffe9";
-                list[nub].setAttribute('class', "bofang");
-                list[nub].style.color = '#70a401';
-                video.style.display = "block";
-                video.play();
-                zhezhaoceng.style.display = "none";
-            } else {
-                alert("自动播放执行大于5 的的");
-                for (var k = 0; k < list.length; k++) {
-                    /*1.先去掉所有元素的样式*/
-                    list[k].style.backgroundColor = "";
-                    list[k].style.color = '';
-                    list[k].setAttribute('class', "weibofang");
-                    zhezhaoceng.style.display = "none";
-                }
-
-                /*留下当前li 设置选中样式*/
-                list[nub].style.backgroundColor = "#f8ffe9";
-                list[nub].setAttribute('class', "bofang");
-                list[nub].style.color = '#70a401';
-                video.style.display = "none";
-                zhezhaoceng.style.display = "block";
-            }
-
-
-        });
 
 
     }
