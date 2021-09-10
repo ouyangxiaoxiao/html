@@ -144,11 +144,18 @@ window.addEventListener("load", function () {
                     console.log(this.getAttribute("index"));
                     this.setAttribute('class', "bofang");
                     this.style.color = '#70a401';
+                    video.style.display= "block";
+                    video.play();
                 }else {
+                    video.style.display= "none";
 
                     zhezhaoceng.style.display = "block";
                     video.pause();
                     // alert("您需要登录");
+                    this.style.backgroundColor = "#f8ffe9";
+                    console.log(this.getAttribute("index"));
+                    this.setAttribute('class', "bofang");
+                    this.style.color = '#70a401';
                 }
 
             };
