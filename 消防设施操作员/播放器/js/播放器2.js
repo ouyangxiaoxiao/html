@@ -162,6 +162,7 @@ window.addEventListener("load", function () {
 
         }
         // /*默认播放*/
+        alert("准备自动播放");
         video.setAttribute("src", list[0].getAttribute("value"));
         video.setAttribute("index", list[0].getAttribute("index"));
         video.play();
