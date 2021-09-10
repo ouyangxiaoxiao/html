@@ -121,7 +121,7 @@ window.addEventListener("load", function () {
             video.setAttribute("src", list[0].getAttribute("value"));
             video.setAttribute("index", list[0].getAttribute("index"));
             // video.volume = 0;
-            //  video.play();
+             video.play();
             //  video.volume = 0.5;
 
             /*留下当前li 设置选中样式*/
