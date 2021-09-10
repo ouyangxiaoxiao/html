@@ -1,3 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*background-color:pink;*/
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*头部*/
+header {
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    background-color: rgb(112, 164, 1);
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
+.i_top_return img {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+.i_top_logo {
+    float: left;
+}
+
+.i_top_logo img {
+    height: 30px;
+    margin: 10px 10px;
+}
+
+.i_top_more img {
+    float: right;
+    height: 30px;
+    margin: 10px 15px;
+}
+
+.i_top_search {
+    float: right;
+    margin: 10px;
+}
+
+.i_top_search img {
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
