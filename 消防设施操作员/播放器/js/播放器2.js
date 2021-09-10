@@ -202,7 +202,21 @@ window.addEventListener("load", function () {
                 video.play();
             }else {
                 video.style.display = "none";
+                video.setAttribute("index", list[nub].getAttribute("index"));
+
+                for (var i = 0; i < list.length; i++) {
+                    /*1.先去掉所有元素的样式*/
+                    list[i].style.backgroundColor = "";
+                    list[i].style.color = '';
+                    list[i].setAttribute('class', "weibofang");
+                }
+                /*留下当前li 设置选中样式*/
+                list[nub].style.backgroundColor = "#f8ffe9";
+                list[nub].setAttribute('class', "bofang");
+                list[nub].style.color = '#70a401';
+                video.style.display = "none";
                 zhezhaoceng.style.display = "block";
+
             }
 
 
