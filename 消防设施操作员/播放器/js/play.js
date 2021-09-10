@@ -168,33 +168,33 @@ window.addEventListener('load', function () {
 
 
     });
-    // consoel.log(index);
+    consoel.log(index);
 
 
-    // /*判断是否登录*/
-    //
-    // /*判断是否包含手机号*/
-    //
-    // if (localStorage.getItem('phone')) {
-    //
-    //
-    // } else {
-    //     // console.log(result["13163122085"]);
-    //     // console.log(555555555);
-    //     console.log(lis.length);
-    //     /*从第5个开始干掉mp4 连接*/
-    //     for (i = 5; i <= lis.length; i++) {
-    //         alert("超过5个了");
-    //         // console.log(lis[i]);
-    //         // console.log(lis[i].index);
-    //         // lis[i].setAttribute("value", "https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/qcaqjfwdljyo574.mp4");
-    //         lis[i].value =  "登录";
-    //         // console.log(55555)
-    //
-    //     }
-    //
-    //
-    // }
+    /*判断是否登录*/
+
+    /*判断是否包含手机号*/
+
+    if (localStorage.getItem('phone')) {
+
+
+    } else {
+        // console.log(result["13163122085"]);
+        // console.log(555555555);
+        console.log(lis.length);
+        /*从第5个开始干掉mp4 连接*/
+        for (i = 5; i <= lis.length; i++) {
+            alert("超过5个了");
+            // console.log(lis[i]);
+            // console.log(lis[i].index);
+            // lis[i].setAttribute("value", "https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/qcaqjfwdljyo574.mp4");
+            lis[i].value =  "登录";
+            // console.log(55555)
+
+        }
+
+
+    }
 });
 
 
