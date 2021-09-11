@@ -47,6 +47,8 @@ window.addEventListener("load", function () {
             list[0].style.color = '#70a401';
             /*顺序播放*/
             video.addEventListener("ended", function () {
+                nub = parseInt(video.getAttribute("index"));
+
                 if (nub == list.length - 1) {
                     nub = 0;
                 } else {

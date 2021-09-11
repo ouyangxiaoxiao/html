@@ -22,7 +22,7 @@ a {
 }
 
 img {
-    pointer-events: none; /*禁止none ，启用auto*/
+    /*pointer-events: none; !*禁止none ，启用auto*!*/
     /*width: 100%;*/
 }
 
