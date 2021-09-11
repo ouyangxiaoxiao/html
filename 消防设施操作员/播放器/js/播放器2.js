@@ -230,7 +230,6 @@ window.addEventListener("load", function () {
                     video.style.display = "block";
                     zhezhaoceng.style.display = "none";
                 } else {
-                    alert("没注册");
                     video.setAttribute("index", list[nub].getAttribute("index"));
                     for (var i = 0; i < list.length; i++) {
                         /*1.先去掉所有元素的样式*/
@@ -279,7 +278,6 @@ window.addEventListener("load", function () {
                 video.style.display = "block";
                 zhezhaoceng.style.display = "none";
             } else {
-                alert("判断是否登录");
                 if (localStorage.getItem('phone')) {
                     // console.log(nub);
                     video.setAttribute("src", list[nub].getAttribute("value"));
@@ -298,7 +296,6 @@ window.addEventListener("load", function () {
                     video.style.display = "block";
                     zhezhaoceng.style.display = "none";
                 } else {
-                    alert("没登录不让看");
                     video.setAttribute("index", list[nub].getAttribute("index"));
                     video.pause();
                     video.style.display = "none";
