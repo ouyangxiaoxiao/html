@@ -24,11 +24,13 @@ for a in range(int(len(str(data.sheet_names())))):
             # print(i)
             rowdata = table.row_values(i)
             # print("第{}行:".format(i+1) + str(rowdata))
-            name = (rowdata[3])
-            code = (rowdata[4])
+            http0 = rowdata[0]
+            http1 = rowdata[1]
             url = rowdata[2]
-            http0= rowdata[0]
-            http1= rowdata[1]
+            name = (rowdata[3])
+            code = (rowdata[5])
+
+
             print(byname,http0,http1,name,code,url)
             # 保存文本
             f1 = open('test.txt', 'a')
@@ -38,10 +40,10 @@ for a in range(int(len(str(data.sheet_names())))):
             try:
 
                 # 设置旧文件名（就是路径+文件名）
-                oldname = 'E:/编程/python_2/视频/xiaofangshipin/'+ str(byname)   +'/'+ name +'.mp4' # os.sep添加系统分隔符
+                oldname = 'E:/编程/python_2/视频/xiaofangshipin2/'+ str(byname)   +'/'+ name +'.mp4' # os.sep添加系统分隔符
 
                 # 设置新文件名
-                newname = 'E:/编程/python_2/视频/xiaofangshipin/'+ str(byname) +'/'+ code+'.mp4'
+                newname = 'E:/编程/python_2/视频/xiaofangshipin2/'+ str(byname) +'/'+ code+'.mp4'
                 # 复制文件
                 # shutil.copy(oldname, newname)
                 # 修改文件名
