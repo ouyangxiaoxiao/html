@@ -13,72 +13,70 @@ window.addEventListener("load", function () {
         /*绑定点击事件，顺便添加 index*/
         for (i = 0; i < list.length; i++) {
             list[i].setAttribute("index", i);
-
+        }
+        /*点击事件*/
+        for (i = 0; i < list.length; i++) {
             /*点击播放*/
             list[i].onclick = function () {
+                nub = this.getAttribute("index");
+                if (nub < 5) {
+                    // console.log(nub);
+                    video.setAttribute("src", list[nub].getAttribute("value"));
+                    video.setAttribute("index", list[nub].getAttribute("index"));
+                    for (i = 0; i < list.length; i++) {
+                        /*1.先去掉所有元素的样式*/
+                        list[i].style.backgroundColor = "";
+                        list[i].style.color = '';
+                        list[i].setAttribute('class', "weibofang");
+                    }
 
-
-                /*1.先去掉所有元素的样式*/
-                for (var i = 0; i < list.length; i++) {
-                    list[i].style.backgroundColor = "";
-                    list[i].style.color = '';
-                    list[i].setAttribute('class', "weibofang");
-
-                }
-                /*留下当前li 设置选中样式*/
-
-                this.style.backgroundColor = "#f8ffe9";
-                this.setAttribute('class', "bofang");
-                this.style.color = '#70a401';
-
-                /*判断播放的index是否大于5*/
-                if (this.getAttribute("index") < 5) {
-                    // 给播放器赋值当前点击这个连接的
-                    video.setAttribute("src", this.getAttribute("value"));
-                    /*给播放器当前这个index*/
-                    video.setAttribute("index", this.getAttribute("index"));
-                    /*去掉遮罩层*/
+                    /*留下当前li 设置选中样式*/
+                    list[nub].style.backgroundColor = "#f8ffe9";
+                    list[nub].setAttribute('class', "bofang");
+                    list[nub].style.color = '#70a401';
+                    video.style.display = "block";
                     zhezhaoceng.style.display = "none";
-                    /*播放器播放*/
-                    video.play();
-
                 } else {
-                    // 暂停播放器
-                    video.pause();
-                    // alert("大于5了");
-                    // 调用是否注册会员
+                    // alert("判断是否登录");
                     if (localStorage.getItem('phone')) {
+                        // console.log(nub);
+                        video.setAttribute("src", list[nub].getAttribute("value"));
+                        video.setAttribute("index", list[nub].getAttribute("index"));
+                        for (i = 0; i < list.length; i++) {
+                            /*1.先去掉所有元素的样式*/
+                            list[i].style.backgroundColor = "";
+                            list[i].style.color = '';
+                            list[i].setAttribute('class', "weibofang");
+                        }
 
-                        // alert('注册了');
-
-
-                        // 给播放器赋值当前点击这个连接的
-                        video.setAttribute("src", this.getAttribute("value"));
-                        /*给播放器当前这个index*/
-                        video.setAttribute("index", this.getAttribute("index"));
-                        /*播放器播放*/
-                        video.play();
-                        /*去掉遮罩层*/
+                        /*留下当前li 设置选中样式*/
+                        list[nub].style.backgroundColor = "#f8ffe9";
+                        list[nub].setAttribute('class', "bofang");
+                        list[nub].style.color = '#70a401';
+                        video.style.display = "block";
                         zhezhaoceng.style.display = "none";
-
-
                     } else {
-                        // alert("没注册");
-                        /*给播放器当前这个index*/
-                        video.setAttribute("index", this.getAttribute("index"));
-                        // 播放器暂停
+                        // alert("没登录不让看");
+                        video.setAttribute("index", list[nub].getAttribute("index"));
                         video.pause();
-                        /*遮罩层出现*/
+                        video.style.display = "none";
                         zhezhaoceng.style.display = "block";
+                        for (var i = 0; i < list.length; i++) {
+                            /*1.先去掉所有元素的样式*/
+                            list[i].style.backgroundColor = "";
+                            list[i].style.color = '';
+                            list[i].setAttribute('class', "weibofang");
+                        }
 
+                        /*留下当前li 设置选中样式*/
+                        list[nub].style.backgroundColor = "#f8ffe9";
+                        list[nub].setAttribute('class', "bofang");
+                        list[nub].style.color = '#70a401';
 
                     }
 
-
                 }
-
-            };
-
+            }
         }
 
 // /*默认播放*/
@@ -107,7 +105,7 @@ window.addEventListener("load", function () {
                 // console.log(nub);
                 video.setAttribute("src", list[nub].getAttribute("value"));
                 video.setAttribute("index", list[nub].getAttribute("index"));
-                for (i = 0; i < list.length; i++) {
+                for (var i = 0; i < list.length; i++) {
                     /*1.先去掉所有元素的样式*/
                     list[i].style.backgroundColor = "";
                     list[i].style.color = '';
@@ -118,6 +116,7 @@ window.addEventListener("load", function () {
                 list[nub].style.backgroundColor = "#f8ffe9";
                 list[nub].setAttribute('class', "bofang");
                 list[nub].style.color = '#70a401';
+                video.style.display = "block";
                 zhezhaoceng.style.display = "none";
             } else {
                 // alert("判断是否登录");
@@ -125,7 +124,7 @@ window.addEventListener("load", function () {
                     // console.log(nub);
                     video.setAttribute("src", list[nub].getAttribute("value"));
                     video.setAttribute("index", list[nub].getAttribute("index"));
-                    for (var i = 0; i < list.length; i++) {
+                    for (i = 0; i < list.length; i++) {
                         /*1.先去掉所有元素的样式*/
                         list[i].style.backgroundColor = "";
                         list[i].style.color = '';
@@ -136,13 +135,15 @@ window.addEventListener("load", function () {
                     list[nub].style.backgroundColor = "#f8ffe9";
                     list[nub].setAttribute('class', "bofang");
                     list[nub].style.color = '#70a401';
+                    video.style.display = "block";
                     zhezhaoceng.style.display = "none";
                 } else {
                     // alert("没登录不让看");
                     video.setAttribute("index", list[nub].getAttribute("index"));
                     video.pause();
+                    video.style.display = "none";
                     zhezhaoceng.style.display = "block";
-                    for (var i = 0; i < list.length; i++) {
+                    for (i = 0; i < list.length; i++) {
                         /*1.先去掉所有元素的样式*/
                         list[i].style.backgroundColor = "";
                         list[i].style.color = '';
@@ -157,6 +158,7 @@ window.addEventListener("load", function () {
                 }
 
             }
+
 
         });
 
@@ -191,25 +193,9 @@ window.addEventListener("load", function () {
             } else {
                 /*大于5就判断是否登录*/
 
-                if (localStorage.getItem('phone')) {
+                if (nub < 5) {
+                    // console.log(nub);
                     video.setAttribute("src", list[nub].getAttribute("value"));
-                    video.setAttribute("index", list[nub].getAttribute("index"));
-                    for (i = 0; i < list.length; i++) {
-                        /*1.先去掉所有元素的样式*/
-                        list[i].style.backgroundColor = "";
-                        list[i].style.color = '';
-                        list[i].setAttribute('class', "weibofang");
-
-                    }
-
-                    /*留下当前li 设置选中样式*/
-                    list[nub].style.backgroundColor = "#f8ffe9";
-                    list[nub].setAttribute('class', "bofang");
-                    list[nub].style.color = '#70a401';
-                    video.style.display = "block";
-                    zhezhaoceng.style.display = "none";
-                } else {
-                    // alert("没注册");
                     video.setAttribute("index", list[nub].getAttribute("index"));
                     for (var i = 0; i < list.length; i++) {
                         /*1.先去掉所有元素的样式*/
@@ -222,9 +208,47 @@ window.addEventListener("load", function () {
                     list[nub].style.backgroundColor = "#f8ffe9";
                     list[nub].setAttribute('class', "bofang");
                     list[nub].style.color = '#70a401';
-                    video.style.display = "none";
-                    zhezhaoceng.style.display = "block";
-                    video.pause();
+                    video.style.display = "block";
+                    zhezhaoceng.style.display = "none";
+                } else {
+                    // alert("判断是否登录");
+                    if (localStorage.getItem('phone')) {
+                        // console.log(nub);
+                        video.setAttribute("src", list[nub].getAttribute("value"));
+                        video.setAttribute("index", list[nub].getAttribute("index"));
+                        for (i = 0; i < list.length; i++) {
+                            /*1.先去掉所有元素的样式*/
+                            list[i].style.backgroundColor = "";
+                            list[i].style.color = '';
+                            list[i].setAttribute('class', "weibofang");
+                        }
+
+                        /*留下当前li 设置选中样式*/
+                        list[nub].style.backgroundColor = "#f8ffe9";
+                        list[nub].setAttribute('class', "bofang");
+                        list[nub].style.color = '#70a401';
+                        video.style.display = "block";
+                        zhezhaoceng.style.display = "none";
+                    } else {
+                        // alert("没登录不让看");
+                        video.setAttribute("index", list[nub].getAttribute("index"));
+                        video.pause();
+                        video.style.display = "none";
+                        zhezhaoceng.style.display = "block";
+                        for (i = 0; i < list.length; i++) {
+                            /*1.先去掉所有元素的样式*/
+                            list[i].style.backgroundColor = "";
+                            list[i].style.color = '';
+                            list[i].setAttribute('class', "weibofang");
+                        }
+
+                        /*留下当前li 设置选中样式*/
+                        list[nub].style.backgroundColor = "#f8ffe9";
+                        list[nub].setAttribute('class', "bofang");
+                        list[nub].style.color = '#70a401';
+
+                    }
+
                 }
             }
 
@@ -263,7 +287,7 @@ window.addEventListener("load", function () {
                     // console.log(nub);
                     video.setAttribute("src", list[nub].getAttribute("value"));
                     video.setAttribute("index", list[nub].getAttribute("index"));
-                    for (var i = 0; i < list.length; i++) {
+                    for (i = 0; i < list.length; i++) {
                         /*1.先去掉所有元素的样式*/
                         list[i].style.backgroundColor = "";
                         list[i].style.color = '';
@@ -282,7 +306,7 @@ window.addEventListener("load", function () {
                     video.pause();
                     video.style.display = "none";
                     zhezhaoceng.style.display = "block";
-                    for (var i = 0; i < list.length; i++) {
+                    for (i = 0; i < list.length; i++) {
                         /*1.先去掉所有元素的样式*/
                         list[i].style.backgroundColor = "";
                         list[i].style.color = '';
