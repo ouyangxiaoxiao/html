@@ -16,10 +16,10 @@ body {
     /*background-color:pink;*/
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+/*a {*/
+/*    text-decoration: none;*/
+/*    color: black;*/
+/*}*/
 
 /*头部*/
 header {
@@ -34,34 +34,8 @@ header {
     z-index: 9;
 }
 
-.i_top_return img {
+.i_top_return{
     float: left;
-    height: 50px;
-    line-height: 50px;
-}
-
-.i_top_logo {
-    float: left;
-}
-
-.i_top_logo img {
-    height: 30px;
-    margin: 10px 10px;
-}
-
-.i_top_more img {
-    float: right;
-    height: 30px;
-    margin: 10px 15px;
-}
-
-.i_top_search {
-    float: right;
-    margin: 10px;
-}
-
-.i_top_search img {
-    width: 30px;
 }
 
 
@@ -108,4 +82,8 @@ footer h4 {
     font-size: 16px;
     border: none;
     font-weight: 400;
+}
+.dicheng{
+    width: 100%;
+    height: 200px;
 }

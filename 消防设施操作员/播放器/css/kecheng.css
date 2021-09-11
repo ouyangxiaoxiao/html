@@ -1,78 +1,88 @@
-/*播放器*/
-.bofangqi {
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
     max-width: 640px;
     min-width: 320px;
-    margin: 0 auto;
     width: 100%;
-    /*height: 240px;*/
-    /*position: relative;*/
-    /*position: relative;*/
-    position: fixed;
-    top: 50px;
-    z-index: 9;
-    /*background-color: black;*/
-
-
+    margin: 0 auto;
 }
 
-.bofangqi h5 {
-    /*display: none;*/
-    /*position: absolute;*/
-    top: 350px;
-    left: 40px;
-    z-index: 999;
-    /*color: #fff;*/
+.bofangqi img {
+    display: block;
+    position: relative;
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    margin: 50px auto 0;
 }
 
 video {
+    position: fixed;
+    top: 50px;
+    max-width: 640px;
+    min-width: 320px;
     width: 100%;
-    margin: 0;
-    /*position: sticky;*/
-    /*top: 0;*/
-    /*z-index: 99;*/
+    margin: 0 auto;
+    z-index: 100;
 }
-
+#beijing{
+    position: fixed;
+    top: 50px;
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 100;
+}
 /*登录遮罩层*/
-.zhezhaoceng {
+#zhezhaoceng {
     display: none;
-    box-sizing: border-box;
-    top: 0;
-    /*width: 100%;*/
-    /*height: 99%;*/
-     width: 100%;
-    height: 99%;
-    /*background-color: rgba(0,0,0,.8);*/
-    background-color: black;
-    position: absolute;
-    z-index: 180;
-    /*border-bottom: 1px #70a400 solid;*/
+    position: fixed;
+    top: 50px;
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 110;
 
 }
+#beijing3{
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
 
-.zhezhaoceng img {
-    width: 50px;
-    margin-top: 5%;
+}
+#suo {
+    display: block;
+    width: 60px;
+    top: 80px;
     left: 50%;
     transform: translate(-50%);
-    position: absolute;
+    position: fixed;
+    z-index: 120;
 }
 
-.zhezhaoceng h1 {
+
+#zhezhaoceng h1 {
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+    position: fixed;
+    z-index: 130;
     font-size: 16px;
-    left: 50%;
-    margin-top: 15%;
-    transform: translate(-50%);
-    position: absolute;
     color: #fff;
 }
 
-.zhezhaoceng button {
+#zhezhaoceng button {
     font-size: 16px;
     left: 50%;
-    margin-top: 25%;
+    top: 180px;
     transform: translate(-50%);
-    width: 15%;
-    position: absolute;
+    /*width: 15%;*/
+    padding: 2px 20px;
+    position: fixed;
 }
 
 /*!*撑*!*/
@@ -84,6 +94,7 @@ video {
 /*}*/
 /*上一课*/
 .btn {
+    /*display: none;*/
     /*margin-top: 225px;*/
     width: 100%;
     height: 35px;
@@ -283,9 +294,9 @@ ul {
 
 }
 
-.kcxq ul li:hover {
-    color: #70a401;
-}
+/*.kcxq ul li:hover {*/
+/*    color: #70a401;*/
+/*}*/
 
 /*.kcxq ul li::before {*/
 /*    content: "";*/

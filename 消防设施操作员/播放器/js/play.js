@@ -1,225 +1,325 @@
-window.addEventListener('load', function () {
-    /*获取视频*/
-    var video = document.getElementById('video');
-    // 获取列表
-    var kcxq = document.querySelector('.kcxq');
-    /*精准获取 lis下 每一条li*/
-    var lis = kcxq.getElementsByTagName('li');
+window.addEventListener("load", function () {
+        var kcxq = document.querySelector("#kcxq");
+        console.log("5555");
+        var list = kcxq.querySelectorAll("li");
+        console.log(list.length);
+        var video = document.querySelector("#video");
+        var btn1 = document.querySelector("#btn1");
+        var btn2 = document.querySelector("#btn2");
+        var zhezhaoceng = document.querySelector("#zhezhaoceng");
+        var nub = video.getAttribute("index");
 
-    // 获取上一曲按键
-    var btn1 = document.querySelector('.btn-1');
-    //获取下一曲按键
-    var btn2 = document.querySelector('.btn-2');
+        if (localStorage.getItem('phone')) {
+            /*绑定点击事件，顺便添加 index*/
+            for (i = 0; i < list.length; i++) {
+                list[i].setAttribute("index", i);
+                list[i].setAttribute('class', "weibofang");
 
-    // 初始化index
-    index = 0;
-    // 默认播放第一条
-    video.src = lis[index].getAttribute("value");
-    lis[index].style.backgroundColor = "#f8ffe9";
-    lis[index].style.color = '#70a401';
-    /*给每条li绑定点击事件*/
-    for (i = 0; i < lis.length; i++) {
-        lis[i].setAttribute('index', i);
-        /*添加自定义属性*/
-        lis[i].setAttribute('class', "weibofang");
-        lis[i].onclick = function () {
-            console.log('点击了');
-            video.src = this.getAttribute("value");
-            console.log(this.getAttribute("value"));
+                /*点击播放*/
+                list[i].onclick = function () {
+                    for (var i = 0; i < list.length; i++) {
+                        // 给播放器赋值当前点击这个连接的
+                        video.setAttribute("src", this.getAttribute("value"));
+                        /*给播放器当前这个index*/
+                        video.setAttribute("index", this.getAttribute("index"));
+                        /*1.先去掉所有元素的样式*/
+                        list[i].style.backgroundColor = "";
+                        list[i].style.color = '';
+                        list[i].setAttribute('class', "weibofang");
+                    }
 
-
-            /*1.先去掉所有元素的样式*/
-            for (var i = 0; i < lis.length; i++) {
-                lis[i].style.backgroundColor = "";
-                lis[i].style.color = '';
-                lis[i].setAttribute('class', "weibofang");
+                    /*留下当前li 设置选中样式*/
+                    this.style.backgroundColor = "#f8ffe9";
+                    console.log(this.getAttribute("index"));
+                    this.setAttribute('class', "bofang");
+                    this.style.color = '#70a401';
+                };
 
             }
+
+            // /*默认播放*/
+            video.setAttribute("src", list[0].getAttribute("value"));
+            video.setAttribute("index", list[0].getAttribute("index"));
+            video.play();
             /*留下当前li 设置选中样式*/
+            list[0].style.backgroundColor = "#f8ffe9";
+            list[0].setAttribute('class', "bofang");
+            list[0].style.color = '#70a401';
+            /*顺序播放*/
+            video.addEventListener("ended", function () {
+                if (nub == list.length - 1) {
+                    nub = 0;
+                } else {
+                    nub += 1;
+                }
+                video.setAttribute("src", list[nub].getAttribute("value"));
+                video.setAttribute("index", list[nub].getAttribute("index"));
 
-            this.style.backgroundColor = "#f8ffe9";
-            console.log(this.getAttribute("index"));
-            this.setAttribute('class', "bofang");
-            this.style.color = '#70a401';
+                for (var i = 0; i < list.length; i++) {
+                    /*1.先去掉所有元素的样式*/
+                    list[i].style.backgroundColor = "";
+                    list[i].style.color = '';
+                    list[i].setAttribute('class', "weibofang");
+                }
 
-            /*获得当前这个li 的索引号给index*/
-            index = Number(this.getAttribute('index'));
+                /*留下当前li 设置选中样式*/
+                list[nub].style.backgroundColor = "#f8ffe9";
+                list[nub].setAttribute('class', "bofang");
+                list[nub].style.color = '#70a401';
+            });
 
-            // window.scroll(800, this.offsetTop);
+        } else {
+            // alert("没登录");
+            /*绑定点击事件，顺便添加 index*/
+            for (i = 0; i < list.length; i++) {
+                list[i].setAttribute("index", i);
+                list[i].setAttribute('class', "weibofang");
 
+                /*点击播放*/
+                list[i].onclick = function () {
+                    for (var i = 0; i < list.length; i++) {
+
+                        /*1.先去掉所有元素的样式*/
+                        list[i].style.backgroundColor = "";
+                        list[i].style.color = '';
+                        list[i].setAttribute('class', "weibofang");
+                        zhezhaoceng.style.display = "none";
+                    }
+                    if (this.getAttribute("index") < 5) {
+                        /*给播放器当前这个index*/
+                        video.setAttribute("index", this.getAttribute("index"));
+
+                        // 给播放器赋值当前点击这个连接的
+                        video.setAttribute("src", this.getAttribute("value"));
+                        /*留下当前li 设置选中样式*/
+                        this.style.backgroundColor = "#f8ffe9";
+                        console.log(this.getAttribute("index"));
+                        this.setAttribute('class', "bofang");
+                        this.style.color = '#70a401';
+                        video.style.display = "block";
+                        video.play();
+                    } else {
+                        /*给播放器当前这个index*/
+                        video.setAttribute("index", this.getAttribute("index"));
+
+                        video.style.display = "none";
+
+                        zhezhaoceng.style.display = "block";
+                        video.pause();
+                        // alert("您需要登录");
+                        this.style.backgroundColor = "#f8ffe9";
+                        console.log(this.getAttribute("index"));
+                        this.setAttribute('class', "bofang");
+                        this.style.color = '#70a401';
+                    }
+
+                };
+
+            }
+            // /*默认播放*/
+            // alert("准备自动播放");
+            video.setAttribute("src", list[0].getAttribute("value"));
+            video.setAttribute("index", list[0].getAttribute("index"));
+            // video.volume = 0;
+            video.play();
+            //  video.volume = 0.5;
+
+            /*留下当前li 设置选中样式*/
+            list[0].style.backgroundColor = "#f8ffe9";
+            list[0].setAttribute('class', "bofang");
+            list[0].style.color = '#70a401';
+            /*顺序播放*/
+            console.log(video.getAttribute("index"));
+            video.addEventListener("ended", function () {
+                console.log("播放完毕");
+                console.log(video.getAttribute("index"));
+                nub = parseInt(video.getAttribute("index"));
+                if (nub == list.length - 1) {
+                    nub = 0;
+                } else {
+                    nub += 1;
+                }
+                if (nub < 5) {
+                    console.log(nub);
+                    video.setAttribute("src", list[nub].getAttribute("value"));
+                    video.setAttribute("index", list[nub].getAttribute("index"));
+
+                    for (var i = 0; i < list.length; i++) {
+                        /*1.先去掉所有元素的样式*/
+                        list[i].style.backgroundColor = "";
+                        list[i].style.color = '';
+                        list[i].setAttribute('class', "weibofang");
+                    }
+
+                    /*留下当前li 设置选中样式*/
+                    list[nub].style.backgroundColor = "#f8ffe9";
+                    list[nub].setAttribute('class', "bofang");
+                    list[nub].style.color = '#70a401';
+                    video.style.display = "block";
+                    zhezhaoceng.style.display = "none";
+                    video.play();
+                } else {
+                    video.style.display = "none";
+                    video.pause();
+                    video.setAttribute("index", list[nub].getAttribute("index"));
+
+                    for (var i = 0; i < list.length; i++) {
+                        /*1.先去掉所有元素的样式*/
+                        list[i].style.backgroundColor = "";
+                        list[i].style.color = '';
+                        list[i].setAttribute('class', "weibofang");
+                    }
+                    /*留下当前li 设置选中样式*/
+                    list[nub].style.backgroundColor = "#f8ffe9";
+                    list[nub].setAttribute('class', "bofang");
+                    list[nub].style.color = '#70a401';
+                    video.style.display = "none";
+                    zhezhaoceng.style.display = "block";
+                    video.pause();
+
+
+                }
+            })
+        }
+
+        /*上一曲*/
+        btn1.onclick = function () {
+            nub = parseInt(video.getAttribute("index"));
+            // alert("点击了上一曲");
+            if (video.getAttribute("index") == 0) {
+                nub = list.length - 1;
+            } else {
+                nub -= 1;
+            }
+
+            if (nub < 5) {
+                console.log(nub);
+                video.setAttribute("src", list[nub].getAttribute("value"));
+                video.setAttribute("index", list[nub].getAttribute("index"));
+                for (var i = 0; i < list.length; i++) {
+                    /*1.先去掉所有元素的样式*/
+                    list[i].style.backgroundColor = "";
+                    list[i].style.color = '';
+                    list[i].setAttribute('class', "weibofang");
+                }
+
+                /*留下当前li 设置选中样式*/
+                list[nub].style.backgroundColor = "#f8ffe9";
+                list[nub].setAttribute('class', "bofang");
+                list[nub].style.color = '#70a401';
+                video.style.display = "block";
+                zhezhaoceng.style.display = "none";
+            } else {
+                /*大于5就判断是否登录*/
+
+                if (localStorage.getItem('phone')) {
+                    video.setAttribute("src", list[nub].getAttribute("value"));
+                    video.setAttribute("index", list[nub].getAttribute("index"));
+                    for (var i = 0; i < list.length; i++) {
+                        /*1.先去掉所有元素的样式*/
+                        list[i].style.backgroundColor = "";
+                        list[i].style.color = '';
+                        list[i].setAttribute('class', "weibofang");
+
+                    }
+
+                    /*留下当前li 设置选中样式*/
+                    list[nub].style.backgroundColor = "#f8ffe9";
+                    list[nub].setAttribute('class', "bofang");
+                    list[nub].style.color = '#70a401';
+                    video.style.display = "block";
+                    zhezhaoceng.style.display = "none";
+                } else {
+                    alert("没注册");
+                    video.setAttribute("index", list[nub].getAttribute("index"));
+                    for (var i = 0; i < list.length; i++) {
+                        /*1.先去掉所有元素的样式*/
+                        list[i].style.backgroundColor = "";
+                        list[i].style.color = '';
+                        list[i].setAttribute('class', "weibofang");
+                    }
+
+                    /*留下当前li 设置选中样式*/
+                    list[nub].style.backgroundColor = "#f8ffe9";
+                    list[nub].setAttribute('class', "bofang");
+                    list[nub].style.color = '#70a401';
+                    video.style.display = "none";
+                    zhezhaoceng.style.display = "block";
+                    video.pause();
+                }
+            }
 
         };
 
-        lis[index].setAttribute('class', "bofang");
+
+        /*下一曲*/
+        btn2.onclick = function () {
+            nub = parseInt(video.getAttribute("index"));
+
+            if (video.getAttribute("index") == list.length - 1) {
+                nub = 0;
+            } else {
+                nub += 1;
+            }
+            if (nub < 5) {
+                // console.log(nub);
+                video.setAttribute("src", list[nub].getAttribute("value"));
+                video.setAttribute("index", list[nub].getAttribute("index"));
+                for (var i = 0; i < list.length; i++) {
+                    /*1.先去掉所有元素的样式*/
+                    list[i].style.backgroundColor = "";
+                    list[i].style.color = '';
+                    list[i].setAttribute('class', "weibofang");
+                }
+
+                /*留下当前li 设置选中样式*/
+                list[nub].style.backgroundColor = "#f8ffe9";
+                list[nub].setAttribute('class', "bofang");
+                list[nub].style.color = '#70a401';
+                video.style.display = "block";
+                zhezhaoceng.style.display = "none";
+            } else {
+                alert("判断是否登录");
+                if (localStorage.getItem('phone')) {
+                    // console.log(nub);
+                    video.setAttribute("src", list[nub].getAttribute("value"));
+                    video.setAttribute("index", list[nub].getAttribute("index"));
+                    for (var i = 0; i < list.length; i++) {
+                        /*1.先去掉所有元素的样式*/
+                        list[i].style.backgroundColor = "";
+                        list[i].style.color = '';
+                        list[i].setAttribute('class', "weibofang");
+                    }
+
+                    /*留下当前li 设置选中样式*/
+                    list[nub].style.backgroundColor = "#f8ffe9";
+                    list[nub].setAttribute('class', "bofang");
+                    list[nub].style.color = '#70a401';
+                    video.style.display = "block";
+                    zhezhaoceng.style.display = "none";
+                } else {
+                    alert("没登录不让看");
+                    video.setAttribute("index", list[nub].getAttribute("index"));
+                    video.pause();
+                    video.style.display = "none";
+                    zhezhaoceng.style.display = "block";
+                    for (var i = 0; i < list.length; i++) {
+                        /*1.先去掉所有元素的样式*/
+                        list[i].style.backgroundColor = "";
+                        list[i].style.color = '';
+                        list[i].setAttribute('class', "weibofang");
+                    }
+
+                    /*留下当前li 设置选中样式*/
+                    list[nub].style.backgroundColor = "#f8ffe9";
+                    list[nub].setAttribute('class', "bofang");
+                    list[nub].style.color = '#70a401';
+
+                }
+
+            }
+
+        };
 
     }
-
-
-    /*下一曲*/
-    btn2.addEventListener('click', function () {
-        if (index === lis.length - 1) {
-            index += 1;
-            index = 0;
-            video.src = lis[index].getAttribute("value");
-            console.log(index);
-            /*1.先去掉所有元素的样式*/
-            for (var i = 0; i < lis.length; i++) {
-                lis[i].style.backgroundColor = "";
-                lis[i].style.color = '';
-                lis[i].setAttribute('class', "weibofang");
-            }
-
-            lis[index].style.backgroundColor = "#f8ffe9";
-            lis[index].style.color = '#70a401';
-            lis[index].setAttribute('class', "bofang");
-
-
-        } else {
-            index += 1;
-            video.src = lis[index].getAttribute("value");
-            console.log(index);
-            for (var i = 0; i < lis.length; i++) {
-                lis[i].style.backgroundColor = "";
-                lis[i].style.color = '';
-                lis[i].setAttribute('class', "weibofang");
-
-            }
-
-            lis[index].style.backgroundColor = "#f8ffe9";
-            lis[index].style.color = '#70a401';
-            lis[index].setAttribute('class', "bofang");
-
-        }
-
-
-    });
-    /*上一曲*/
-    btn1.addEventListener('click', function () {
-        if (index === 0) {
-            index -= 1;
-            index = lis.length - 1;
-            video.src = lis[index].getAttribute("value");
-            console.log(index);
-            /*先去掉*/
-            for (var i = 0; i < lis.length; i++) {
-                lis[i].style.backgroundColor = "";
-                lis[i].style.color = '';
-                lis[i].setAttribute('class', "weibofang");
-            }
-
-            lis[index].style.backgroundColor = "#f8ffe9";
-            lis[index].style.color = '#70a401';
-            lis[index].setAttribute('class', "bofang");
-
-        } else {
-            index -= 1;
-            video.src = lis[index].getAttribute("value");
-            console.log(index);
-            /*先去掉*/
-            for (var i = 0; i < lis.length; i++) {
-                lis[i].style.backgroundColor = "";
-                lis[i].style.color = '';
-                lis[i].setAttribute('class', "weibofang");
-            }
-
-            lis[index].style.backgroundColor = "#f8ffe9";
-            lis[index].style.color = '#70a401';
-            lis[index].setAttribute('class', "bofang");
-        }
-
-
-    });
-    /*自动播放下一课*/
-    video.addEventListener('ended', function () {
-        console.log("自动播放开始工作");
-        if (index === lis.length - 1) {
-            index += 1;
-            index = 0;
-            video.src = lis[index].getAttribute("value");
-            console.log(index);
-            /*1.先去掉所有元素的样式*/
-            for (var k = 0; k < lis.length; k++) {
-                lis[index].style.backgroundColor = "red";
-                lis[k].style.color = 'red';
-                lis[k].setAttribute('class', "weibofang");
-            }
-
-            lis[index].style.backgroundColor = "#f8ffe9";
-            lis[index].style.color = '#70a401';
-            lis[index].setAttribute('class', "bofang");
-
-        } else {
-            index += 1;
-            video.src = lis[index].getAttribute("value");
-            console.log(index);
-            lis[index].setAttribute('class', "bofang");
-
-            /*先去掉*/
-            for (var i = 0; i < lis.length; i++) {
-                lis[i].style.backgroundColor = "";
-                lis[i].style.color = '';
-                lis[i].setAttribute('class', "weibofang");
-            }
-
-            lis[index].style.backgroundColor = "#f8ffe9";
-            lis[index].style.color = '#70a401';
-            lis[index].setAttribute('class', "bofang");
-        }
-
-
-    });
-    consoel.log(index);
-
-
-    /*判断是否登录*/
-
-    /*判断是否包含手机号*/
-
-    if (localStorage.getItem('phone')) {
-
-
-    } else {
-        // console.log(result["13163122085"]);
-        // console.log(555555555);
-        console.log(lis.length);
-        /*从第5个开始干掉mp4 连接*/
-        for (i = 5; i <= lis.length; i++) {
-            alert("超过5个了");
-            // console.log(lis[i]);
-            // console.log(lis[i].index);
-            // lis[i].setAttribute("value", "https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/qcaqjfwdljyo574.mp4");
-            lis[i].value =  "登录";
-            // console.log(55555)
-
-        }
-
-
-    }
-});
-
-
-// function myFunction() {
-// //     var zhezhaoceng = document.querySelector(".zhezhaoceng");
-// //     /*视频加载时候判断是否是前5个*/
-// //     if (index >= 5) {
-// //         // 如果是超出5个，判断是否是会员
-// //         if (localStorage.getItem('phone')) {
-// //
-// //         } else {
-// //             alert("不是会员");
-// //             /*不是会员就不让看*/
-// //             console.log(zhezhaoceng);
-// //             console.log(zhezhaoceng.style.display);
-// //             // video.pause();
-// //             // video.style.display = "none";
-// //             zhezhaoceng.style.display = "block";
-// //
-// //         }
-// //
-// //     } else {
-// //         zhezhaoceng.style.display = "none";
-// //         // video.style.display = "block";
-// //     }
-// //
-// //
-// // }
+);
