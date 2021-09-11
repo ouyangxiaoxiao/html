@@ -26,8 +26,8 @@ for a in range(int(len(str(data.sheet_names())))):
             # print("第{}行:".format(i+1) + str(rowdata))
             http0 = rowdata[0]
             http1 = rowdata[1]
-            url = rowdata[2]
-            name = (rowdata[3])
+            url = rowdata[0]
+            name = (rowdata[2])
             code = (rowdata[5])
 
 
@@ -35,7 +35,7 @@ for a in range(int(len(str(data.sheet_names())))):
             # 保存文本
             f1 = open('test.txt', 'a')
             f1.write(
-                '<li value="' + url + '"><span>' + name + '</span><span>消防设施操作员</span><span>' + byname + '</span></li>' + '\n')
+                '<li value="' + url + '"><span>' + name + '</span><span>一级消防工程师</span><span>' + byname + '</span></li>' + '\n')
 
             try:
 
