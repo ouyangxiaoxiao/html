@@ -8,46 +8,49 @@
           content="width=device-width, initial-scale=1.0 user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <!--设置外链跳转域-->
     <meta name="referrer" content="no-referrer"/>
-    <title>消防设施操作员-中级精讲课</title>
-    <!--    <script src="单节课1.js"></script>-->
-    <!--    <script src="单节课程.js"></script>-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>消防设施操作员-中级精讲班</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/play.js"></script>
-    <script src="js/home.js"></script>
     <script src="js/kecheng.js"></script>
-    <!--替换为本地-->
-    <!--    <link rel="stylesheet" href="https://ouyangxiaoxiao.github.io/html/data/css/kecheng.css">-->
-    <link href="css/kecheng.css" rel="stylesheet">
-    <!--    <link rel="stylesheet" href="https://ouyangxiaoxiao.github.io/html/data/css/home.css">-->
-
-
+    <!--    <script src="js/play.js"></script>-->
+    <link rel="stylesheet" href="css/kecheng.css">
+    <link rel="stylesheet" href="css/public.css">
+    <!--    <link rel="stylesheet" href="css/kecheng.css">-->
 </head>
-
-<body>
-<!--顶栏-->
 <!--头部-->
 <header class="i_top">
     <a href="javascript:history.go(-1);" class="i_top_return"><img src="images/tubiao_arr02.png" alt=""></a>
     <a href="首页.html" class="i_top_logo"><img src="images/logo.png" alt=""></a>
+    <!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
     <a href="#" class="i_top_more"><img src="images/more_arr01.png" alt=""></a>
-<!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
 </header>
 
+<body>
+<div class="bofangqi">
+    <img src="images/黑色播放器背景.jpg" alt="">
+    <img src="images/黑色播放器背景.jpg" alt="" id="beijing">
+    <video id="video" src="" autoplay controls poster="../images/poster.gif"></video>
 
-<!--器-->
-<div class="video">
-    <video autoplay controls id="video" poster="images/poster.gif"
-           src=""></video>
+
 </div>
-<!--撑起来-->
-<div class="cheng"></div>
+<!--遮罩层-->
+<div id="zhezhaoceng">
+    <img id="beijing3" src="images/黑色播放器背景.jpg" alt="">
+    <!--图标-锁-->
+    <img src="images/suo.png" alt="" id="suo">
+    <!--        <img src="images/Lock.png" alt="" width="50px">-->
+    <br>
+    <h1>您需要登录才能继续观看</h1>
+    <button><a href="登录.html">去登录</a></button>
+
+</div>
 
 <!--上下节-->
 <div class="btn">
-    <p class="btn-1">
+    <p class="btn-1" id="btn1">
         <img src="images/on_section_01.png" alt="">
         上 一 课&nbsp;&nbsp;&nbsp;</p>
-    <p class="btn-2">&nbsp;&nbsp;&nbsp;下 一 课
+    <p class="btn-2" id="btn2">&nbsp;&nbsp;&nbsp;下 一 课
         <img src="images/next_section_01.png" alt="">
     </p>
 </div>
@@ -82,37 +85,56 @@
     <img alt="" src="upload/xgpz2.jpg">
 </div>
 
+<!--课程详情-->
 <div class="kcxq item " id="kcxq">
-
 
     <ul>
         <!--        <li value="	https://vv.taozhi.online/14f8fcfe8d2a4e9585c9bc822cc6e7f7/36e368b0f3814e76baba29b4f4e06b3e-a1551e2578647377b65c5092a1da7f22-ld.mp4	"><span>	PS01-神奇的倒车雷达	</span><span>	小学科学课	</span><span>	小学	五年级	兴趣爱好	</span></li>-->
-        <!--        <li value="	https://ouyangxiaoxiao.github.io/xiaofangshipin/	初级精讲	/	消防设施巡检二	.mp4	"><span>	8. 培训模块一：项目1消防设施巡检-防火门、防火卷帘巡查	</span><span>	消防设施操作员	</span><span>	初级精讲	</span></li>-->
 
-        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/ystrq8ae5ds8443.mp4"><span>1. 模块一-项目培训1：设施巡检（一）(上)</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/wesc5w8jl2f1gyc.mp4"><span>1. 模块一-项目培训1：设施巡检（一）(下)</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/re0qsux2d6187qu.mp4"><span>2. 模块一-项目培训1：设施巡检（二）(上)</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/5dyk0vu5phef7ka.mp4"><span>2. 模块一-项目培训1：设施巡检（二）(下)</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/9h51encl9sw6tmf.mp4"><span>3. 模块一-项目培训1：设施巡检（三）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/4axhk7ojh1982cb.mp4"><span>4. 模块一-项目培训1：设施巡检（四）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/srpzz2l4nhxsw3c.mp4"><span>5. 模块一-项目培训1：设施巡检（五）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/az0tcjc1avxyqrk.mp4"><span>6. 模块一-项目培训1：设施巡检（六）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/7vpbvxsw3btlq8h.mp4"><span>7. 模块二-项目培训1：火灾自动报警系统操作（一）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/wwzuhp5km1y3hlb.mp4"><span>8. 模块二-项目培训1：火灾自动报警系统操作（二）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/bcdz2ij8ng3tt1w.mp4"><span>9. 模块二-项目培训1：火灾自动报警系统操作（三）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/f8fr85l4xnj6sgj.mp4"><span>10. 模块二-项目培训2：自动灭火系统操作（一）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/acggxqpvy2cy51f.mp4"><span>11. 模块二-项目培训2：自动灭火系统操作（二）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/yd501ojf5wbdsyl.mp4"><span>12. 模块二-项目培训3：其他消防设施操作（一）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/14erdl9i838tm9z.mp4"><span>13. 模块二-项目培训3：其他消防设施操作（二）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/kp2ml9297n6r47l.mp4"><span>14. 模块二-项目培训3：其他消防设施操作（三）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/9mmp5svgsvlmgvf.mp4"><span>15. 模块二-项目培训3：其他消防设施操作（四）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/e8m3zjvwrlkquj8.mp4"><span>16. 模块三-项目培训1：火灾自动报警系统保养</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/oryib8q4ngt49wb.mp4"><span>17. 模块三-项目培训2：自动灭火系统保养</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/w5pjnh7ne8ixurc.mp4"><span>18. 模块三-项目培训3：其他消防设施保养（一）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
-<li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/r0iqnk8mx2xt92o.mp4"><span>19. 模块三-项目培训3：其他消防设施保养（二）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/ystrq8ae5ds8443.mp4">
+            <span>1. 模块一-项目培训1：设施巡检（一）(上)</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/wesc5w8jl2f1gyc.mp4">
+            <span>1. 模块一-项目培训1：设施巡检（一）(下)</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/re0qsux2d6187qu.mp4">
+            <span>2. 模块一-项目培训1：设施巡检（二）(上)</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/5dyk0vu5phef7ka.mp4">
+            <span>2. 模块一-项目培训1：设施巡检（二）(下)</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/9h51encl9sw6tmf.mp4">
+            <span>3. 模块一-项目培训1：设施巡检（三）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/4axhk7ojh1982cb.mp4">
+            <span>4. 模块一-项目培训1：设施巡检（四）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/srpzz2l4nhxsw3c.mp4">
+            <span>5. 模块一-项目培训1：设施巡检（五）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/az0tcjc1avxyqrk.mp4">
+            <span>6. 模块一-项目培训1：设施巡检（六）</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/7vpbvxsw3btlq8h.mp4"><span>7. 模块二-项目培训1：火灾自动报警系统操作（一）</span><span>消防设施操作员</span><span>四级(中级)精讲</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/wwzuhp5km1y3hlb.mp4"><span>8. 模块二-项目培训1：火灾自动报警系统操作（二）</span><span>消防设施操作员</span><span>四级(中级)精讲</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/bcdz2ij8ng3tt1w.mp4"><span>9. 模块二-项目培训1：火灾自动报警系统操作（三）</span><span>消防设施操作员</span><span>四级(中级)精讲</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/f8fr85l4xnj6sgj.mp4"><span>10. 模块二-项目培训2：自动灭火系统操作（一）</span><span>消防设施操作员</span><span>四级(中级)精讲</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/acggxqpvy2cy51f.mp4"><span>11. 模块二-项目培训2：自动灭火系统操作（二）</span><span>消防设施操作员</span><span>四级(中级)精讲</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/yd501ojf5wbdsyl.mp4"><span>12. 模块二-项目培训3：其他消防设施操作（一）</span><span>消防设施操作员</span><span>四级(中级)精讲</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/14erdl9i838tm9z.mp4"><span>13. 模块二-项目培训3：其他消防设施操作（二）</span><span>消防设施操作员</span><span>四级(中级)精讲</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/kp2ml9297n6r47l.mp4"><span>14. 模块二-项目培训3：其他消防设施操作（三）</span><span>消防设施操作员</span><span>四级(中级)精讲</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/9mmp5svgsvlmgvf.mp4"><span>15. 模块二-项目培训3：其他消防设施操作（四）</span><span>消防设施操作员</span><span>四级(中级)精讲</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/e8m3zjvwrlkquj8.mp4">
+            <span>16. 模块三-项目培训1：火灾自动报警系统保养</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/oryib8q4ngt49wb.mp4">
+            <span>17. 模块三-项目培训2：自动灭火系统保养</span><span>消防设施操作员</span><span>四级(中级)精讲</span></li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/w5pjnh7ne8ixurc.mp4"><span>18. 模块三-项目培训3：其他消防设施保养（一）</span><span>消防设施操作员</span><span>四级(中级)精讲</span>
+        </li>
+        <li value="https://ouyangxiaoxiao.github.io/zhongjijingjiang/r0iqnk8mx2xt92o.mp4"><span>19. 模块三-项目培训3：其他消防设施保养（二）</span><span>消防设施操作员</span><span>四级(中级)精讲</span>
+        </li>
     </ul>
 </div>
-
 
 
 <div class="sc item">
@@ -195,27 +217,11 @@
 
 <!--底部-->
 <footer>
-    <div id="di">
-        <ul>
-            <li>首页</li>
-            <li>课程</li>
-            <li>VIP</li>
-            <li>我的</li>
-        </ul>
-    </div>
+    <a href="首页.html"><span><img src="images/menu_01.png" alt=""></span><h4>首页</h4></a>
+    <a href="#" id="kechengtanchuang"><span><img src="images/menu_02.png" alt=""></span><h4>课程</h4></a>
+    <a href="VIP.html"><span><img src="images/menu_03.png" alt=""></span><h4>VIP</h4></a>
+    <a href="登录.html"><span><img src="images/menu_04.png" alt=""></span><h4>我的</h4></a>
 </footer>
-
-<!--控制播放器高度-->
-<script>
-    var btn1 = document.querySelector('.btn');
-    var video2 = document.querySelector('.video');
-    console.log(video2.scrollHeight);
-    console.log(video2.offsetTop);
-    // btn1.style.marginTop = "225px";
-    mtp = video2.scrollHeight + video2.offsetTop;
-    btn1.style.marginTop = mtp + "px";
-
-</script>
-
+<div class="dicheng"></div>
 </body>
 </html>

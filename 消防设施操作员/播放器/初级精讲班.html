@@ -8,52 +8,59 @@
           content="width=device-width, initial-scale=1.0 user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <!--设置外链跳转域-->
     <meta name="referrer" content="no-referrer"/>
-    <title>消防设施操作员-初级精讲课</title>
-    <!--    <script src="单节课1.js"></script>-->
-    <!--    <script src="单节课程.js"></script>-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>消防设施操作员-初级精讲班</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/play.js"></script>
-    <script src="js/home.js"></script>
     <script src="js/kecheng.js"></script>
-    <!--替换为本地-->
-    <!--    <link rel="stylesheet" href="https://ouyangxiaoxiao.github.io/html/data/css/kecheng.css">-->
-    <link href="css/kecheng.css" rel="stylesheet">
-    <!--    <link rel="stylesheet" href="https://ouyangxiaoxiao.github.io/html/data/css/home.css">-->
-
-
+    <!--    <script src="js/play.js"></script>-->
+    <link rel="stylesheet" href="css/kecheng.css">
+    <link rel="stylesheet" href="css/public.css">
+    <!--    <link rel="stylesheet" href="css/kecheng.css">-->
 </head>
-
-<body>
-<!--顶栏-->
 <!--头部-->
 <header class="i_top">
     <a href="javascript:history.go(-1);" class="i_top_return"><img src="images/tubiao_arr02.png" alt=""></a>
     <a href="首页.html" class="i_top_logo"><img src="images/logo.png" alt=""></a>
+    <!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
     <a href="#" class="i_top_more"><img src="images/more_arr01.png" alt=""></a>
-<!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
 </header>
 
+<body>
+<div class="bofangqi">
+    <img src="images/黑色播放器背景.jpg" alt="">
+    <img src="images/黑色播放器背景.jpg" alt="" id="beijing">
+    <video id="video" src="" autoplay controls poster="../images/poster.gif"></video>
 
-<!--播放器-->
-<div class="video">
-    <video autoplay controls id="video" poster="images/poster.gif"
-           src=""></video>
+
 </div>
-<!--撑起来-->
-<div class="cheng"></div>
+<!--遮罩层-->
+<div id="zhezhaoceng">
+    <img id="beijing3" src="images/黑色播放器背景.jpg" alt="">
+    <!--图标-锁-->
+    <img src="images/suo.png" alt="" id="suo">
+    <!--        <img src="images/Lock.png" alt="" width="50px">-->
+    <br>
+    <h1>您需要登录才能继续观看</h1>
+    <button><a href="登录.html">去登录</a></button>
+
+</div>
 
 <!--上下节-->
 <div class="btn">
-    <p class="btn-1">
+    <p class="btn-1" id="btn1">
         <img src="images/on_section_01.png" alt="">
         上 一 课&nbsp;&nbsp;&nbsp;</p>
-    <p class="btn-2">&nbsp;&nbsp;&nbsp;下 一 课
+    <p class="btn-2" id="btn2">&nbsp;&nbsp;&nbsp;下 一 课
         <img src="images/next_section_01.png" alt="">
     </p>
 </div>
 <!--课程名称-->
 <div class="kcjs">
     <div class="kcjs-name">
+        <!--        <span></span>-->
+        <!--        <span>小学</span>-->
+        <!--        <span>语文</span>-->
+        <!--        <span>五年级</span>-->
 
     </div>
 
@@ -80,7 +87,6 @@
 
 <!--课程详情-->
 <div class="kcxq item " id="kcxq">
-
 
     <ul>
         <!--        <li value="	https://vv.taozhi.online/14f8fcfe8d2a4e9585c9bc822cc6e7f7/36e368b0f3814e76baba29b4f4e06b3e-a1551e2578647377b65c5092a1da7f22-ld.mp4	"><span>	PS01-神奇的倒车雷达	</span><span>	小学科学课	</span><span>	小学	五年级	兴趣爱好	</span></li>-->
@@ -263,27 +269,11 @@
 
 <!--底部-->
 <footer>
-    <div id="di">
-        <ul>
-            <li>首页</li>
-            <li>课程</li>
-            <li>VIP</li>
-            <li>我的</li>
-        </ul>
-    </div>
+    <a href="首页.html"><span><img src="images/menu_01.png" alt=""></span><h4>首页</h4></a>
+    <a href="#" id="kechengtanchuang"><span><img src="images/menu_02.png" alt=""></span><h4>课程</h4></a>
+    <a href="VIP.html"><span><img src="images/menu_03.png" alt=""></span><h4>VIP</h4></a>
+    <a href="登录.html"><span><img src="images/menu_04.png" alt=""></span><h4>我的</h4></a>
 </footer>
-
-<!--控制播放器高度-->
-<script>
-    var btn1 = document.querySelector('.btn');
-    var video2 = document.querySelector('.video');
-    console.log(video2.scrollHeight);
-    console.log(video2.offsetTop);
-    // btn1.style.marginTop = "225px";
-    mtp = video2.scrollHeight + video2.offsetTop;
-    btn1.style.marginTop = mtp + "px";
-
-</script>
-
+<div class="dicheng"></div>
 </body>
 </html>
