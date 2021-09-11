@@ -142,7 +142,7 @@ window.addEventListener("load", function () {
                     video.setAttribute("index", list[nub].getAttribute("index"));
                     video.pause();
                     zhezhaoceng.style.display = "block";
-                    for (var i = 0; i < list.length; i++) {
+                    for (i = 0; i < list.length; i++) {
                         /*1.先去掉所有元素的样式*/
                         list[i].style.backgroundColor = "";
                         list[i].style.color = '';
@@ -153,7 +153,8 @@ window.addEventListener("load", function () {
                     list[nub].style.backgroundColor = "#f8ffe9";
                     list[nub].setAttribute('class', "bofang");
                     list[nub].style.color = '#70a401';
-
+                    video.pause();
+                    zhezhaoceng.style.display = "block";
                 }
 
             }
