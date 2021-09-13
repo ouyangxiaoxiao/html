@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小嗨</title>
+    <link rel="stylesheet" href="css/public.css">
+    <!--    <link rel="stylesheet" href="css/zhifu.css">-->
+    <!--    <script src="js/public.js"></script>-->
+    <!--    <script src="js/zhifu.js"></script>-->
+
+    <style>
+        video {
+            width: 100%;
+        }
+
+        h3 {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            border-bottom: 1px #fff solid;
+            height: 35px;
+            line-height: 35px;
+            font-weight: 400;
+        }
+
+        .h3 {
+            display: none;
+        }
+
+        li {
+            list-style: none;
+            text-align: center;
+        }
+
+        h4 {
+            text-align: center;
+            background-color: #646464;
+            color: #fff;
+            border-bottom: 1px #fff solid;
+            height: 35px;
+            line-height: 35px;
+            font-weight: 400;
+        }
+
+        .h4 li {
+            text-align: center;
+            background-color: #DDDDDD;
+            color: #333;
+            border-bottom: 1px #fff solid;
+            height: 35px;
+            line-height: 35px;
+            font-weight: 400;
+        }
+
+    </style>
+
+</head>
+<body>
+<!--头部-->
+<header class="i_top">
+    <a href="javascript:history.go(-1);" class="i_top_return"><img src="images/tubiao_arr02.png" alt=""></a>
+    <a href="首页.html" class="i_top_logo"><img src="images/logo.png" alt=""></a>
+    <!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
+    <a href="首页.html" class="i_top_more"><img src="images/more_arr01.png" alt=""></a>
+</header>
+<video src="https://ouyangxiaoxiao.github.io/30min/spyx7dywgxszksm.mp4"></video>
+
+<h3>消防设施操作员</h3>
+<ul class="h3">
+    <li>
+        <h4>初级课</h4>
+        <ul class="h4">
+            <li>第1课</li>
+            <li>第2课</li>
+            <li>第3课</li>
+        </ul>
+    </li>
+    <li>
+        <h4>中级课</h4>
+        <ul class="h4">
+            <li>第1课</li>
+            <li>第2课</li>
+            <li>第3课</li>
+        </ul>
+    </li>
+</ul>
+<h3>一级消防工程师</h3>
+<ul class="h3">
+    <li>
+        <h4>初级课</h4>
+        <ul class="h4">
+            <li>第1课</li>
+            <li>第2课</li>
+            <li>第3课</li>
+        </ul>
+    </li>
+    <li>
+        <h4>中级课</h4>
+        <ul class="h4">
+            <li>第1课</li>
+            <li>第2课</li>
+            <li>第3课</li>
+        </ul>
+    </li>
+</ul>
+<h3>30min秒懂消防</h3>
+<ul class="h3">
+    <li>
+        <h4>初级课</h4>
+        <ul class="h4">
+            <li>第1课</li>
+            <li>第2课</li>
+            <li>第3课</li>
+        </ul>
+    </li>
+    <li>
+        <h4>中级课</h4>
+        <ul class="h4">
+            <li>第1课</li>
+            <li>第2课</li>
+            <li>第3课</li>
+        </ul>
+    </li>
+</ul>
+<!--底部-->
+<footer>
+    <a href="首页.html"><span><img src="images/menu_01.png" alt=""></span><h4>首页</h4></a>
+    <a href="#" id="kechengtanchuang"><span><img src="images/menu_02.png" alt=""></span><h4>课程</h4></a>
+    <a href="VIP.html"><span><img src="images/menu_03.png" alt=""></span><h4>VIP</h4></a>
+    <a href="登录.html"><span><img src="images/menu_04.png" alt=""></span><h4>我的</h4></a>
+</footer>
+<div class="dicheng"></div>
+
+<script>
+    var h3 = document.querySelectorAll("h3");
+    var h3body = document.querySelectorAll(".h3");
+
+    var h4 = document.querySelectorAll("h4");
+    var h4body = document.querySelectorAll(".h4");
+    console.log(h3.length);
+    for (i = 0; i < h3.length; i++) {
+        h3[i].setAttribute("index", i);
+        h3body[i].style.display = "none";
+
+
+        h3[i].onclick = function () {
+
+
+            if (h3body[this.getAttribute("index")].style.display == "none") {
+                for (i = 0; i < h3.length; i++) {
+                    h3body[i].style.display = "none";
+                }
+                h3body[this.getAttribute("index")].style.display = "block";
+            } else {
+                h3body[this.getAttribute("index")].style.display = "none";
+            }
+        };
+    }
+
+
+</script>
+</body>
+</html>
