@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>除指定区域</title>
+    <link rel="stylesheet" href="css/public.css">
+<!--    <link rel="stylesheet" href="css/index.css">-->
+    <script src="js/public.js"></script>
+    <script src="js/zhifu.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <style>
+        /*分类*/
+.menu {
+    margin-top: 100px;
+}
+
+.menu .menu_li {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 65px;
+    padding: 10px 20px;
+}
+
+.menu .menu_li img {
+    vertical-align: middle;
+    width: 45px;
+}
+
+.menu .menu_li:nth-child(10) {
+    /*display: none;*/
+    color: #9999;
+    font-size: 14px;
+    line-height: 45px;
+    padding: 10px 10px 10px 35px;
+}
+
+.menu::after {
+    width: 100%;
+    overflow: hidden;
+    content: "1";
+    font-size: 0;
+    display: block;
+
+}
+h3{
+    text-align: center;
+    font-weight: 400;
+}
+        video{
+            width: 60%;
+            padding: 0 20%;
+            margin: 20px 0 ;
+
+        }
+    </style>
+</head>
+<body>
+
+<!--头部-->
+<header class="i_top">
+    <a href="javascript:history.go(-1);" class="i_top_return"><img src="images/tubiao_arr02.png" alt=""></a>
+    <a href="首页.html" class="i_top_logo"><img src="images/logo.png" alt=""></a>
+    <!--    <a href="#" class="i_top_search"><img src="images/search_arr01.png" alt=""></a>-->
+    <a href="#" class="i_top_more"><img src="images/more_arr01.png" alt=""></a>
+</header>
+
+<!--分类-->
+<div class="row menu">
+    <a href="导学班.html" class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>导学班</span></a>
+    <a href="初级精讲班.html" class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>初精讲班</span></a>
+    <a href="初级实操班.html" class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>初级实操班</span></a>
+    <a href="中级精讲班.html" class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>中级精讲班</span></a>
+    <a href="中级实操班.html" class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>中级实操班</span></a>
+    <a href="中级维保班.html" class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>中级维保班</span></a>
+    <a href="高级精讲班.html" class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>高级精讲班</span></a>
+    <a href="30min告别消防小白.html" class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>告别消防小白</span></a>
+    <a href="消防考点速记.html" class="menu_li"><img src="images/menu_arr01.png" alt=""> <span>消防考点速记</span></a>
+    <div class="menu_li"><img src="#" alt=""> <span>更多课程,敬请期待</span></div>
+</div>
+<h3>视频播报</h3>
+<video src="https://ouyangxiaoxiao.github.io/30min/512dvjpvusbx0fn.mp4" autoplay></video>
+<!--底部-->
+<footer>
+    <a href="首页.html"><span><img src="images/menu_01.png" alt=""></span><h4>首页</h4></a>
+    <a href="#"><span><img src="images/menu_02.png" alt=""></span><h4>课程</h4></a>
+
+    <a href="VIP.html"><span><img src="images/menu_03.png" alt=""></span><h4>VIP</h4></a>
+    <a href="登录.html"><span><img src="images/menu_04.png" alt=""></span><h4>我的</h4></a>
+</footer>
+<div class="dicheng"></div>
+
+</body>
+</html>
