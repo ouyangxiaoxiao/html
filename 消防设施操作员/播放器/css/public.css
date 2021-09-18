@@ -114,6 +114,40 @@ footer h4 {
     font-weight: 400;
 }
 
+/*底部弹窗*/
+.tanchuangxianshi {
+    background-color: pink;
+    position: absolute;
+    margin-top: -375px;
+    /*width: 25%;*/
+    height: 330px;
+    z-index: 900;
+}
+
+.tanchuangxianshi {
+    display: none;
+}
+
+.tanchuangxianshi li {
+    /*display: block;*/
+    list-style: none;
+    height: 30px;
+    background-color: skyblue;
+    margin-bottom: 2px;
+    border-bottom: 1px black solid;
+    padding: 0 15px;
+
+
+}
+
+.tanchuangxianshi li a {
+    /*display: none;*/
+    width: 100%;
+    height: 30px;
+    /*padding: 10px 20px;*/
+    /*display: inline;*/
+}
+
 .dicheng {
     margin-top: 10px;
     width: 100%;

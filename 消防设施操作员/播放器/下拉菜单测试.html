@@ -9,42 +9,43 @@
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/index.css">
     <script src="js/public.js"></script>
+    <script src="js/zhifu.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
 
-    <style>
-        .tanchuangxianshi {
-            background-color: pink;
-            position: absolute;
-            margin-top: -375px;
-            /*width: 25%;*/
-            height: 330px;
-        }
+<!--    <style>-->
+<!--        .tanchuangxianshi {-->
+<!--            background-color: pink;-->
+<!--            position: absolute;-->
+<!--            margin-top: -375px;-->
+<!--            /*width: 25%;*/-->
+<!--            height: 330px;-->
+<!--        }-->
 
-        .tanchuangxianshi {
-            display: none;
-        }
+<!--        .tanchuangxianshi {-->
+<!--            display: none;-->
+<!--        }-->
 
-        .tanchuangxianshi li {
-            /*display: block;*/
-            list-style: none;
-            height: 30px;
-            background-color: skyblue;
-            margin-bottom: 2px;
-            border-bottom: 1px black solid;
-            padding: 0 15px;
-
-
-        }
-         .tanchuangxianshi li a{
-             /*display: none;*/
-             width: 100%;
-             height: 30px;
-             /*padding: 10px 20px;*/
-             /*display: inline;*/
-         }
+<!--        .tanchuangxianshi li {-->
+<!--            /*display: block;*/-->
+<!--            list-style: none;-->
+<!--            height: 30px;-->
+<!--            background-color: skyblue;-->
+<!--            margin-bottom: 2px;-->
+<!--            border-bottom: 1px black solid;-->
+<!--            padding: 0 15px;-->
 
 
-    </style>
+<!--        }-->
+<!--         .tanchuangxianshi li a{-->
+<!--             /*display: none;*/-->
+<!--             width: 100%;-->
+<!--             height: 30px;-->
+<!--             /*padding: 10px 20px;*/-->
+<!--             /*display: inline;*/-->
+<!--         }-->
+
+
+<!--    </style>-->
 </head>
 <body>
 <!--头部-->
@@ -156,11 +157,10 @@
 <!--底部-->
 <footer>
     <a href="首页.html"><span><img src="images/menu_01.png" alt=""></span><h4>首页</h4></a>
-    <a  id="kechengtanchuang"><span><img src="images/menu_02.png" alt=""></span>
+    <a id="kechengtanchuang"><span><img src="images/menu_02.png" alt=""></span>
         <h4>课程</h4>
         <div class="tanchuangxianshi">
             <ul>
-<!--                <li>30min告别消防小白</li>-->
                 <li> <object><a href="30min告别消防小白.html">30min告别消防小白</a></object></li>
                 <li> <object><a href="导学班.html">消防设施操作员-导学班</a></object></li>
                 <li> <object><a href="基础精讲班.html">基础精讲班</a></object></li>
@@ -171,13 +171,6 @@
                 <li> <object><a href="中级维保班.html">中级维保班</a></object></li>
                 <li> <object><a href="高级精讲班.html">高级精讲班</a></object></li>
                 <li> <object><a href="消防考点速记.html">消防考点速记</a></object></li>
-<!--                <li>消防设施操作员-导学班</li>-->
-<!--                <li>消防设施操作员-基础精讲班</li>-->
-<!--                <li>消防设施操作员-初级实操</li>-->
-<!--                <li>消防设施操作员-中级精讲</li>-->
-<!--                <li>消防设施操作员-中级实操</li>-->
-<!--                <li>消防设施操作员-高级精讲</li>-->
-<!--                <li>一级消防工程师-消防考点速记</li>-->
             </ul>
         </div>
 
@@ -185,7 +178,7 @@
     <a href="VIP.html"><span><img src="images/menu_03.png" alt=""></span><h4>VIP</h4></a>
     <a href="登录.html"><span><img src="images/menu_04.png" alt=""></span><h4>我的</h4></a>
 </footer>
-<div style="height: 45px"></div>
+<div class="dicheng"></div>
 
 <script>
     var kechengtanchuang = document.querySelector("#kechengtanchuang");
@@ -201,13 +194,6 @@
             tanchuangxianshi.style.display ="block";
         }
     }
-</script>
-
-<script>
-// var tan1 = document.querySelector("tan1");
-// tan1.onclick = function () {
-//     alert("4444444")
-// }
 </script>
 </body>
 </html>
