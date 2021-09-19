@@ -1,4 +1,3 @@
-
 /*配色*/
 .peise {
     margin-top: 50px;
@@ -19,7 +18,7 @@
     box-sizing: border-box;
     width: 48%;
     height: 150px;
-    background-color: rgb(250, 255, 240);
+    /*background-color: rgb(250, 255, 240);*/
     float: left;
     margin: 1%;
     border: 1px rgb(112, 164, 0) solid;
@@ -29,22 +28,27 @@
     overflow: hidden;
 }
 
-.vip_tab .left img {
-    display: none;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
+/*.vip_tab .left img {*/
+/*    display: none;*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*}*/
 
-.vip_tab .left:hover img {
-    display: block;
-}
+/*.vip_tab .left:hover img {*/
+/*    display: block;*/
+/*}*/
 
-.vip_tab .right img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
+/*.vip_tab .right:hover img {*/
+/*    display: block;*/
+/*}*/
+
+/*.vip_tab .right img {*/
+/*    display: none;*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*}*/
 
 .vip_tab dt {
     font-weight: 500;
@@ -100,7 +104,7 @@
     width: 100%;
     display: flex;
     height: 30px;
-    margin: 0 1% ;
+    margin: 0 1%;
     line-height: 30px;
 
 
@@ -144,14 +148,18 @@
     list-style: none;
     height: 50px;
     margin: 5px 1%;
-    background-color: #f8f8f8;
+    /*background-color: #f8f8f8;*/
     border: 1px #eeeeee solid;
     border-radius: 5px;
+    line-height: 50px;
+    position: relative;
 }
 
-.xuanzhong{
+.xuanzhong {
+    background: url("../images/xuanzhong.png") no-repeat;
     background-color: rgb(250, 255, 240);
-    border: 1px rgb(112, 164, 0) solid;
+    background-size: 10%;
+    background-position: right bottom;
 }
 
 .list ul li img {
@@ -160,16 +168,43 @@
     vertical-align: middle;
     padding: 5px 5px 5px 5px;
 }
-.list ul li h5{
-    display: inline-block;
-    font-weight: 400;
+
+/*.list ul li span {*/
+/*    display: inline-block;*/
+/*    width: 35px;*/
+/*    height: 35px;*/
+/*    background-color: pink;*/
+/*    border-radius: 20px;*/
+/*    text-align: center;*/
+/*    line-height: 35px;*/
+/*    font-size: 30px;*/
+/*    font-weight: 700;*/
+/*    color: #ffffff;*/
+/*    vertical-align: middle;*/
+/*    margin: 5px 5px 5px 5px;*/
+/*}*/
+
+.list ul li i {
+    float: right;
+    margin-right: 10px;
 }
 
+.list ul li h5 {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.list ul li h3 {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 50px;
+}
 
 
 /*确认*/
 
-.but-vip{
+.but-vip {
     padding: 10px;
     margin-top: 20px;
     display: block;
