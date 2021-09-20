@@ -1,6 +1,6 @@
 /*配色*/
 .peise {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     height: 50px;
     background-color: rgb(255, 244, 224);
 }
@@ -78,6 +78,7 @@
 
 /*大学信息*/
 .college_information {
+    display: none;
     width: 100%;
     height: 40px;
     margin: 0 1%;
@@ -94,7 +95,7 @@
 
 /*列表*/
 .list {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
 
