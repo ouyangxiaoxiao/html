@@ -1,9 +1,4 @@
-/*body{*/
-/*    max-width: 640px;*/
-/*    min-width: 320px;*/
-/*    width: 100%;*/
 
-/*}*/
 /*轮播图*/
 .main_visual {
     height: 169px;
@@ -67,46 +62,54 @@
 /*列表*/
 .list {
     width: 100%;
-    /*border: 1px black solid;*/
-    overflow: hidden;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
-}
-/*.list::after{*/
-/*    content: ".";*/
-/*    height: 0;*/
-/*}*/
 
-.list div {
-    width: 48%;
-    /*float: left;*/
-    margin: 1% 1%;
+}
+
+.list_title {
+    width: 100%;
+    display: flex;
+    height: 30px;
+
+}
+
+.list_title span {
+    padding: 5px;
+    height: 30px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    /*text-shadow: 2px 2px 5px #333333 ;*/
+
+}
+
+.list_title i {
+    flex: 1;
+    margin-right: 5px;
+    height: 20px;
+    border-bottom: 1px #e4e4e4 solid;
+}
+
+/*图片*/
+.i_list_01 {
+    /*display: flex;*/
+    /*box-sizing: border-box;*/
+    /*margin: 10px 5px;*/
+    width: 50%;
     position: relative;
+}
+
+
+.i_list_01 img {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
     border-radius: 10px;
-    overflow: hidden;
-
 }
 
-.list div a{
-    background-color: skyblue;
-
+.i_list_01 span {
+    padding: 5px;
 }
-.list div img {
-    width: 100%;
-    display: block;
 
-}
-.list div span{
-    display: block;
-    width: 100%;
-    background-color: red;
-    color: #fff;
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-
-}
-.dicheng{
-
-    background-color: pink;
-}
