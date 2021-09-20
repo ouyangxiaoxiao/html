@@ -8,16 +8,15 @@
 /*vip_tab*/
 .vip_tab {
     /*margin-top: 50px;*/
-    height: 150px;
+    height: 130px;
     /*padding: 0 15px;*/
-    /*background-color: pink;*/
 
 }
 
 .vip_tab .left, .right {
     box-sizing: border-box;
     width: 48%;
-    height: 150px;
+    /*height: 140px;*/
     /*background-color: rgb(250, 255, 240);*/
     float: left;
     margin: 1%;
@@ -53,7 +52,7 @@
 .vip_tab dt {
     font-weight: 500;
     font-size: 18px;
-    margin: 20px auto 10px;
+    margin: 10px auto 10px;
 }
 
 .vip_tab dd:nth-child(2) {
@@ -95,7 +94,7 @@
 
 /*列表*/
 .list {
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     display: flex;
     flex-wrap: wrap;
 
@@ -215,7 +214,7 @@
 
 .but-vip {
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 5px;
     display: block;
     margin-bottom: 0;
     width: 100%;
