@@ -132,27 +132,19 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    display: flex;
-    /*flex-direction: row;*/
-    flex-wrap: wrap;
+    /*display: flex;*/
+    /*!*flex-direction: row;*!*/
+    /*flex-wrap: wrap;*/
 
 }
 
 .list ul li {
     box-sizing: border-box;
-    flex-wrap: wrap;
-    flex: 1;
-    width: 48%;
-    min-width: 48%;
-    max-width: 48%;
-    list-style: none;
-    /*height: 50px;*/
-    margin: 5px 1%;
-    /*background-color: #f8f8f8;*/
-    border: 1px #eeeeee solid;
-    border-radius: 5px;
-    line-height: 50px;
-    position: relative;
+        list-style: none;
+        width: 50%;
+        height: 50px;
+        float: left;
+        border: 1px black solid;
 }
 
 .xuanzhong {
@@ -163,11 +155,22 @@
 }
 
 .list ul li img {
-    /*line-height: 60px;*/
-    width: 40px;
-    vertical-align: middle;
-    padding: 5px 5px 5px 5px;
+    width: 15%;
+        display: inline-block;
+        vertical-align: middle;
+        float: left;
+        margin-left: 5px;
+    /*line-height: 50px;*/
 }
+
+.list ul li div{
+        width: 80%;
+        height: 50px;
+        display: block;
+        /*background-color: pink;*/
+        float: right;
+
+    }
 
 /*.list ul li span {*/
 /*    display: inline-block;*/
@@ -185,22 +188,24 @@
 /*}*/
 
 .list ul li i {
-    float: right;
-    margin-right: 10px;
-    display: block;
+    /*display: block;*/
+        height: 25px;
+        /*background-color: black;*/
+        font-size: 14px;
+        font-weight: 400;
 }
 
 .list ul li h5 {
-    display: inline-block;
-    font-weight: 400;
-    line-height: 50px;
+    display: block;
+        height: 25px;
+        /*overflow: hidden;*/
+        /*background-color: skyblue;*/
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-weight: 400;
 }
 
-.list ul li h3 {
-    display: inline-block;
-    font-weight: 400;
-    line-height: 50px;
-}
 
 
 /*确认*/
