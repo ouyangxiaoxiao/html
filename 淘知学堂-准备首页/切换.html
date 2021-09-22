@@ -29,6 +29,7 @@
             text-align: center;
             padding: 10px 0;
 
+
         }
 
         .xuexiao {
@@ -52,6 +53,7 @@
 
         }
 
+
         .xuexiao img {
             width: 100%;
 
@@ -62,10 +64,12 @@
             margin-top: 10px;
             text-align: center;
         }
-        .chuzhong{
+
+        .chuzhong {
             height: 200px;
         }
-        .gaozhong{
+
+        .gaozhong {
             height: 200px;
         }
 
@@ -105,10 +109,12 @@
             bottom: 2%;
             /*background-color: red;*/
         }
+
         .ce h5 {
             text-align: center;
             /*border-bottom: 1px black solid;*/
         }
+
         .ce ul {
 
         }
@@ -194,5 +200,25 @@
         </ul>
     </div>
 </div>
+
+<script>
+    // $(".xiaoxue").click(function () {
+    //     // alert(5555);
+    //     $(this).find(".nianji").slideToggle();
+    //     $(this).find(".ce").slideToggle(0);
+    //     $(this).find(".tupian").animate({left:'50%'});
+    // }).click(function () {
+    //     $(this).find(".tupian").animate({left:'10%'});
+    // })
+
+
+    $(".xiaoxue").click(function () {
+        $(this).find(".nianji").slideToggle();
+        $(this).find(".ce").slideToggle(0);
+        $(this).find(".tupian").toggle();
+
+    })
+
+</script>
 </body>
 </html>
