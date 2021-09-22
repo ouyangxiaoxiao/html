@@ -31,18 +31,19 @@
 
         }
 
-        .xiaoxue {
+        .xuexiao {
             /*display: inline-block;*/
-            background-color: skyblue;
+            /*background-color: skyblue;*/
             width: 100%;
-            height: 200px;
+            height: 240px;
             /*margin: 0;*/
             /*padding: 0;*/
             overflow: hidden;
             position: relative;
+            border-bottom: 1px #969696 solid;
         }
 
-        .xiaoxue .tupian {
+        .xuexiao .tupian {
             width: 80px;
             height: 80px;
             position: absolute;
@@ -51,18 +52,24 @@
 
         }
 
-        .xiaoxue img {
+        .xuexiao img {
             width: 100%;
 
         }
 
-        .xiaoxue h3 {
+        .xuexiao h3 {
             /*display: block;*/
             margin-top: 10px;
             text-align: center;
         }
+        .chuzhong{
+            height: 200px;
+        }
+        .gaozhong{
+            height: 200px;
+        }
 
-        .right {
+        .nianji {
             width: 60%;
             position: absolute;
             left: 35%;
@@ -70,16 +77,16 @@
             /*background-color: red;*/
         }
 
-        .right h5 {
+        .nianji h5 {
             text-align: center;
             /*border-bottom: 1px black solid;*/
         }
 
-        .right ul {
+        .nianji ul {
 
         }
 
-        .right ul li {
+        .nianji ul li {
             box-sizing: border-box;
             width: 48%;
             list-style: none;
@@ -87,7 +94,34 @@
             text-align: center;
             padding: 5px 10px;
             margin: 2% 1%;
-            border: 1px black solid;
+            border: 1px #969696 solid;
+            border-radius: 5px;
+        }
+
+        .ce {
+            width: 60%;
+            position: absolute;
+            left: 35%;
+            bottom: 2%;
+            /*background-color: red;*/
+        }
+        .ce h5 {
+            text-align: center;
+            /*border-bottom: 1px black solid;*/
+        }
+        .ce ul {
+
+        }
+
+        .ce ul li {
+            box-sizing: border-box;
+            width: 48%;
+            list-style: none;
+            float: left;
+            text-align: center;
+            padding: 5px 10px;
+            margin: 2% 1%;
+            border: 1px #969696 solid;
             border-radius: 5px;
         }
     </style>
@@ -96,10 +130,10 @@
 <header class="juzhong">
     <h4>选择年级和册别</h4>
 </header>
-<div class="xiaoxue juzhong">
+<div class="xuexiao xiaoxue juzhong">
     <div class="tupian"><img src="https://m.taozhi.cn/static/img/grade/grade-primary.png" alt="">
         <h3>小&nbsp;&nbsp;&nbsp;&nbsp;学</h3></div>
-    <div class="right">
+    <div class="nianji">
         <h5>年&nbsp;&nbsp;&nbsp;&nbsp;级</h5>
         <ul>
             <li>一年级</li>
@@ -109,29 +143,54 @@
             <li>五年级</li>
             <li>六年级</li>
         </ul>
+
     </div>
+    <div class="ce">
+        <h5>册&nbsp;&nbsp;&nbsp;&nbsp;别</h5>
+        <ul>
+            <li>上册</li>
+            <li>下册</li>
+        </ul>
+    </div>
+
 </div>
-<div class="xiaoxue juzhong">
+<div class="xuexiao chuzhong juzhong">
     <div class="tupian"><img src="https://m.taozhi.cn/static/img/grade/grade-primary.png" alt="">
         <h3>初&nbsp;&nbsp;&nbsp;&nbsp;中</h3></div>
-    <div class="right">
+    <div class="nianji">
         <h5>年&nbsp;&nbsp;&nbsp;&nbsp;级</h5>
         <ul>
             <li>七年级</li>
             <li>八年级</li>
             <li>九年级</li>
         </ul>
+
+    </div>
+    <div class="ce">
+        <h5>册&nbsp;&nbsp;&nbsp;&nbsp;别</h5>
+        <ul>
+            <li>上册</li>
+            <li>下册</li>
+        </ul>
     </div>
 </div>
-<div class="xiaoxue juzhong">
+<div class="xuexiao gaozhong juzhong">
     <div class="tupian"><img src="https://m.taozhi.cn/static/img/grade/grade-primary.png" alt="">
         <h3>高&nbsp;&nbsp;&nbsp;&nbsp;中</h3></div>
-    <div class="right">
+    <div class="nianji">
         <h5>年&nbsp;&nbsp;&nbsp;&nbsp;级</h5>
         <ul>
             <li>高一</li>
             <li>高二</li>
             <li>高三</li>
+        </ul>
+
+    </div>
+    <div class="ce">
+        <h5>册&nbsp;&nbsp;&nbsp;&nbsp;别</h5>
+        <ul>
+            <li>上册</li>
+            <li>下册</li>
         </ul>
     </div>
 </div>
