@@ -39,13 +39,15 @@
             /*margin: 0;*/
             /*padding: 0;*/
             overflow: hidden;
+            position: relative;
         }
 
         .xiaoxue .tupian {
             width: 80px;
             height: 80px;
-            /*background-color: red;*/
-            margin: 60px auto;
+           position: absolute;
+            top: 20%;
+            left: 10px;
 
         }
 
@@ -59,6 +61,31 @@
             margin-top: 10px;
             text-align: center;
         }
+        .right{
+            width: 60%;
+            position: absolute;
+            left: 40%;
+            top: 10%;
+            /*background-color: red;*/
+        }
+        .right h5{
+            text-align: center;
+            /*border-bottom: 1px black solid;*/
+        }
+        .right ul{
+
+        }
+        .right ul li{
+            box-sizing: border-box;
+            width: 48%;
+            list-style: none;
+            float: left;
+            text-align: center;
+            padding: 5px 10px;
+            margin: 2% 1%;
+            border: 1px black solid;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -68,6 +95,17 @@
 <div class="xiaoxue juzhong">
     <div class="tupian"><img src="https://m.taozhi.cn/static/img/grade/grade-primary.png" alt="">
         <h3>小&nbsp;&nbsp;&nbsp;&nbsp;学</h3></div>
+    <div class="right">
+        <h5>年&nbsp;&nbsp;&nbsp;&nbsp;级</h5>
+        <ul>
+            <li>一年级</li>
+            <li>二年级</li>
+            <li>三年级</li>
+            <li>四年级</li>
+            <li>五年级</li>
+            <li>六年级</li>
+        </ul>
+    </div>
 </div>
 <div class="xiaoxue juzhong">
     <div class="tupian"><img src="https://m.taozhi.cn/static/img/grade/grade-primary.png" alt="">
