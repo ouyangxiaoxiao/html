@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--编码格式-->
+    <meta charset="UTF-8">
+    <!--禁止用户缩放 最大缩放倍数 最小缩放倍数-->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0 user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <!--设置外链跳转域-->
+    <meta name="referrer" content="no-referrer"/>
+    <title>淘知首页</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .juzhong {
+            max-width: 640px;
+            min-width: 320px;
+            width: 100%;
+            margin: 0 auto;
+            /*background-color: pink;*/
+        }
+
+        header {
+            height: 25px;
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translate(-50%);
+
+        }
+
+        header a {
+            text-decoration: none;
+        }
+
+        header span {
+            height: 25px;
+            margin: 0 10px;
+            font-weight: 700;
+        }
+
+        header img {
+            height: 25px;
+            vertical-align: middle;
+        }
+
+        .sousuo {
+            float: right;
+            margin-right: 10px;
+        }
+
+        body {
+            width: 100%;
+            /*height: 600px;*/
+            background: url("https://m.taozhi.cn/static/img/bac.51813bef.png") no-repeat;
+            background-position: center top;
+            background-attachment: fixed;
+        }
+
+        .lunbo {
+            margin-top: 50px;
+
+        }
+
+        .lunbo a {
+            display: block;
+            width: 90%;
+            /*text-align: center;*/
+            margin: 0 auto;
+            border-radius: 10px;
+            overflow: hidden;
+
+        }
+
+        .lunbo a img {
+            width: 100%;
+            /*display: none;*/
+            /*width: 80%;text-align: center;*/
+
+        }
+
+        /*公告*/
+        .gonggao {
+            display: flex;
+            /*padding: 0 10px;*/
+        }
+
+        .gonggao a {
+            display: block;
+            box-sizing: border-box;
+            width: 20%;
+            text-decoration: none;
+            margin: 0 auto;
+
+
+        }
+
+        .gonggao a img {
+            display: block;
+            width: 40px;
+            margin: 0 auto;
+        }
+
+        .gonggao a span {
+            display: block;
+            text-align: center;
+        }
+
+        .tuijian {
+            /*background-color: red;*/
+            height: 30px;
+            width: 100%;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            white-space: nowrap; /* ul中的内容不换行 */
+            margin-top: 15px;
+        }
+
+        .tuijian::-webkit-scrollbar {
+            display: none; /*隐藏滚动条*/
+        }
+
+
+        .tuijian a {
+            display: inline-block;
+            width: 50px;
+            height: 30px;
+            /*float: left;*/
+            padding: 0 5px;
+            margin: 0 20px;
+            font-size: 16px;
+            line-height: 30px;
+            text-decoration: none;
+            /*text-align: center;*/
+            /*border: 1px black solid;*/
+            /*border-top-right-radius: 100px;*/
+            /*border-bottom-right-radius: 100px;*/
+
+            background: linear-gradient(-45deg, transparent 15px, #aa708c 0) bottom right,
+            linear-gradient(45deg, transparent 0px, #aa708c 0) bottom left,
+            linear-gradient(135deg, transparent 0px, #4e40aa 0) top left,
+            linear-gradient(-135deg, transparent 15px, #4e40aa 0) top right;
+
+
+            background-size: 50% 51%;
+            background-repeat: no-repeat;
+        }
+
+        .tuijian span {
+            color: #fff;
+        }
+
+        .kechengzhanshi {
+            /*padding: 0 20px;*/
+            /*background-color: pink;*/
+            /*height: 60px;*/
+            margin-top: 15px;
+        }
+
+        .kechengzhanshi ul {
+            margin: 0 10px;
+            /*background-color: skyblue;*/
+        }
+
+        .kechengzhanshi ul li {
+            height: 72px;
+            list-style: none;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+
+        .kechengzhanshi ul li img {
+            display: inline-block;
+            width: 128px;
+            height: 72px;
+            float: left;
+        }
+
+        .kechengzhanshi ul li h4 {
+            margin-left: 10px;
+
+            font-weight: 400;
+            width: 60%;
+            display: block;
+            float: left;}
+
+        .kechengzhanshi ul li h4 .title {
+            display: block;
+            white-space: nowrap;
+            color:#333333;
+        }
+
+        .kechengzhanshi ul li h4 .number {
+            display: inline-block;
+            margin-top: 30px;
+            color: #969696;
+        }
+        .kechengzhanshi ul li h4 .morey{
+            color: red;
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<!--头部--->
+<header class="juzhong">
+
+    <a href=""><span>一年级上册</span>
+        <img src="data:image/png;base64,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"
+             alt="">
+    </a>
+    <a href="" class="sousuo"><img
+            src="data:image/png;base64,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"
+            alt=""></a>
+</header>
+<!--轮播-->
+<div class="lunbo juzhong">
+    <a href="#"><img
+            src="https://open.oss.taozhi.online/production/banner/a95e765deae1b1288057b408be04b539.jpg?x-oss-process=style%2Fnormal"
+            alt=""></a>
+</div>
+
+<!--公告中心-->
+<div class="gonggao juzhong">
+    <a href=""><img
+            src="https://open.oss.taozhi.online/production/operation/navigation/1b2e2f45d82c36f8b202f9fc602d587a.png?x-oss-process=style%2Fnormal"
+            alt=""><span>公告</span></a>
+    <a href=""><img
+            src="https://open.oss.taozhi.online/production/operation/navigation/1b2e2f45d82c36f8b202f9fc602d587a.png?x-oss-process=style%2Fnormal"
+            alt=""><span>公告</span></a>
+    <a href=""><img
+            src="https://open.oss.taozhi.online/production/operation/navigation/1b2e2f45d82c36f8b202f9fc602d587a.png?x-oss-process=style%2Fnormal"
+            alt=""><span>公告</span></a>
+    <a href=""><img
+            src="https://open.oss.taozhi.online/production/operation/navigation/1b2e2f45d82c36f8b202f9fc602d587a.png?x-oss-process=style%2Fnormal"
+            alt=""><span>公告</span></a>
+    <a href=""><img
+            src="https://open.oss.taozhi.online/production/operation/navigation/1b2e2f45d82c36f8b202f9fc602d587a.png?x-oss-process=style%2Fnormal"
+            alt=""><span>公告</span></a>
+</div>
+<!--推荐-->
+<div class="tuijian juzhong">
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+    <a href=""><span>推荐</span></a>
+</div>
+<div class="kechengzhanshi juzhong">
+    <ul>
+        <li><a href="#"><img
+                src="https://open.oss.taozhi.online/production/album/cover/449513f7693d5fa1f18235646adc2e92.png?x-oss-process=style%2Fwidth-limit-256"
+                alt=""><h4><span class="title">第一课333333333333333333333333333333333333333333333333333333333333333333333333</span><span
+                class="number">共35课时</span><span class="morey">￥25元</span></h4></a></li>
+       <li><a href="#"><img
+                src="https://open.oss.taozhi.online/production/album/cover/449513f7693d5fa1f18235646adc2e92.png?x-oss-process=style%2Fwidth-limit-256"
+                alt=""><h4><span class="title">第一课333333333333333333333333333333333333333333333333333333333333333333333333</span><span
+                class="number">共35课时</span><span class="morey">￥25元</span></h4></a></li>
+       <li><a href="#"><img
+                src="https://open.oss.taozhi.online/production/album/cover/449513f7693d5fa1f18235646adc2e92.png?x-oss-process=style%2Fwidth-limit-256"
+                alt=""><h4><span class="title">第一课333333333333333333333333333333333333333333333333333333333333333333333333</span><span
+                class="number">共35课时</span><span class="morey">￥25元</span></h4></a></li>
+       <li><a href="#"><img
+                src="https://open.oss.taozhi.online/production/album/cover/449513f7693d5fa1f18235646adc2e92.png?x-oss-process=style%2Fwidth-limit-256"
+                alt=""><h4><span class="title">第一课333333333333333333333333333333333333333333333333333333333333333333333333</span><span
+                class="number">共35课时</span><span class="morey">￥25元</span></h4></a></li>
+       <li><a href="#"><img
+                src="https://open.oss.taozhi.online/production/album/cover/449513f7693d5fa1f18235646adc2e92.png?x-oss-process=style%2Fwidth-limit-256"
+                alt=""><h4><span class="title">第一课333333333333333333333333333333333333333333333333333333333333333333333333</span><span
+                class="number">共35课时</span><span class="morey">￥25元</span></h4></a></li>
+        <li><a href="#"><img
+                src="https://open.oss.taozhi.online/production/album/cover/449513f7693d5fa1f18235646adc2e92.png?x-oss-process=style%2Fwidth-limit-256"
+                alt=""><h4><span class="title">第一课333333333333333333333333333333333333333333333333333333333333333333333333</span><span
+                class="number">共35课时</span><span class="morey">￥25元</span></h4></a></li>
+
+    </ul>
+</div>
+</body>
+</html>

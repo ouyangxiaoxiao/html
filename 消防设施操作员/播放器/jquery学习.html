@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <title>jquery学习</title>
+    <style>
+        .animeat {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<h2>表头</h2>
+<button class="yincang">隐藏 ceshi1</button>
+<button id="animeat"> 开始动画</button>
+<a href="" class="ceshi">测试1</a>
+<!--<div class="animeat"></div>-->
+<div id="div1">222</div>
+<button>读取</button>
+<script>
+    // // 隐藏
+    // $("h2").click(function () {
+    //     $(this).hide();
+    // });
+    //
+    // // var h2 = document.querySelector("h2");
+    // // h2.onclick = function () {
+    // //     h2.style.display = "none";
+    // // };
+    // /*隐藏其它元素*/
+    // $(".yincang").click(function () {
+    //     $(this).hide();
+    //     $("a.ceshi1").hide();
+    // });
+    //
+    // /*等待加载完成后才执行的写法*/
+    // $(function () {
+    //     alert("准备移动");
+    //     $(".animeat").animate({right: "250px"})
+    //
+    // })
+    // ;
+    // // js版本加载后执行
+    // window.onload = function () {
+    //     alert("js加载完成");
+    // };
+    // /*动画*/
+    // $("#animeat").click(function () {
+    //     alert("准备移动");
+    //     $(".animeat").animate({right: "250px"})
+    // })
+
+
+</script>
+
+<!--<script>-->
+<!--$(function () {-->
+<!--    $.get("json/测试json.json",function (data,status) {-->
+<!--        alert(data);-->
+<!--        alert(status);-->
+<!--    })-->
+<!--})-->
+<!--</script>-->
+<script>
+    $.ajax({
+        type: "get",
+        // async:flase,
+        url: "json/测试json.json",
+        success: function (obj) {
+            console.log(typeof (obj));
+            data = (obj.data);
+            console.log(data);
+            console.log(data["name"]);
+            data = data["data"];
+            for (i = 0; i < data.length; i++) {
+                data_name = data[i].name;
+                data_url = data[i].url;
+                console.log(data_name, data_url)
+            }
+        }
+
+
+    });
+
+</script>
+</body>
+</html>

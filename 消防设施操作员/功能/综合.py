@@ -15,6 +15,7 @@ for a in range(int(len(str(data.sheet_names())))):
     try:
         byname = (data.sheet_names()[a+1])
         print(byname)
+
         # 通过文件名获得工作表,获取工作表1
         table = data.sheet_by_name('{}'.format(byname))
 

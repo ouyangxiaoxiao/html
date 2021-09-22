@@ -1,28 +1,15 @@
 import json
-
-data1 = {"name": "第一课", "url":"https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/p378m1n2akir39n.mp4","byname":"五级(初级)实操"}
-data2 = {"name": "第二课", "url":"https://ouyangxiaoxiao.github.io/xiaofangshipin/五级(初级)实操/p378m1n2akir39n.mp4","byname":"五级(初级)实操"}
-data4 = [data1,data2]
-data5 = json.dumps(data4,ensure_ascii=False)
-
-print(data5)
-
-
-
-
-import json
-
+# 单条信息
 article_info = {}
+# 转换json 赋值给data
 data = json.loads(json.dumps(article_info))
-print(data)
-data['article1'] = [data1]
-data['article2'] = [data2]
-
-article2 = {'title': 'python基础', 'publish_time': '2019-4-1', 'writer': {}}
-data['article2'] = article2
-
-writer = {'name': '李先生', 'sex': '男', 'email': 'xxx@gmail.com'}
-data['article2']['writer'] = writer
-
+list=[]
+name = "高升"
+writer = {'name': name, 'sex': '男'}
+writer2 = {'name': '李先生', 'sex': '男'}
+list.append(writer)
+list.append(writer2)
+data['writer'] = list
 article = json.dumps(data, ensure_ascii=False)
+# print(list)
 print(article)
