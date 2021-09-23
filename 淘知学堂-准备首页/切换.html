@@ -9,7 +9,7 @@
     <!--设置外链跳转域-->
     <meta name="referrer" content="no-referrer"/>
     <title>切换</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -36,7 +36,7 @@
             /*display: inline-block;*/
             background-color: skyblue;
             width: 100%;
-            height: 240px;
+            height: 250px;
             /*margin: 0;*/
             /*padding: 0;*/
             overflow: hidden;
@@ -87,7 +87,7 @@
         }
 
         .nianji ul {
-
+            margin-top: 15px;
         }
 
         .nianji ul li {
@@ -200,25 +200,31 @@
         </ul>
     </div>
 </div>
-
 <script>
-    // $(".xiaoxue").click(function () {
-    //     // alert(5555);
-    //     $(this).find(".nianji").slideToggle();
-    //     $(this).find(".ce").slideToggle(0);
-    //     $(this).find(".tupian").animate({left:'50%'});
-    // }).click(function () {
-    //     $(this).find(".tupian").animate({left:'10%'});
-    // })
+
+$(".xuexiao").click(function () {
+
+        // 点击选中的样式
+        $(this).find(".nianji").animate({left: '35%'});
+        $(this).find(".ce").animate({left: '35%'});
+        $(this).find(".tupian").animate({left: '10px'});
+        /*3.其余兄弟移除*/
+        $(this).siblings(".xuexiao").find(".nianji").animate({left: '200%'});
+        $(this).siblings(".xuexiao").find(".ce").animate({left: '200%'});
+        $(this).siblings(".xuexiao").find(".tupian").animate({left: '40%'});
 
 
-    $(".xiaoxue").click(function () {
-        $(this).find(".nianji").slideToggle();
-        $(this).find(".ce").slideToggle(0);
-        $(this).find(".tupian").toggle();
-
-    })
+    });
 
 </script>
+<script>
+    $(function () {
+        // alert(555);
+        $(".xiaoxue").siblings(".xuexiao").find(".nianji").css({left: '200%'});
+        $(".xiaoxue").siblings(".xuexiao").find(".ce").animate({left: '200%'});
+        $(".xiaoxue").siblings(".xuexiao").find(".tupian").animate({left: '40%'});
+    });
+</script>
+
 </body>
 </html>
