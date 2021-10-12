@@ -208,6 +208,9 @@ $(".xuexiao").click(function () {
         $(this).find(".nianji").animate({left: '35%'});
         $(this).find(".ce").animate({left: '35%'});
         $(this).find(".tupian").animate({left: '10px'});
+        $(this).children(".nianji").children("ul").children("li").click(function () {
+           alert("点击了子");
+        });
         /*3.其余兄弟移除*/
         $(this).siblings(".xuexiao").find(".nianji").animate({left: '200%'});
         $(this).siblings(".xuexiao").find(".ce").animate({left: '200%'});
@@ -225,6 +228,8 @@ $(".xuexiao").click(function () {
         $(".xiaoxue").siblings(".xuexiao").find(".tupian").animate({left: '40%'});
     });
 </script>
+<script>
 
+</script>
 </body>
 </html>
